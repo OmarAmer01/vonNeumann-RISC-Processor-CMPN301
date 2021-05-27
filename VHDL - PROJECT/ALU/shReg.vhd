@@ -22,6 +22,7 @@ end entity;
 architecture behav of shReg is 
     signal shRegOut: std_logic_vector (n-1 downto 0); 
     begin
+        dataOut <= shRegOut;
         process(clk, rst)
             begin
                 if       (rst = '1')     then
@@ -34,8 +35,8 @@ architecture behav of shReg is
                    -- shBit   <= dataIN (to_integer(unsigned(shfAmt) + 1));
                     
                 else                          -- 0 --> SHIFT LEFT
-                    dataOut <= dataIN (n-2 downto 0) & '0';
-                    shBit   <= dataIN (n-1);
+                    --dataOut <= dataIN (n-2 downto 0) & '0';
+                    --shBit   <= dataIN (n-1);
 
                 end if;
             end process;

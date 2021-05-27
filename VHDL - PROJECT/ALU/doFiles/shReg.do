@@ -16,6 +16,6 @@ add wave -position end -color pink   sim:/shreg/dataOut
 
 force -freeze sim:/shreg/dataIN x\"ABCDABCD\" 0
 force -freeze sim:/shreg/shfAmt 10#31 0
-force -freeze sim:/shreg/shfdir 1 0
+force -freeze sim:/shreg/shfDir 1 0
 
 run 1000 ps
