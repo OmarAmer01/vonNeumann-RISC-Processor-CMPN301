@@ -11,9 +11,9 @@ entity shReg is
     port(
             clk: IN  std_logic := '0';
             rst: IN  std_logic := '0';
-         shfDir: IN  std_logic := '0';   -- Shift direction
+          shDir: IN  std_logic := '0';   -- Shift direction
           shBit: OUT std_logic := '0';   -- Discarded bit after shifting (goes to CCR CARRY)
-         shfAmt: IN  std_logic_vector (4   downto 0) := ("00000");
+          shAmt: IN  std_logic_vector (4   downto 0) := ("00000");
          dataIN: IN  std_logic_vector (n-1 downto 0) := (others => '0');
         dataOut: OUT std_logic_vector (n-1 downto 0) := (others => '0')
     );
@@ -28,14 +28,16 @@ architecture behav of shReg is
                 if    (rst = '1')    then
                     shBit   <= '0';
                     dataOut <= (others => '0');                
-
-                elsif (shfDir = '1') then -- 1 --> SHIFT RIGHT
-                    dataOut <=  zeros(to_integer(unsigned(shfAmt) - 1) downto 0) & dataIN(n-1 downto to_integer(unsigned(shfAmt)));
-                    shBit   <= dataIN(to_integer(unsigned(shfAmt) - 1));
+                elsif(shAmt = "00000") then
+                    dataOut <= dataIN;
+                    
+                elsif (shDir = '1') then -- 1 --> SHIFT RIGHT
+                    dataOut <=  zeros(to_integer(unsigned(shAmt) - 1) downto 0) & dataIN(n-1 downto to_integer(unsigned(shAmt)));
+                    shBit   <= dataIN(to_integer(unsigned(shAmt) - 1));
                 
                 else -- SHIFT LEFT <--
-                    dataOut <= dataIN(to_integer(n - 1 - unsigned(shfAmt)) downto 0) & zeros(to_integer(unsigned(shfAmt) - 1) downto 0);
-                    shBit   <= dataIN(to_integer(n -unsigned(shfAmt)));
+                    dataOut <= dataIN(to_integer(n - 1 - unsigned(shAmt)) downto 0) & zeros(to_integer(unsigned(shAmt) - 1) downto 0);
+                    shBit   <= dataIN(to_integer(n -unsigned(shAmt)));
 
                 end if;
             end process;

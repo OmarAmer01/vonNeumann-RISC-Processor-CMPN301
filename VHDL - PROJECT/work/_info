@@ -10,23 +10,23 @@ z2
 cModel Technology
 dG:/2021 Spring/Architecture/Labs/LAB 4/Sol/Solution/modelSimProj
 Eshreg
-Z0 w1622146377
+Z0 w1622153775
 Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 67
+!i122 105
 Z4 dG:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT
 Z5 8G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/shReg.vhd
 Z6 FG:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/shReg.vhd
 l0
 L9 1
-Vf3AU0cPnc^3OojfJj8A;E2
-!s100 ;U<<[ImP_k@B^gIRjz6412
+V?2j15ncJ2S6aK8?ZLAT@52
+!s100 mJzdnmEkNH5UPWZc3fRGg1
 Z7 OV;C;2020.1;71
 32
-Z8 !s110 1622146385
+Z8 !s110 1622153784
 !i10b 1
-Z9 !s108 1622146385.000000
+Z9 !s108 1622153784.000000
 Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/shReg.vhd|
 Z11 !s107 G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/shReg.vhd|
 !i113 1
@@ -36,12 +36,12 @@ Abehav
 R1
 R2
 R3
-Z14 DEx4 work 5 shreg 0 22 f3AU0cPnc^3OojfJj8A;E2
-!i122 67
+DEx4 work 5 shreg 0 22 ?2j15ncJ2S6aK8?ZLAT@52
+!i122 105
 l24
-Z15 L22 21
-VN8Z8@^^Bm=4i^eEUhPcgd3
-!s100 f88QHgC5Q0jGYDX3T[U<D3
+L22 23
+V6_zWRPD?Q3>4;`W:VgMAG1
+!s100 g9egAk7[GPa<=X<nMI7Sb2
 R7
 32
 R8
@@ -49,6 +49,49 @@ R8
 R9
 R10
 R11
+!i113 1
+R12
+R13
+Eshregtb
+Z14 w1622156683
+R1
+R2
+R3
+!i122 149
+R4
+Z15 8G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd
+Z16 FG:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd
+l0
+L8 1
+VCMBnIlTZEOj<>OV?MR<8^3
+!s100 ECbK8?@J<ZdJoQ:O7_;Wn0
+R7
+32
+Z17 !s110 1622156687
+!i10b 1
+Z18 !s108 1622156687.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd|
+Z20 !s107 G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd|
+!i113 1
+R12
+R13
+Atb
+R1
+R2
+R3
+Z21 DEx4 work 7 shregtb 0 22 CMBnIlTZEOj<>OV?MR<8^3
+!i122 149
+l37
+Z22 L11 56
+VD<8B[8Di;Pd>7do_Bne[=2
+!s100 kbfD:NiQP8]SfcK2Oi8LZ3
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
 !i113 1
 R12
 R13
