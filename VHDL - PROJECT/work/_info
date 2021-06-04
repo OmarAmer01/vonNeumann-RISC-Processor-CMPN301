@@ -136,37 +136,39 @@ R28
 !i113 1
 R11
 R12
-Efa
-Z29 w1622660826
+Ectrl
+Z29 w1622822237
+R14
 R1
 R2
-!i122 241
+!i122 321
 R3
-Z30 8G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/FA.vhd
-Z31 FG:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/FA.vhd
+Z30 8G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/ctrl.vhd
+Z31 FG:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/ctrl.vhd
 l0
-L4 1
-VM7hB?9KB@OO8:=6AO:KkU1
-!s100 jzB=A]7a@_?[=@11O?Dk]2
+L9 1
+VQn_T6Q>;^JYPl12Om;gL11
+!s100 NMcAZVNX2jFPiMT5:Web:3
 R6
 32
-Z32 !s110 1622660834
+Z32 !s110 1622822246
 !i10b 1
-Z33 !s108 1622660834.000000
-Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/FA.vhd|
-Z35 !s107 G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/FA.vhd|
+Z33 !s108 1622822246.000000
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/ctrl.vhd|
+Z35 !s107 G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/ctrl.vhd|
 !i113 1
 R11
 R12
 Abehav
+R14
 R1
 R2
-DEx4 work 2 fa 0 22 M7hB?9KB@OO8:=6AO:KkU1
-!i122 241
-l18
-Z36 L12 14
-V]7GdEHA`eWb9MP7O2Yh4Y0
-!s100 aDEjm@BU71`k^c_JSRQ>C2
+DEx4 work 4 ctrl 0 22 Qn_T6Q>;^JYPl12Om;gL11
+!i122 321
+l31
+L16 32
+Vl[BmRjh3nA3RK]GdQE;1=3
+!s100 Xf1;^L<mLPWhTFhg0>DPM3
 R6
 32
 R32
@@ -177,25 +179,66 @@ R35
 !i113 1
 R11
 R12
+Efa
+Z36 w1622660826
+R1
+R2
+!i122 241
+R3
+Z37 8G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/FA.vhd
+Z38 FG:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/FA.vhd
+l0
+L4 1
+VM7hB?9KB@OO8:=6AO:KkU1
+!s100 jzB=A]7a@_?[=@11O?Dk]2
+R6
+32
+Z39 !s110 1622660834
+!i10b 1
+Z40 !s108 1622660834.000000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/FA.vhd|
+Z42 !s107 G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/FA.vhd|
+!i113 1
+R11
+R12
+Abehav
+R1
+R2
+DEx4 work 2 fa 0 22 M7hB?9KB@OO8:=6AO:KkU1
+!i122 241
+l18
+Z43 L12 14
+V]7GdEHA`eWb9MP7O2Yh4Y0
+!s100 aDEjm@BU71`k^c_JSRQ>C2
+R6
+32
+R39
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R11
+R12
 Emy_nadder
-Z37 w1617218639
+Z44 w1617218639
 R1
 R2
 !i122 239
 R3
-R30
-R31
+R37
+R38
 l0
 L4 1
 VBU7i6Z:i@FM1<n><m4RaF0
 !s100 1:lM=NV]UN4n6>Z_Y?04d2
 R6
 32
-Z38 !s110 1622660697
+Z45 !s110 1622660697
 !i10b 1
-Z39 !s108 1622660697.000000
-R34
-R35
+Z46 !s108 1622660697.000000
+R41
+R42
 !i113 1
 R11
 R12
@@ -205,39 +248,82 @@ R2
 DEx4 work 9 my_nadder 0 22 BU7i6Z:i@FM1<n><m4RaF0
 !i122 239
 l18
-R36
+R43
 VQHUMK^b3]a;N<cgLTE?am2
 !s100 AkF]U7^:faOi_BTUFQIYF0
 R6
 32
-R38
+R45
 !i10b 1
-R39
-R34
-R35
+R46
+R41
+R42
+!i113 1
+R11
+R12
+Eprocessor
+Z47 w1622824437
+R14
+R1
+R2
+!i122 328
+R3
+Z48 8G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/processor.vhd
+Z49 FG:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/processor.vhd
+l0
+L9 1
+VANKlMJK03ijSlm755`62Y0
+!s100 <Y`l;lnjO;j7XfjENmcla3
+R6
+32
+Z50 !s110 1622824443
+!i10b 1
+Z51 !s108 1622824443.000000
+Z52 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/processor.vhd|
+Z53 !s107 G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/processor.vhd|
+!i113 1
+R11
+R12
+Abehav
+R14
+R1
+R2
+Z54 DEx4 work 9 processor 0 22 ANKlMJK03ijSlm755`62Y0
+!i122 328
+l66
+Z55 L19 58
+V5a<dPLT5>?5Ed2c7Nidhm1
+!s100 ENgn?jV`kYmCU58B0NXaT1
+R6
+32
+R50
+!i10b 1
+R51
+R52
+R53
 !i113 1
 R11
 R12
 Eshreg
-Z40 w1622774153
+Z56 w1622774153
 R14
 R1
 R2
-!i122 315
+!i122 316
 R3
-Z41 8G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/shReg.vhd
-Z42 FG:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/shReg.vhd
+Z57 8G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/shReg.vhd
+Z58 FG:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/shReg.vhd
 l0
 L9 1
 V>V4_Q`ci0fYoLjCQQiGP<2
 !s100 he_g7PY^1BDje<=0^WKDM3
 R6
 32
-Z43 !s110 1622774163
+Z59 !s110 1622822082
 !i10b 1
-Z44 !s108 1622774163.000000
-Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/shReg.vhd|
-Z46 !s107 G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/shReg.vhd|
+Z60 !s108 1622822081.000000
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/shReg.vhd|
+Z62 !s107 G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/shReg.vhd|
 !i113 1
 R11
 R12
@@ -246,41 +332,41 @@ R14
 R1
 R2
 DEx4 work 5 shreg 0 22 >V4_Q`ci0fYoLjCQQiGP<2
-!i122 315
+!i122 316
 l24
-Z47 L22 23
-Z48 V6_zWRPD?Q3>4;`W:VgMAG1
-Z49 !s100 g9egAk7[GPa<=X<nMI7Sb2
+L22 23
+V6_zWRPD?Q3>4;`W:VgMAG1
+!s100 g9egAk7[GPa<=X<nMI7Sb2
 R6
 32
-R43
+R59
 !i10b 1
-R44
-R45
-R46
+R60
+R61
+R62
 !i113 1
 R11
 R12
 Eshregtb
-Z50 w1622156711
+Z63 w1622156711
 R14
 R1
 R2
 !i122 184
 R3
-Z51 8G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd
-Z52 FG:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd
+Z64 8G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd
+Z65 FG:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd
 l0
 L8 1
 VCMBnIlTZEOj<>OV?MR<8^3
 !s100 ECbK8?@J<ZdJoQ:O7_;Wn0
 R6
 32
-Z53 !s110 1622653005
+Z66 !s110 1622653005
 !i10b 1
-Z54 !s108 1622653004.000000
-Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd|
-Z56 !s107 G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd|
+Z67 !s108 1622653004.000000
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd|
+Z69 !s107 G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd|
 !i113 1
 R11
 R12
@@ -296,11 +382,11 @@ VD<8B[8Di;Pd>7do_Bne[=2
 !s100 kbfD:NiQP8]SfcK2Oi8LZ3
 R6
 32
-R53
+R66
 !i10b 1
-R54
-R55
-R56
+R67
+R68
+R69
 !i113 1
 R11
 R12
