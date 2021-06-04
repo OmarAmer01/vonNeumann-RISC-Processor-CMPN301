@@ -7,7 +7,7 @@ use     ieee.std_logic_1164.all;
 use     ieee.numeric_std.all;
 
 entity shReg is
-    generic(  n:     integer := 32);
+    generic(  n:     integer := 8);
     port(
             clk: IN  std_logic := '0';
             rst: IN  std_logic := '0';

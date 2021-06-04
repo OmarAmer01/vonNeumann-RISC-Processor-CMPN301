@@ -8,6 +8,8 @@ add wave -position end -radix hex -color white sim:/alu/cf
 add wave -position end -radix hex -color white sim:/alu/nf
 add wave -position end -radix hex -color white sim:/alu/zf
 
+add wave -position end  sim:/alu/clk
+force -freeze sim:/alu/clk 1 0, 0 {25 ps} -r 50
 
 
 
@@ -89,3 +91,15 @@ force -freeze sim:/alu/op2 x\"ABCD_EFAB\" 0
 force -freeze sim:/alu/opCode x"E" 0 
 run 
 # OR
+
+force -freeze sim:/alu/op1 x\"ABCD_1234\" 0
+force -freeze sim:/alu/op2 x\"0000_001F\" 0
+force -freeze sim:/alu/opCode x"F" 0 
+run 
+# SHL
+
+force -freeze sim:/alu/op1 x\"ABCD_1234\" 0
+force -freeze sim:/alu/op2 x\"0000_001F\" 0
+force -freeze sim:/alu/opCode x"7" 0 
+run 
+# SHR

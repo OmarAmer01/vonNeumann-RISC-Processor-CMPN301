@@ -1,4 +1,4 @@
--- ARITHMETIC LOGIC UNIT
+-- ARITHMETIC LOGIC UNIT WITH BI-DIRECTIONAL SHIFT REGISTER AND SIGN EXTENSION UNITS
 -- AMER
 -- 6/2
 
@@ -15,7 +15,9 @@ entity alu is
            res: OUT std_logic_vector (31 downto 0) :=  x"0000_0000";
             cf: OUT std_logic := '0';
             nf: OUT std_logic := '0';
-            zf: OUT std_logic := '0'
+            zf: OUT std_logic := '0'; 
+           clk: IN  std_logic := '0';
+           rst: IN  std_logic := '0'
     );
 end entity;
 
@@ -29,8 +31,20 @@ architecture behav of alu is
               cout: OUT std_logic);
     end component;
 
-    constant MAX: unsigned := x"FFFF_FFFF";
+    component shReg is
+        generic(  n:     integer := 32);
+        port(
+                clk: IN  std_logic := '0';
+                rst: IN  std_logic := '0';
+              shDir: IN  std_logic := '0';   -- Shift direction
+              shBit: OUT std_logic := '0';   -- Discarded bit after shifting (goes to CCR CARRY)
+              shAmt: IN  std_logic_vector (4   downto 0) := ("00000");
+             dataIN: IN  std_logic_vector (n-1 downto 0) := (others => '0');
+            dataOut: OUT std_logic_vector (n-1 downto 0) := (others => '0')
+        );
+    end component;
 
+    -- CONSTANTS
     constant NOP:     std_logic_vector (4 downto 0) := '0' & x"1";
     constant SETC:    std_logic_vector (4 downto 0) := '0' & x"2";
     constant CLRC:    std_logic_vector (4 downto 0) := '0' & x"3" ;
@@ -41,29 +55,40 @@ architecture behav of alu is
     constant SUB:     std_logic_vector (4 downto 0) := '0' & x"C" ;
     constant ANDALU:  std_logic_vector (4 downto 0) := '0' & x"D" ;
     constant ORALU:   std_logic_vector (4 downto 0) := '0' & x"E" ;
+    constant SHL:     std_logic_vector (4 downto 0) := '0' & x"F" ;
+    constant SHR:     std_logic_vector (4 downto 0) := '0' & x"7" ;
 
+    -- SIGNALS
     signal aluOut:                       std_logic_vector (31 downto 0) := x"0000_0000";
     signal negOp1, negOp2, andL, orL:    std_logic_vector (31 downto 0) := x"0000_0000";
     signal addRes, op2Add:               std_logic_vector (31 downto 0) := x"0000_0000";
-    signal addC, cin:                     std_logic := '1';
+    signal addC, cin:                    std_logic := '1';
     signal cSig:                         std_logic := '0';
-
+    signal shRegOut:                     std_logic_vector(31 downto 0) := x"0000_0000";
+    signal shfBitC:                      std_logic := '0';
+    signal shfDir:                       std_logic := '0';
+    signal shfAmt:                       std_logic_vector(4 downto 0) :="00000";
     begin
 
-        fa32: FA generic map (32) port map (op1, op2Add, cin, addRes, addC );
+    -- EXTERNAL ENTITIES
+        fa32: FA    generic map (32) port map (op1, op2Add, cin, addRes, addC);
+          sh: shReg generic map (32) port map (clk, rst, shfDir, shfBitC ,shfAmt, op1, shRegOut);
 
-        with opCode select aluOut  <=
-            x"0000_0000"        when NOP,            -- NOP
-            aluOut              when SETC,           -- SETC
-            aluOut              when CLRC,           -- CLRC
-            negOp1              when NOTALU,        -- NOT                   
-            addRes              when INC,            -- INC  
-            addRes              when DEC,            -- DEC
-            addRes              when ADD,            -- ADD
-            addRes              when SUB,            -- SUB
-            andL                when ANDALU,         -- AND
-            orL                 when ORALU,          -- OR
-            aluOut              when others;         -- INVALID
+    -- MAIN ALU      
+        with opCode    select aluOut  <=
+            aluOut     when NOP,            -- NOP
+            aluOut     when SETC,           -- SETC
+            aluOut     when CLRC,           -- CLRC
+            negOp1     when NOTALU,         -- NOT                   
+            addRes     when INC,            -- INC  
+            addRes     when DEC,            -- DEC
+            addRes     when ADD,            -- ADD
+            addRes     when SUB,            -- SUB
+            andL       when ANDALU,         -- AND
+            orL        when ORALU,          -- OR
+            shRegOut   when SHL,            -- SHL
+            shRegOut   when SHR,            -- SHR
+            aluOut     when others;         -- INVALID
                             
 
     -- FLAGS
@@ -73,26 +98,25 @@ architecture behav of alu is
 
     cSig <= '1' when
         opCode = SETC
-    else addC when 
+    else addC    when 
         opCode = INC or
         opCode = DEC or
         opCode = ADD or
         opCOde = SUB
-    else '0'  when
+    else '0'     when
         opCode = CLRC   or
         opCode = ANDALU or
-        opCode = ORALU  
+        opCode = ORALU 
+    else shfBitC when
+        opCode = SHR or
+        opCode = SHL
     else '0';
-    
-
-
-
         
     -- INVERTED INPUTS
     negOp1 <= not op1;
     negOp2 <= not op2;
 
-    -- LOGIC
+    -- LOGIC UNIT CONFIGURATIONS
     andL <= op1 and op2;
     orL  <= op1 or  op2;
 
@@ -103,6 +127,11 @@ architecture behav of alu is
               else x"FFFF_FFFF" when (opCode = DEC);
 
     cin <= '1' when (opCode = SUB) else '0';
+
+
+    -- SHIFT REGISTER CONFIGURATIONS
+    shfDir <= '1' when opCode = SHR else '0';
+    shfAmt <= op2 (4 downto 0);
 
     -- RESULT
     res <= aluOut;
