@@ -131,8 +131,7 @@ architecture behav of alu is
 
     -- SHIFT REGISTER CONFIGURATIONS
     shfDir <= '1' when opCode = SHR else '0';
-    shfAmt <= op2 (4 downto 0);
-
+    shfAmt <= op2 (4 downto 0); ---------------------- should be ShfAmt should be an input to ALU 
     -- RESULT
     res <= aluOut;
 
