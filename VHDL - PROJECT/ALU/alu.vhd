@@ -11,7 +11,8 @@ entity alu is
     port(
            op1: IN  std_logic_vector (31 downto 0) := x"0000_0000";
            op2: IN  std_logic_vector (31 downto 0) := x"0000_0000";
-        opCode: IN  std_logic_vector (4  downto 0) := "00000";
+         shAmt: IN  std_logic_vector (4  downto 0) :=  "00000";
+        opCode: IN  std_logic_vector (3  downto 0) :=  "0000";
            res: OUT std_logic_vector (31 downto 0) :=  x"0000_0000";
             cf: OUT std_logic := '0';
             nf: OUT std_logic := '0';
@@ -44,19 +45,22 @@ architecture behav of alu is
         );
     end component;
 
-    -- CONSTANTS
-    constant NOP:     std_logic_vector (4 downto 0) := '0' & x"1";
-    constant SETC:    std_logic_vector (4 downto 0) := '0' & x"2";
-    constant CLRC:    std_logic_vector (4 downto 0) := '0' & x"3" ;
-    constant NOTALU:  std_logic_vector (4 downto 0) := '0' & x"4" ;
-    constant INC:     std_logic_vector (4 downto 0) := '0' & x"5" ;
-    constant DEC:     std_logic_vector (4 downto 0) := '0' & x"6" ;
-    constant ADD:     std_logic_vector (4 downto 0) := '0' & x"A" ;
-    constant SUB:     std_logic_vector (4 downto 0) := '0' & x"C" ;
-    constant ANDALU:  std_logic_vector (4 downto 0) := '0' & x"D" ;
-    constant ORALU:   std_logic_vector (4 downto 0) := '0' & x"E" ;
-    constant SHL:     std_logic_vector (4 downto 0) := '0' & x"F" ;
-    constant SHR:     std_logic_vector (4 downto 0) := '0' & x"7" ;
+    -- CONSTANTS 
+    constant NOP:     std_logic_vector (3 downto 0) := x"1";
+    constant SETC:    std_logic_vector (3 downto 0) := x"2";
+    constant CLRC:    std_logic_vector (3 downto 0) := x"3" ;
+    constant NOTALU:  std_logic_vector (3 downto 0) := x"4" ;
+    constant INC:     std_logic_vector (3 downto 0) := x"5" ;
+    constant DEC:     std_logic_vector (3 downto 0) := x"6" ;
+    constant ADD:     std_logic_vector (3 downto 0) := x"A" ;
+    constant SUB:     std_logic_vector (3 downto 0) := x"C" ;
+    constant ANDALU:  std_logic_vector (3 downto 0) := x"D" ;
+    constant ORALU:   std_logic_vector (3 downto 0) := x"E" ;
+    constant SHL:     std_logic_vector (3 downto 0) := x"F" ;
+    constant SHR:     std_logic_vector (3 downto 0) := x"7" ;
+    constant PASS:    std_logic_vector (3 downto 0) := x"8" ; -- PASS OP 1 AS IS
+                                                              -- Required for functions such as OUT, IN, and MOV.
+                                                              -- 3enena leek ya yasser beh <3
 
     -- SIGNALS
     signal aluOut:                       std_logic_vector (31 downto 0) := x"0000_0000";
@@ -67,12 +71,12 @@ architecture behav of alu is
     signal shRegOut:                     std_logic_vector(31 downto 0) := x"0000_0000";
     signal shfBitC:                      std_logic := '0';
     signal shfDir:                       std_logic := '0';
-    signal shfAmt:                       std_logic_vector(4 downto 0) :="00000";
+   -- signal shfAmt:                       std_logic_vector(4 downto 0) :="00000";
     begin
 
     -- EXTERNAL ENTITIES
         fa32: FA    generic map (32) port map (op1, op2Add, cin, addRes, addC);
-          sh: shReg generic map (32) port map (clk, rst, shfDir, shfBitC ,shfAmt, op1, shRegOut);
+          sh: shReg generic map (32) port map (clk, rst, shfDir, shfBitC ,shAmt(4 downto 0), op1, shRegOut);
 
     -- MAIN ALU      
         with opCode    select aluOut  <=
@@ -88,6 +92,7 @@ architecture behav of alu is
             orL        when ORALU,          -- OR
             shRegOut   when SHL,            -- SHL
             shRegOut   when SHR,            -- SHR
+            op1        when PASS,           -- PASS OP 1 AS IS
             aluOut     when others;         -- INVALID
                             
 
@@ -131,7 +136,9 @@ architecture behav of alu is
 
     -- SHIFT REGISTER CONFIGURATIONS
     shfDir <= '1' when opCode = SHR else '0';
-    shfAmt <= op2 (4 downto 0); ---------------------- should be ShfAmt should be an input to ALU 
+    --shfDir <= shAmt(5);
+    --shfAmt <= op2 (4 downto 0); ---------------------- should be ShfAmt should be an input to ALU 
+                                                      -- Done ya yasser basha
     -- RESULT
     res <= aluOut;
 
