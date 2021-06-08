@@ -1,0 +1,1018 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/20.4
+Eadder
+Z0 w1622834635
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 353
+Z3 dC:/Users/Ahmed/Desktop/ProjectArch
+Z4 8C:/Users/Ahmed/Desktop/ProjectArch/ALU/adder.vhd
+Z5 FC:/Users/Ahmed/Desktop/ProjectArch/ALU/adder.vhd
+l0
+L4 1
+VU>jiBfcbaZYnkZ3^_ea4m3
+!s100 gb5W8Bh4Ga9[8elTmj2Uo2
+Z6 OV;C;2020.3;71
+32
+Z7 !s110 1623184808
+!i10b 1
+Z8 !s108 1623184808.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/ALU/adder.vhd|
+Z10 !s107 C:/Users/Ahmed/Desktop/ProjectArch/ALU/adder.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehav
+R1
+R2
+DEx4 work 5 adder 0 22 U>jiBfcbaZYnkZ3^_ea4m3
+!i122 353
+l10
+L9 7
+VioWR?E_BCMkFj[7K9D3i00
+!s100 848eSIaYeZ=^[GEDK]6N51
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Amyadder
+Z13 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+DEx4 work 5 adder 0 22 1R^;8fBMARk=J:@=kFKm30
+!i122 291
+l16
+Z14 L14 7
+V9Y>4gmd;dUXG4WQ8U`z7O2
+!s100 1dHeeBdEYoA3kgZVnBMhk2
+R6
+32
+!s110 1623182704
+!i10b 1
+!s108 1623182703.000000
+Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/components/Adder.vhd|
+Z16 !s107 C:/Users/Ahmed/Desktop/ProjectArch/components/Adder.vhd|
+!i113 1
+R11
+R12
+Z17 FC:/Users/Ahmed/Desktop/ProjectArch/components/Adder.vhd
+w1623182348
+Z18 8C:/Users/Ahmed/Desktop/ProjectArch/components/Adder.vhd
+Eadder2
+Z19 w1623183001
+R13
+R1
+R2
+!i122 364
+R3
+R18
+R17
+l0
+L5 1
+VLX9ZDg`bJONn650Dlz3?:0
+!s100 2a0XzzBcYjiJamK2?ema83
+R6
+32
+Z20 !s110 1623184810
+!i10b 1
+Z21 !s108 1623184810.000000
+R15
+R16
+!i113 1
+R11
+R12
+Amyadder
+R13
+R1
+R2
+DEx4 work 6 adder2 0 22 LX9ZDg`bJONn650Dlz3?:0
+!i122 364
+l16
+R14
+V:1K2HS2QEI0VPnj_[H[FZ2
+!s100 ^2Z=dQbjz^A795g7DzcFn3
+R6
+32
+R20
+!i10b 1
+R21
+R15
+R16
+!i113 1
+R11
+R12
+Ealu
+Z22 w1623171011
+R13
+R1
+R2
+!i122 354
+R3
+Z23 8C:/Users/Ahmed/Desktop/ProjectArch/ALU/alu.vhd
+Z24 FC:/Users/Ahmed/Desktop/ProjectArch/ALU/alu.vhd
+l0
+L10 1
+V``0h:F0XL?Am[`XQXfW<g2
+!s100 [6hb^DT116z9UZ7iP7be<1
+R6
+32
+R7
+!i10b 1
+R8
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/ALU/alu.vhd|
+Z26 !s107 C:/Users/Ahmed/Desktop/ProjectArch/ALU/alu.vhd|
+!i113 1
+R11
+R12
+Abehav
+R13
+R1
+R2
+DEx4 work 3 alu 0 22 ``0h:F0XL?Am[`XQXfW<g2
+!i122 354
+l75
+L25 121
+VWJaXOh2n:6d]cJg2W9KTa3
+!s100 9:8zMYD3Q]YKG1BCK09D=0
+R6
+32
+R7
+!i10b 1
+R8
+R25
+R26
+!i113 1
+R11
+R12
+Eb1
+Z27 w1623155975
+R1
+R2
+!i122 365
+R3
+Z28 8C:/Users/Ahmed/Desktop/ProjectArch/components/B1.vhd
+Z29 FC:/Users/Ahmed/Desktop/ProjectArch/components/B1.vhd
+l0
+L4 1
+V7dnCX`=eX4[e9iJYcSQPB3
+!s100 M2z=S4R8lJ:XJc;T]5JY=0
+R6
+32
+R20
+!i10b 1
+R21
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/components/B1.vhd|
+Z31 !s107 C:/Users/Ahmed/Desktop/ProjectArch/components/B1.vhd|
+!i113 1
+R11
+R12
+Amyb1
+R1
+R2
+DEx4 work 2 b1 0 22 7dnCX`=eX4[e9iJYcSQPB3
+!i122 365
+l17
+L11 15
+VJcJODl6EL?<ioPNz:oWcb0
+!s100 GIX]IQ7S=F4LQ1:4M`hn41
+R6
+32
+R20
+!i10b 1
+R21
+R30
+R31
+!i113 1
+R11
+R12
+Econtrolunit
+Z32 w1623148084
+R13
+R1
+R2
+!i122 352
+R3
+Z33 8C:/Users/Ahmed/Desktop/ProjectArch/ControlUnit.vhd
+Z34 FC:/Users/Ahmed/Desktop/ProjectArch/ControlUnit.vhd
+l0
+L5 1
+VCm?Ln]7>k=3:hR4cbzLn03
+!s100 Vz^<h<O1J?OGjC;aOz]B50
+R6
+32
+R7
+!i10b 1
+R8
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/ControlUnit.vhd|
+Z36 !s107 C:/Users/Ahmed/Desktop/ProjectArch/ControlUnit.vhd|
+!i113 1
+R11
+R12
+Amy_controlunit
+R13
+R1
+R2
+DEx4 work 11 controlunit 0 22 Cm?Ln]7>k=3:hR4cbzLn03
+!i122 352
+l12
+L11 30
+Vo9FQ>UW3];4I_7gmh0LZJ1
+!s100 VX_0D^OkK_FA45eme<MN53
+R6
+32
+R7
+!i10b 1
+R8
+R35
+R36
+!i113 1
+R11
+R12
+Ectrl
+Z37 w1623139110
+R13
+R1
+R2
+!i122 355
+R3
+Z38 8C:/Users/Ahmed/Desktop/ProjectArch/ALU/ctrl.vhd
+Z39 FC:/Users/Ahmed/Desktop/ProjectArch/ALU/ctrl.vhd
+l0
+L9 1
+VbzFaj^mcHMYj]Y]EgTG5T3
+!s100 H=2mE:^o:2jSUjGbf=>]03
+R6
+32
+R7
+!i10b 1
+R8
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/ALU/ctrl.vhd|
+Z41 !s107 C:/Users/Ahmed/Desktop/ProjectArch/ALU/ctrl.vhd|
+!i113 1
+R11
+R12
+Abehav
+R13
+R1
+R2
+DEx4 work 4 ctrl 0 22 bzFaj^mcHMYj]Y]EgTG5T3
+!i122 355
+l32
+L16 35
+V]XkOZAmH`=0=zC9^9H>CC3
+!s100 cJZf]TP=UQT<B]gz@GzG40
+R6
+32
+R7
+!i10b 1
+R8
+R40
+R41
+!i113 1
+R11
+R12
+Edecoder
+R0
+R1
+R2
+!i122 360
+R3
+Z42 8C:/Users/Ahmed/Desktop/ProjectArch/Register File/decoder.vhd
+Z43 FC:/Users/Ahmed/Desktop/ProjectArch/Register File/decoder.vhd
+l0
+L4 1
+VM5][BV6TibLKLo=W3:TiG3
+!s100 ZdeG4kO;>XCI^aGnX0Pkf2
+R6
+32
+R20
+!i10b 1
+Z44 !s108 1623184809.000000
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/Register File/decoder.vhd|
+Z46 !s107 C:/Users/Ahmed/Desktop/ProjectArch/Register File/decoder.vhd|
+!i113 1
+R11
+R12
+Amydecoder
+R1
+R2
+DEx4 work 7 decoder 0 22 M5][BV6TibLKLo=W3:TiG3
+!i122 360
+l13
+L12 12
+Vc>Fch`EGPFQM_4T2MZ_Ak1
+!s100 <nUOWcH6@TiFHeJRBiL]B0
+R6
+32
+R20
+!i10b 1
+R44
+R45
+R46
+!i113 1
+R11
+R12
+Edecoder24
+R27
+R1
+R2
+!i122 366
+R3
+Z47 8C:/Users/Ahmed/Desktop/ProjectArch/components/decoder24.vhd
+Z48 FC:/Users/Ahmed/Desktop/ProjectArch/components/decoder24.vhd
+l0
+L4 1
+VXI0F1S0zo2bbgRez7;T4c1
+!s100 3PkZRG:7oAm`;<TSKEfZW1
+R6
+32
+R20
+!i10b 1
+R21
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/components/decoder24.vhd|
+Z50 !s107 C:/Users/Ahmed/Desktop/ProjectArch/components/decoder24.vhd|
+!i113 1
+R11
+R12
+Amydecoder24
+R1
+R2
+DEx4 work 9 decoder24 0 22 XI0F1S0zo2bbgRez7;T4c1
+!i122 366
+l12
+L11 7
+VW;h6N<:lT?>5khb0VlWmY1
+!s100 QNKRkGanSZz^HIocK9C:20
+R6
+32
+R20
+!i10b 1
+R21
+R49
+R50
+!i113 1
+R11
+R12
+Edff
+Z51 w1623064839
+R1
+R2
+!i122 373
+R3
+Z52 8C:/Users/Ahmed/Desktop/ProjectArch/DFF.vhd
+Z53 FC:/Users/Ahmed/Desktop/ProjectArch/DFF.vhd
+l0
+L4 1
+V5eZl8W@3TYGA[1o384zn23
+!s100 20JNHeDW05RWbFZ]hWdSo2
+R6
+32
+Z54 !s110 1623184812
+!i10b 1
+Z55 !s108 1623184812.000000
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/DFF.vhd|
+Z57 !s107 C:/Users/Ahmed/Desktop/ProjectArch/DFF.vhd|
+!i113 1
+R11
+R12
+Aarch_dff
+R1
+R2
+DEx4 work 3 dff 0 22 5eZl8W@3TYGA[1o384zn23
+!i122 373
+l12
+L11 13
+Vz<]O_RZeJ`MM:D:G_YWf[0
+!s100 Xho^b>?c_C5^elHQ8XPe`0
+R6
+32
+R54
+!i10b 1
+R55
+R56
+R57
+!i113 1
+R11
+R12
+Efa
+R0
+R1
+R2
+!i122 356
+R3
+Z58 8C:/Users/Ahmed/Desktop/ProjectArch/ALU/FA.vhd
+Z59 FC:/Users/Ahmed/Desktop/ProjectArch/ALU/FA.vhd
+l0
+L4 1
+VM7hB?9KB@OO8:=6AO:KkU1
+!s100 jzB=A]7a@_?[=@11O?Dk]2
+R6
+32
+Z60 !s110 1623184809
+!i10b 1
+R8
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/ALU/FA.vhd|
+Z62 !s107 C:/Users/Ahmed/Desktop/ProjectArch/ALU/FA.vhd|
+!i113 1
+R11
+R12
+Abehav
+R1
+R2
+DEx4 work 2 fa 0 22 M7hB?9KB@OO8:=6AO:KkU1
+!i122 356
+l18
+L12 14
+V]7GdEHA`eWb9MP7O2Yh4Y0
+!s100 aDEjm@BU71`k^c_JSRQ>C2
+R6
+32
+R60
+!i10b 1
+R8
+R61
+R62
+!i113 1
+R11
+R12
+Einstructionmem
+Z63 w1623187681
+R13
+R1
+R2
+!i122 385
+R3
+Z64 8C:/Users/Ahmed/Desktop/ProjectArch/InstMem.vhd
+Z65 FC:/Users/Ahmed/Desktop/ProjectArch/InstMem.vhd
+l0
+L11 1
+VA5ToP77:nHL>=f=:X>^z<2
+!s100 69kkUOj3`;[I<`7D9>VI32
+R6
+32
+Z66 !s110 1623187682
+!i10b 1
+Z67 !s108 1623187682.000000
+Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/InstMem.vhd|
+Z69 !s107 C:/Users/Ahmed/Desktop/ProjectArch/InstMem.vhd|
+!i113 1
+R11
+R12
+Ainst
+R13
+R1
+R2
+DEx4 work 14 instructionmem 0 22 A5ToP77:nHL>=f=:X>^z<2
+!i122 385
+l25
+L21 14
+VAT:BCd3^?EPg:99YXeZ5R1
+!s100 40`iPN<M=XaPR@3WF:R@F2
+R6
+32
+R66
+!i10b 1
+R67
+R68
+R69
+!i113 1
+R11
+R12
+Emux2
+Z70 w1623181892
+R1
+R2
+!i122 367
+R3
+Z71 8C:/Users/Ahmed/Desktop/ProjectArch/components/Mux2.vhd
+Z72 FC:/Users/Ahmed/Desktop/ProjectArch/components/Mux2.vhd
+l0
+L4 1
+V>E4bKQ2GFMe9o82o3Sb6E1
+!s100 >QW]1NF0K:Nk4ohV=jART1
+R6
+32
+R20
+!i10b 1
+R21
+Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/components/Mux2.vhd|
+Z74 !s107 C:/Users/Ahmed/Desktop/ProjectArch/components/Mux2.vhd|
+!i113 1
+R11
+R12
+Amymux2
+R1
+R2
+DEx4 work 4 mux2 0 22 >E4bKQ2GFMe9o82o3Sb6E1
+!i122 367
+l14
+L13 5
+V3LcTA2<LY>Ge9n6o9]TPo1
+!s100 o@jBTN[h75DiOZX<g^EeK2
+R6
+32
+R20
+!i10b 1
+R21
+R73
+R74
+!i113 1
+R11
+R12
+Emux2_3bits
+Z75 w1623181866
+R1
+R2
+!i122 370
+R3
+Z76 8C:/Users/Ahmed/Desktop/ProjectArch/Mux2_3bits.vhd
+Z77 FC:/Users/Ahmed/Desktop/ProjectArch/Mux2_3bits.vhd
+l0
+L5 1
+VfNeb7ibQcD?^0<kzm3UQ=1
+!s100 do56l7RZ]IR7JDMU9WlLm3
+R6
+32
+Z78 !s110 1623184811
+!i10b 1
+Z79 !s108 1623184811.000000
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/Mux2_3bits.vhd|
+Z81 !s107 C:/Users/Ahmed/Desktop/ProjectArch/Mux2_3bits.vhd|
+!i113 1
+R11
+R12
+Amymux2
+R1
+R2
+DEx4 work 10 mux2_3bits 0 22 fNeb7ibQcD?^0<kzm3UQ=1
+!i122 370
+l15
+L14 5
+VYT]Dl5PBj=bBzN8WX0KCz3
+!s100 VSC43UQWVkjcK3InOTCoa1
+R6
+32
+R78
+!i10b 1
+R79
+R80
+R81
+!i113 1
+R11
+R12
+Emux4
+R27
+R1
+R2
+!i122 368
+R3
+Z82 8C:/Users/Ahmed/Desktop/ProjectArch/components/Mux4.vhd
+Z83 FC:/Users/Ahmed/Desktop/ProjectArch/components/Mux4.vhd
+l0
+L4 1
+V?MOIcc`_SY7hG@[fF1adD3
+!s100 cDSNc>JQER[4Ae]2zWAk^3
+R6
+32
+R78
+!i10b 1
+R21
+Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/components/Mux4.vhd|
+Z85 !s107 C:/Users/Ahmed/Desktop/ProjectArch/components/Mux4.vhd|
+!i113 1
+R11
+R12
+Amymux4
+R1
+R2
+DEx4 work 4 mux4 0 22 ?MOIcc`_SY7hG@[fF1adD3
+!i122 368
+l16
+Z86 L15 7
+VPdkE3g>2jDGJ?k]i5DK@T3
+!s100 >5P^G6[;kPa;i5SZh3NBN0
+R6
+32
+R78
+!i10b 1
+R21
+R84
+R85
+!i113 1
+R11
+R12
+Emy_ndff
+R0
+R1
+R2
+!i122 361
+R3
+Z87 8C:/Users/Ahmed/Desktop/ProjectArch/Register File/Reg.vhd
+Z88 FC:/Users/Ahmed/Desktop/ProjectArch/Register File/Reg.vhd
+l0
+L4 1
+V^HQgM3zTdcz^[fV?ZYcId3
+!s100 mBD@[]^OFNj_Ef]M79TIA3
+R6
+32
+R20
+!i10b 1
+R21
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/Register File/Reg.vhd|
+Z90 !s107 C:/Users/Ahmed/Desktop/ProjectArch/Register File/Reg.vhd|
+!i113 1
+R11
+R12
+Aa_my_ndff
+R1
+R2
+DEx4 work 7 my_ndff 0 22 ^HQgM3zTdcz^[fV?ZYcId3
+!i122 361
+l13
+L11 14
+VI]VXkaghazf9O8zZ0WaK70
+!s100 CHBjlz:^;1ma@4n^YY9Q>3
+R6
+32
+R20
+!i10b 1
+R21
+R89
+R90
+!i113 1
+R11
+R12
+Eprocessor
+Z91 w1623190678
+R13
+R1
+R2
+!i122 387
+R3
+Z92 8C:/Users/Ahmed/Desktop/ProjectArch/VHDL - PROJECT/processor.vhd
+Z93 FC:/Users/Ahmed/Desktop/ProjectArch/VHDL - PROJECT/processor.vhd
+l0
+L9 1
+VANKlMJK03ijSlm755`62Y0
+!s100 <Y`l;lnjO;j7XfjENmcla3
+R6
+32
+Z94 !s110 1623190692
+!i10b 1
+Z95 !s108 1623190692.000000
+Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/VHDL - PROJECT/processor.vhd|
+Z97 !s107 C:/Users/Ahmed/Desktop/ProjectArch/VHDL - PROJECT/processor.vhd|
+!i113 1
+R11
+R12
+Abehav
+R13
+R1
+R2
+Z98 DEx4 work 9 processor 0 22 ANKlMJK03ijSlm755`62Y0
+!i122 387
+l221
+Z99 L19 247
+VgzPFl<IA?>AZE8J7WzHKh1
+!s100 >=MIX`::dD5SBJZ1cVM=P2
+R6
+32
+R94
+!i10b 1
+R95
+R96
+R97
+!i113 1
+R11
+R12
+Eram
+Z100 w1623187720
+R13
+R1
+R2
+!i122 386
+R3
+Z101 8C:/Users/Ahmed/Desktop/ProjectArch/ram/ram.vhd
+Z102 FC:/Users/Ahmed/Desktop/ProjectArch/ram/ram.vhd
+l0
+L8 1
+V[7RfmVW<U8eg<>jBfT_Vm3
+!s100 GYgY]C_^UznCSb7I51JKB0
+R6
+32
+Z103 !s110 1623187726
+!i10b 1
+Z104 !s108 1623187726.000000
+Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/ram/ram.vhd|
+Z106 !s107 C:/Users/Ahmed/Desktop/ProjectArch/ram/ram.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R13
+R1
+R2
+DEx4 work 3 ram 0 22 [7RfmVW<U8eg<>jBfT_Vm3
+!i122 386
+l25
+Z107 L20 25
+V1kgSWm@752l?X2[ZWaij81
+!s100 :AoOXeUIA8R2@ZTL>WGI[0
+R6
+32
+R103
+!i10b 1
+R104
+R105
+R106
+!i113 1
+R11
+R12
+Asyncram
+R13
+R1
+R2
+DEx4 work 3 ram 0 22 AE47YjOA?KLnHo8LX=[4:1
+!i122 162
+l28
+L22 26
+VPGV0U5TQd9JFPmbUSYd=E1
+!s100 B3XhF38iHiGLC0Q5dK=`b0
+R6
+32
+!s110 1623171098
+!i10b 1
+!s108 1623171098.000000
+R105
+R106
+!i113 1
+R11
+R12
+w1623179563
+Eregs_file
+Z108 w1623166098
+R1
+R2
+!i122 362
+R3
+Z109 8C:/Users/Ahmed/Desktop/ProjectArch/Register File/regfile.vhd
+Z110 FC:/Users/Ahmed/Desktop/ProjectArch/Register File/regfile.vhd
+l0
+L4 1
+VE3GDi:RYVWEJZDP?TziW=2
+!s100 9Gm=n;ogN>oMGQQ56OmAA2
+R6
+32
+R20
+!i10b 1
+R21
+Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/Register File/regfile.vhd|
+Z112 !s107 C:/Users/Ahmed/Desktop/ProjectArch/Register File/regfile.vhd|
+!i113 1
+R11
+R12
+Aregs_struct
+R1
+R2
+DEx4 work 9 regs_file 0 22 E3GDi:RYVWEJZDP?TziW=2
+!i122 362
+l61
+L21 77
+V=8Y0=MSM?Sz;Y]QkjJ>:A2
+!s100 =>?S5PC8:SdUi@XmBP[KT1
+R6
+32
+R20
+!i10b 1
+R21
+R111
+R112
+!i113 1
+R11
+R12
+Eselector
+Z113 w1623181405
+R1
+R2
+!i122 372
+R3
+Z114 8C:/Users/Ahmed/Desktop/ProjectArch/Selector.vhd
+Z115 FC:/Users/Ahmed/Desktop/ProjectArch/Selector.vhd
+l0
+L4 1
+VG2bPfIS]^`GKaIa_QY:FE3
+!s100 OP:_c2`K?g0oNbX`zLhL53
+R6
+32
+R78
+!i10b 1
+R79
+Z116 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/Selector.vhd|
+Z117 !s107 C:/Users/Ahmed/Desktop/ProjectArch/Selector.vhd|
+!i113 1
+R11
+R12
+Amyselector
+R1
+R2
+DEx4 work 8 selector 0 22 G2bPfIS]^`GKaIa_QY:FE3
+!i122 372
+l22
+L11 16
+VVEDQlKVU]NNB2H[LFf?EI3
+!s100 V6k[?LJR?HSU^JY>N[eEn1
+R6
+32
+R78
+!i10b 1
+R79
+R116
+R117
+!i113 1
+R11
+R12
+Eshreg
+R0
+R13
+R1
+R2
+!i122 357
+R3
+Z118 8C:/Users/Ahmed/Desktop/ProjectArch/ALU/shReg.vhd
+Z119 FC:/Users/Ahmed/Desktop/ProjectArch/ALU/shReg.vhd
+l0
+L9 1
+V>V4_Q`ci0fYoLjCQQiGP<2
+!s100 he_g7PY^1BDje<=0^WKDM3
+R6
+32
+R60
+!i10b 1
+R44
+Z120 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/ALU/shReg.vhd|
+Z121 !s107 C:/Users/Ahmed/Desktop/ProjectArch/ALU/shReg.vhd|
+!i113 1
+R11
+R12
+Abehav
+R13
+R1
+R2
+DEx4 work 5 shreg 0 22 >V4_Q`ci0fYoLjCQQiGP<2
+!i122 357
+l24
+L22 23
+V6_zWRPD?Q3>4;`W:VgMAG1
+!s100 g9egAk7[GPa<=X<nMI7Sb2
+R6
+32
+R60
+!i10b 1
+R44
+R120
+R121
+!i113 1
+R11
+R12
+Esingle_port_ram_vhdl
+Z122 w1623180302
+R13
+R1
+R2
+!i122 197
+R3
+R101
+R102
+l0
+L8 1
+V4D[WfHjdE`GJSmQH<ALzh0
+!s100 [[OK>980JheNgK`]39@5n1
+R6
+32
+Z123 !s110 1623180303
+!i10b 1
+Z124 !s108 1623180303.000000
+R105
+R106
+!i113 1
+R11
+R12
+Abehavioral
+R13
+R1
+R2
+DEx4 work 20 single_port_ram_vhdl 0 22 4D[WfHjdE`GJSmQH<ALzh0
+!i122 197
+l25
+R107
+V0KFGi6L:5gjaen[L8`oe23
+!s100 k9mIebQGS?MKM=P`An]=>1
+R6
+32
+R123
+!i10b 1
+R124
+R105
+R106
+!i113 1
+R11
+R12
+Esub
+Z125 w1623178430
+R13
+R1
+R2
+!i122 371
+R3
+Z126 8C:/Users/Ahmed/Desktop/ProjectArch/Sub.vhd
+Z127 FC:/Users/Ahmed/Desktop/ProjectArch/Sub.vhd
+l0
+L6 1
+V_TbV]QFIFn<=NkS7h`Flh0
+!s100 VkC<beKcdi`<1nZa_C<K[0
+R6
+32
+R78
+!i10b 1
+R79
+Z128 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/Sub.vhd|
+Z129 !s107 C:/Users/Ahmed/Desktop/ProjectArch/Sub.vhd|
+!i113 1
+R11
+R12
+Amysub
+R13
+R1
+R2
+DEx4 work 3 sub 0 22 _TbV]QFIFn<=NkS7h`Flh0
+!i122 371
+l17
+R86
+VF]mEbU^IB4`YQAzjSPOIn1
+!s100 k9:P]WKgMBaW]ABCF=6kj0
+R6
+32
+R78
+!i10b 1
+R79
+R128
+R129
+!i113 1
+R11
+R12
+Etri_state_buffer
+R0
+R1
+R2
+!i122 359
+R3
+Z130 8C:/Users/Ahmed/Desktop/ProjectArch/Register File/buffer.vhd
+Z131 FC:/Users/Ahmed/Desktop/ProjectArch/Register File/buffer.vhd
+l0
+L4 1
+VKghL0M_OYfCoMQz=nB1h;2
+!s100 IgVO69=RGWKBC?V92fBmT0
+R6
+32
+R60
+!i10b 1
+R44
+Z132 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/Register File/buffer.vhd|
+Z133 !s107 C:/Users/Ahmed/Desktop/ProjectArch/Register File/buffer.vhd|
+!i113 1
+R11
+R12
+Astruct
+R1
+R2
+DEx4 work 16 tri_state_buffer 0 22 KghL0M_OYfCoMQz=nB1h;2
+!i122 359
+l14
+L13 4
+VSHA^nQDaVEACoo]=j2EdD1
+!s100 Kd0gG[cDd;mVcBnkVAeY^1
+R6
+32
+R60
+!i10b 1
+R44
+R132
+R133
+!i113 1
+R11
+R12
