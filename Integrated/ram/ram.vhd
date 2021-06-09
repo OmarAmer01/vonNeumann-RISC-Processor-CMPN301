@@ -19,7 +19,7 @@ end RAM;
 
 architecture Behavioral of RAM is
 
-type RAM_ARRAY is array (0 to 1048576 ) of std_logic_vector (15 downto 0);----(0 to 1048576 )
+type RAM_ARRAY is array (0 to 32) of std_logic_vector (15 downto 0);----(0 to 1048576 )
 -- initial values in the RAM
 signal RAM: RAM_ARRAY :=(others => x"1111"); 
 begin
@@ -39,6 +39,6 @@ begin
  end if;
 end process;
  -- Data to be read out 
- RAM_DATA_OUT (15 downto 0) <= RAM(to_integer(unsigned(RAM_ADDR)));
+ RAM_DATA_OUT (15 downto 0) <= RAM(to_integer(unsigned(RAM_ADDR)));     ----- error 
  RAM_DATA_OUT (31 downto 16) <= RAM(to_integer(unsigned(RAM_ADDR))+1);
 end Behavioral;

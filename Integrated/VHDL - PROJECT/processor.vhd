@@ -196,8 +196,7 @@ signal reset : std_logic_vector (7 downto 0 );
 signal WriteDataReg: std_logic_vector(31 downto 0);
     -- COMPONENTS
 -- PC signals
-signal PcStart : std_logic_vector(31 downto 0) ;
-signal PcStartTemp : std_logic_vector(31 downto 0) ;
+signal PcStart : std_logic_vector(31 downto 0) := (OTHERS=>'0'); -- initialization
 signal PcOut :std_logic_vector(31 downto 0) := (OTHERS=>'0');
 signal PcCall: std_logic_vector (31 downto 0) := (OTHERS=>'0');
 signal newPC: std_logic_vector(31 downto 0);
@@ -219,7 +218,7 @@ signal controls : std_logic_vector(21 downto 0);
  signal branchAdd: std_logic_vector(31 downto 0);
 
 -- SP 
-signal SPstart : std_logic_vector(31 downto 0);-- := x"000FFFFE";
+signal SPstart : std_logic_vector(31 downto 0) := x"0000001E";
 signal SPout : std_logic_vector(31 downto 0);-- := x"000FFFFE";
 signal Add2 : std_logic_vector(31 downto 0);
 signal Sub2 : std_logic_vector(31 downto 0);
@@ -249,10 +248,9 @@ begin
     aluOpDCD: ctrl port map (controls(21 downto 18), aluOpCodeIn); -- alu operation code decoder
     JumpDecode: decoder24 port map (controls(13 downto 12),DecodedJump);
     BranchRes: Mux2 port map (newPC,aluOp1,branch ,branchAdd);
-    Ret: Mux2 port map (branchAdd,WriteBack , controls(6),PcStartTemp);--------------
+    Ret: Mux2 port map (branchAdd,WriteBack , controls(6),pcStart);--------------
 
 
-    test: my_nDFF generic map (32) port map(clk, rst , '1',PcStartTemp, pcStart);
 
     Block1: B1 port map (Instruction(31 downto 27),B1Res);
     MuxPcAdd: Mux2_3bits port map ("001" , "010" , B1Res ,AddPC);
@@ -261,7 +259,7 @@ begin
     SP: my_nDFF generic map(32) port map (clk,rst,'1',SPstart, SPout); 
     SPadd: Adder2 port map (SPout , "10" , Add2);
     SPsub: Sub port map (SPout, "10" , Sub2);
-    StackMux: Mux4 port map (SPout,SPout,Add2,Sub2,controls(4 downto 3),SPstart);
+    StackMux: Mux4 port map (SPout,Add2,Sub2,SPout,controls(4 downto 3),SPstart); 
 
     MemAddress: Mux4 port map (aluRes,aluRes,PcStart,Add2, controls(11 downto 10),MemAdd);
     memory: RAM port map(MemAdd(19 downto 0),DataMem, controls(8 ), clk,rst,MemDataOut);

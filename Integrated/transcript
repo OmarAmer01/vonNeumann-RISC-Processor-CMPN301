@@ -1,205 +1,8 @@
-# Compile of DFF.vhd was successful.
-# Compile of processor.vhd was successful.
-# 2 compiles, 0 failed with no errors.
-vsim -gui work.processor
-# vsim -gui work.processor 
-# Start time: 10:46:33 on Jun 09,2021
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.processor(behav)
-# Loading work.my_ndff(a_my_ndff)
-# Loading work.adder2(myadder)
-# Loading work.instructionmem(inst)
-# Loading work.controlunit(my_controlunit)
-# Loading work.mux2_3bits(mymux2)
-# Loading work.regs_file(regs_struct)
-# Loading work.decoder(mydecoder)
-# Loading work.tri_state_buffer(struct)
-# Loading work.mux4(mymux4)
-# Loading work.mux2(mymux2)
-# Loading work.alu(behav)
-# Loading work.fa(behav)
-# Loading work.adder(behav)
-# Loading work.shreg(behav)
-# Loading work.ctrl(behav)
-# Loading work.decoder24(mydecoder24)
-# Loading work.b1(myb1)
-# Loading work.sub(mysub)
-# Loading work.ram(behavioral)
-# Loading work.selector(myselector)
-add wave -position insertpoint  \
-sim:/processor/clk \
-sim:/processor/rst \
-sim:/processor/PcStart \
-sim:/processor/PcOut \
-sim:/processor/PcCall \
-sim:/processor/newPC \
-sim:/processor/AddPC \
-sim:/processor/Instruction
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: Ahmed  Hostname: DESKTOP-UD6OOP6  ProcessID: 17864
-#           Attempting to use alternate WLF file "./wlftf1risw".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftf1risw
-force -freeze sim:/processor/rst 1 0
-# Can't move the Now cursor.
-force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
-run
-run
-force -freeze sim:/processor/rst 0 0
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 400 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 400 ps  Iteration: 0  Instance: /processor/InstructMem
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 500 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 500 ps  Iteration: 0  Instance: /processor/InstructMem
-force -freeze sim:/processor/rst 1 0
-run
-quit -sim
-# End time: 10:53:02 on Jun 09,2021, Elapsed time: 0:06:29
-# Errors: 0, Warnings: 14
-# Compile of InstMem.vhd was successful.
-vsim -gui work.processor
-# vsim -gui work.processor 
-# Start time: 10:54:00 on Jun 09,2021
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.processor(behav)
-# Loading work.my_ndff(a_my_ndff)
-# Loading work.adder2(myadder)
-# Loading work.instructionmem(inst)
-# Loading work.controlunit(my_controlunit)
-# Loading work.mux2_3bits(mymux2)
-# Loading work.regs_file(regs_struct)
-# Loading work.decoder(mydecoder)
-# Loading work.tri_state_buffer(struct)
-# Loading work.mux4(mymux4)
-# Loading work.mux2(mymux2)
-# Loading work.alu(behav)
-# Loading work.fa(behav)
-# Loading work.adder(behav)
-# Loading work.shreg(behav)
-# Loading work.ctrl(behav)
-# Loading work.decoder24(mydecoder24)
-# Loading work.b1(myb1)
-# Loading work.sub(mysub)
-# Loading work.ram(behavioral)
-# Loading work.selector(myselector)
-add wave -position insertpoint  \
-sim:/processor/PcStart \
-sim:/processor/PcOut \
-sim:/processor/PcCall \
-sim:/processor/newPC \
-sim:/processor/B1Res \
-sim:/processor/AddPC
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: Ahmed  Hostname: DESKTOP-UD6OOP6  ProcessID: 17864
-#           Attempting to use alternate WLF file "./wlft4k5swb".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft4k5swb
-add wave -position insertpoint  \
-sim:/processor/clk \
-sim:/processor/rst
-force -freeze sim:/processor/rst 1 0
-force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
-add wave -position insertpoint  \
-sim:/processor/Instruction
-add wave -position insertpoint  \
-sim:/processor/Instruction
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-add wave -position insertpoint  \
-sim:/processor/Instruction
-force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
-force -freeze sim:/processor/rst 1 0
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
-force -freeze sim:/processor/Instruction 10100000000000001011000000000000 0
-run
-run
-run
-run
-force -freeze sim:/processor/rst 0 0
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 600 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 600 ps  Iteration: 0  Instance: /processor/InstructMem
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 700 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 700 ps  Iteration: 0  Instance: /processor/InstructMem
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 800 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 800 ps  Iteration: 0  Instance: /processor/InstructMem
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 900 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 900 ps  Iteration: 0  Instance: /processor/InstructMem
-quit -sim
-# End time: 10:59:22 on Jun 09,2021, Elapsed time: 0:05:22
-# Errors: 0, Warnings: 15
-# Compile of processor.vhd failed with 1 errors.
-# Compile of processor.vhd failed with 1 errors.
-# Compile of processor.vhd failed with 2 errors.
-# Compile of processor.vhd was successful.
 # Load canceled
-# Compile of InstMem.vhd was successful.
+# Compile of ram.vhd was successful.
 vsim -gui work.processor
 # vsim -gui work.processor 
-# Start time: 11:04:32 on Jun 09,2021
+# Start time: 13:27:49 on Jun 09,2021
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -225,219 +28,34 @@ vsim -gui work.processor
 # Loading work.sub(mysub)
 # Loading work.ram(behavioral)
 # Loading work.selector(myselector)
-add wave -position insertpoint  \
-sim:/processor/PcStart \
-sim:/processor/PcOut \
-sim:/processor/PcCall \
-sim:/processor/newPC \
-sim:/processor/B1Res \
-sim:/processor/AddPC \
-sim:/processor/Instruction
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: Ahmed  Hostname: DESKTOP-UD6OOP6  ProcessID: 17864
-#           Attempting to use alternate WLF file "./wlfts0kz77".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlfts0kz77
 add wave -position insertpoint  \
 sim:/processor/clk \
 sim:/processor/rst \
-sim:/processor/PcStartTemp
-force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
-force -freeze sim:/processor/PcStartTemp 00000000000000000000000000000000 0
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 6  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 6  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 7  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 7  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 50 ps  Iteration: 7  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 50 ps  Iteration: 7  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 50 ps  Iteration: 8  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 50 ps  Iteration: 8  Instance: /processor/memory
-run
-run
-run
-# Compile of InstMem.vhd was successful.
-force -freeze sim:/processor/PcStartTemp 00000000000000000000000000000001 0
-run
-run
-force -freeze sim:/processor/Instruction 10000000000000001010000000000000 0
-run
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-# Loading work.instructionmem(inst)
-add wave -position insertpoint  \
+sim:/processor/Reg1 \
+sim:/processor/PcStart \
+sim:/processor/PcOut \
+sim:/processor/Instruction \
 sim:/processor/SPstart \
 sim:/processor/SPout \
 sim:/processor/Add2 \
 sim:/processor/Sub2
-force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
-run
-# GetModuleFileName: The specified module could not be found.
-# 
-# 
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 6  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 6  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 7  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 7  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 50 ps  Iteration: 7  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 50 ps  Iteration: 7  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 50 ps  Iteration: 8  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 50 ps  Iteration: 8  Instance: /processor/memory
-run
-run
-run
-force -freeze sim:/processor/Instruction 10001000000000001010000000000000 0
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 400 ps  Iteration: 3  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 400 ps  Iteration: 3  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 400 ps  Iteration: 4  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 400 ps  Iteration: 4  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 400 ps  Iteration: 8  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 400 ps  Iteration: 8  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 500 ps  Iteration: 0  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 500 ps  Iteration: 0  Instance: /processor/memory
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 600 ps  Iteration: 0  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 600 ps  Iteration: 0  Instance: /processor/memory
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 700 ps  Iteration: 0  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 700 ps  Iteration: 0  Instance: /processor/memory
-quit -sim
-# End time: 11:11:44 on Jun 09,2021, Elapsed time: 0:07:12
-# Errors: 0, Warnings: 25
-# Compile of processor.vhd failed with 4 errors.
-# Compile of processor.vhd failed with 4 errors.
-# Compile of processor.vhd failed with 2 errors.
-# Compile of processor.vhd failed with 2 errors.
-# Compile of processor.vhd failed with 2 errors.
-# Compile of processor.vhd failed with 2 errors.
-# Compile of processor.vhd failed with 1 errors.
-# Compile of processor.vhd was successful.
-vsim -gui work.processor
-# vsim -gui work.processor 
-# Start time: 11:17:59 on Jun 09,2021
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.processor(behav)
-# Loading work.my_ndff(a_my_ndff)
-# Loading work.adder2(myadder)
-# Loading work.instructionmem(inst)
-# Loading work.controlunit(my_controlunit)
-# Loading work.mux2_3bits(mymux2)
-# Loading work.regs_file(regs_struct)
-# Loading work.decoder(mydecoder)
-# Loading work.tri_state_buffer(struct)
-# Loading work.mux4(mymux4)
-# Loading work.mux2(mymux2)
-# Loading work.alu(behav)
-# Loading work.fa(behav)
-# Loading work.adder(behav)
-# Loading work.shreg(behav)
-# Loading work.ctrl(behav)
-# Loading work.decoder24(mydecoder24)
-# Loading work.b1(myb1)
-# Loading work.sub(mysub)
-# Loading work.ram(behavioral)
-# Loading work.selector(myselector)
-add wave -position insertpoint  \
-sim:/processor/clk \
-sim:/processor/rst
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: Ahmed  Hostname: DESKTOP-UD6OOP6  ProcessID: 17864
-#           Attempting to use alternate WLF file "./wlftw1h4k7".
+#           Attempting to use alternate WLF file "./wlftyqiyed".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftw1h4k7
+#           Using alternate file: ./wlftyqiyed
 add wave -position insertpoint  \
-sim:/processor/PcStart \
-sim:/processor/PcOut \
-sim:/processor/PcCall \
-sim:/processor/newPC \
-sim:/processor/B1Res \
-sim:/processor/AddPC \
-sim:/processor/Instruction
-force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+sim:/processor/memory/RAM_DATA_OUT \
+sim:/processor/memory/RAM
 force -freeze sim:/processor/rst 1 0
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 6  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 6  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 7  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 7  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 8  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 8  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 9  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 9  Instance: /processor/memory
+add wave -position insertpoint  \
+sim:/processor/InstructMem/ram
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-add wave -position insertpoint  \
-sim:/processor/SPstart
-force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/InstructMem/ram(0) 1101000000000000 0
+force -freeze sim:/processor/InstructMem/ram(1) 1101000000000000 0
 force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
 run
 # GetModuleFileName: The specified module could not be found.
 # 
@@ -455,130 +73,93 @@ run
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ps  Iteration: 1  Instance: /processor/memory
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 6  Instance: /processor/memory
+#    Time: 0 ps  Iteration: 3  Instance: /processor/memory
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 6  Instance: /processor/memory
+#    Time: 0 ps  Iteration: 3  Instance: /processor/memory
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 7  Instance: /processor/memory
+#    Time: 0 ps  Iteration: 5  Instance: /processor/memory
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 7  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 8  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 8  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 9  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 9  Instance: /processor/memory
-quit -sim
-# End time: 11:23:22 on Jun 09,2021, Elapsed time: 0:05:23
-# Errors: 0, Warnings: 15
-# Compile of processor.vhd was successful.
-vsim -gui work.processor
-# vsim -gui work.processor 
-# Start time: 11:23:59 on Jun 09,2021
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.processor(behav)
-# Loading work.my_ndff(a_my_ndff)
-# Loading work.adder2(myadder)
-# Loading work.instructionmem(inst)
-# Loading work.controlunit(my_controlunit)
-# Loading work.mux2_3bits(mymux2)
-# Loading work.regs_file(regs_struct)
-# Loading work.decoder(mydecoder)
-# Loading work.tri_state_buffer(struct)
-# Loading work.mux4(mymux4)
-# Loading work.mux2(mymux2)
-# Loading work.alu(behav)
-# Loading work.fa(behav)
-# Loading work.adder(behav)
-# Loading work.shreg(behav)
-# Loading work.ctrl(behav)
-# Loading work.decoder24(mydecoder24)
-# Loading work.b1(myb1)
-# Loading work.sub(mysub)
-# Loading work.ram(behavioral)
-# Loading work.selector(myselector)
-add wave -position insertpoint  \
-sim:/processor/clk \
-sim:/processor/rst
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: Ahmed  Hostname: DESKTOP-UD6OOP6  ProcessID: 17864
-#           Attempting to use alternate WLF file "./wlftrkwkw3".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftrkwkw3
-add wave -position insertpoint  \
-sim:/processor/PcStart \
-sim:/processor/PcOut \
-sim:/processor/PcCall \
-sim:/processor/newPC \
-sim:/processor/B1Res \
-sim:/processor/AddPC \
-sim:/processor/Instruction
-force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
-force -freeze sim:/processor/rst 1 0
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 6  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 6  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 7  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 7  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 8  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 8  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 9  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 9  Instance: /processor/memory
-run
-run
+#    Time: 0 ps  Iteration: 5  Instance: /processor/memory
 force -freeze sim:/processor/rst 0 0
 run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 400 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 400 ps  Iteration: 0  Instance: /processor/InstructMem
 run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 500 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 500 ps  Iteration: 0  Instance: /processor/InstructMem
 run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 600 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 600 ps  Iteration: 0  Instance: /processor/InstructMem
 run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 700 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 700 ps  Iteration: 0  Instance: /processor/InstructMem
-restart
-# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+quit -sim
+# End time: 13:39:26 on Jun 09,2021, Elapsed time: 0:11:37
+# Errors: 0, Warnings: 11
+# Compile of processor.vhd was successful.
+# Compile of processor.vhd failed with 1 errors.
+# Compile of processor.vhd failed with 1 errors.
+# Compile of processor.vhd was successful.
+# Compile of processor.vhd was successful.
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 13:42:48 on Jun 09,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.adder2(myadder)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.ctrl(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.b1(myb1)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
 add wave -position insertpoint  \
+sim:/processor/clk \
+sim:/processor/rst
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Ahmed  Hostname: DESKTOP-UD6OOP6  ProcessID: 17864
+#           Attempting to use alternate WLF file "./wlftjxftwc".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftjxftwc
+add wave -position insertpoint  \
+sim:/processor/clk \
+sim:/processor/rst \
+sim:/processor/Reg1 \
 sim:/processor/SPstart \
 sim:/processor/SPout \
 sim:/processor/Add2 \
 sim:/processor/Sub2
+add wave -position insertpoint  \
+sim:/processor/InstructMem/ram
+add wave -position insertpoint  \
+sim:/processor/memory/RAM
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/InstructMem/ram(0) 0100100000000000 0
+force -freeze sim:/processor/InstructMem/ram(0) 0100100000000000 0
 force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
 force -freeze sim:/processor/rst 1 0
 run
@@ -601,99 +182,43 @@ run
 #    Time: 0 ps  Iteration: 6  Instance: /processor/memory
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ps  Iteration: 6  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 7  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 7  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 8  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 8  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 9  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 9  Instance: /processor/memory
-quit -sim
-# End time: 11:30:18 on Jun 09,2021, Elapsed time: 0:06:19
-# Errors: 0, Warnings: 15
-# Compile of processor.vhd failed with 1 errors.
-# Compile of processor.vhd failed with 1 errors.
-# Compile of processor.vhd was successful.
-vsim -gui work.processor
-# vsim -gui work.processor 
-# Start time: 11:32:41 on Jun 09,2021
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.processor(behav)
-# Loading work.my_ndff(a_my_ndff)
-# Loading work.adder2(myadder)
-# Loading work.instructionmem(inst)
-# Loading work.controlunit(my_controlunit)
-# Loading work.mux2_3bits(mymux2)
-# Loading work.regs_file(regs_struct)
-# Loading work.decoder(mydecoder)
-# Loading work.tri_state_buffer(struct)
-# Loading work.mux4(mymux4)
-# Loading work.mux2(mymux2)
-# Loading work.alu(behav)
-# Loading work.fa(behav)
-# Loading work.adder(behav)
-# Loading work.shreg(behav)
-# Loading work.ctrl(behav)
-# Loading work.decoder24(mydecoder24)
-# ** Fatal: (vsim-3348) Port length (3) does not match actual length (32) for port "/processor/test/d".
-#    Time: 0 ps  Iteration: 0  Instance: /processor/test File: C:/Users/Ahmed/Desktop/Integrated/Register File/Reg.vhd Line: 7
-# FATAL ERROR while loading design
-# Error loading design
-# End time: 11:32:42 on Jun 09,2021, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 4
-# Compile of processor.vhd was successful.
-vsim -gui work.processor
-# vsim -gui work.processor 
-# Start time: 11:33:34 on Jun 09,2021
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading ieee.numeric_std(body)
-# Loading work.processor(behav)
-# Loading work.my_ndff(a_my_ndff)
-# Loading work.adder2(myadder)
-# Loading work.instructionmem(inst)
-# Loading work.controlunit(my_controlunit)
-# Loading work.mux2_3bits(mymux2)
-# Loading work.regs_file(regs_struct)
-# Loading work.decoder(mydecoder)
-# Loading work.tri_state_buffer(struct)
-# Loading work.mux4(mymux4)
-# Loading work.mux2(mymux2)
-# Loading work.alu(behav)
-# Loading work.fa(behav)
-# Loading work.adder(behav)
-# Loading work.shreg(behav)
-# Loading work.ctrl(behav)
-# Loading work.decoder24(mydecoder24)
-# Loading work.b1(myb1)
-# Loading work.sub(mysub)
-# Loading work.ram(behavioral)
-# Loading work.selector(myselector)
+force -freeze sim:/processor/rst 0 0
+force -freeze sim:/processor/rst 0 0
+run
 add wave -position insertpoint  \
 sim:/processor/PcStart \
-sim:/processor/PcOut \
-sim:/processor/PcCall \
-sim:/processor/newPC \
-sim:/processor/B1Res \
-sim:/processor/AddPC \
+sim:/processor/PcOut
+add wave -position insertpoint  \
 sim:/processor/Instruction
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/rst 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
 force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
 force -freeze sim:/processor/rst 1 0
-# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: Ahmed  Hostname: DESKTOP-UD6OOP6  ProcessID: 17864
-#           Attempting to use alternate WLF file "./wlft3ga221".
-# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft3ga221
 run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ps  Iteration: 0  Instance: /processor/memory
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
@@ -706,33 +231,20 @@ run
 #    Time: 0 ps  Iteration: 1  Instance: /processor/memory
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ps  Iteration: 1  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 6  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 6  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 7  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 7  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 8  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 8  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 9  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 9  Instance: /processor/memory
-add wave -position insertpoint  \
-sim:/processor/clk \
-sim:/processor/rst
+force -freeze sim:/processor/InstructMem/ram(2) 1101000000000000 0
+run
+run
+run
+force -freeze sim:/processor/rst 0 0
 run
 run
 run
 run
 restart
 # ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
-force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/InstructMem/ram(0) 0001000000000000 0
 force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
 run
 # GetModuleFileName: The specified module could not be found.
 # 
@@ -749,52 +261,39 @@ run
 #    Time: 0 ps  Iteration: 1  Instance: /processor/memory
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ps  Iteration: 1  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 6  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 6  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 7  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 7  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 8  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 8  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 9  Instance: /processor/memory
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 9  Instance: /processor/memory
 force -freeze sim:/processor/rst 0 0
+force -freeze sim:/processor/InstructMem/ram(3) 1011000000000000 0
+force -freeze sim:/processor/InstructMem/ram(3) 1101000000000000 0
 run
 run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 300 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 300 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Fatal: (vsim-3734) Index value 1048575 is out of range 0 to 32.
+#    Time: 300 ps  Iteration: 6  Process: /processor/memory/line__42 File: D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd
+# Fatal error in Architecture Behavioral at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd line 42
+# 
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
 run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 400 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 400 ps  Iteration: 0  Instance: /processor/InstructMem
-force -freeze sim:/processor/rst 1 0
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
 run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
 run
-run
-force -freeze sim:/processor/rst 0 0
-run
-run
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 900 ps  Iteration: 0  Instance: /processor/InstructMem
-# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 900 ps  Iteration: 0  Instance: /processor/InstructMem
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
 quit -sim
-# End time: 11:37:19 on Jun 09,2021, Elapsed time: 0:03:45
-# Errors: 0, Warnings: 21
-# Compile of processor.vhd was successful.
+# End time: 14:01:23 on Jun 09,2021, Elapsed time: 0:18:35
+# Errors: 1, Warnings: 7
 vsim -gui work.processor
 # vsim -gui work.processor 
-# Start time: 11:37:43 on Jun 09,2021
+# Start time: 16:18:52 on Jun 09,2021
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -822,21 +321,25 @@ vsim -gui work.processor
 # Loading work.selector(myselector)
 add wave -position insertpoint  \
 sim:/processor/clk \
-sim:/processor/rst
+sim:/processor/rst \
+sim:/processor/Reg1 \
+sim:/processor/PcStart \
+sim:/processor/PcOut \
+sim:/processor/controls \
+sim:/processor/SPstart \
+sim:/processor/SPout \
+sim:/processor/Add2 \
+sim:/processor/Sub2 \
+sim:/processor/MemDataOut
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: Ahmed  Hostname: DESKTOP-UD6OOP6  ProcessID: 17864
-#           Attempting to use alternate WLF file "./wlftr0x9xw".
+#           Attempting to use alternate WLF file "./wlft20sn92".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftr0x9xw
+#           Using alternate file: ./wlft20sn92
 add wave -position insertpoint  \
-sim:/processor/PcStart \
-sim:/processor/PcStartTemp \
-sim:/processor/PcOut \
-sim:/processor/PcCall \
-sim:/processor/newPC \
-sim:/processor/B1Res \
-sim:/processor/AddPC \
-sim:/processor/Instruction
+sim:/processor/InstructMem/ram
+add wave -position insertpoint  \
+sim:/processor/memory/RAM
 force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
 force -freeze sim:/processor/rst 1 0
 run
@@ -852,44 +355,816 @@ run
 #    Time: 0 ps  Iteration: 1  Instance: /processor/memory
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
 #    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+force -freeze sim:/processor/rst 0 0
+run
+force -freeze sim:/processor/InstructMem/ram(2) 1011000000000000 0
+run
+run
+add wave -position insertpoint  \
+sim:/processor/Instruction
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+add wave -position insertpoint  \
+sim:/processor/jumpFlags
+add wave -position insertpoint  \
+sim:/processor/jumpRes
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 6  Instance: /processor/memory
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 6  Instance: /processor/memory
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 7  Instance: /processor/memory
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 7  Instance: /processor/memory
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 8  Instance: /processor/memory
+#    Time: 100 ps  Iteration: 0  Instance: /processor/InstructMem
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 8  Instance: /processor/memory
+#    Time: 100 ps  Iteration: 0  Instance: /processor/InstructMem
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 9  Instance: /processor/memory
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
 # ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
-#    Time: 0 ps  Iteration: 9  Instance: /processor/memory
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+force -freeze sim:/processor/InstructMem/ram(2) 1011000000000000 0
+force -freeze sim:/processor/jumpFlags(2) 1 0
+force -freeze sim:/processor/jumpFlags(1) 1 0
+force -freeze sim:/processor/jumpFlags(0) 1 0
+run
+run
 force -freeze sim:/processor/rst 0 0
 run
 run
 run
-force -freeze sim:/processor/Instruction 010110000000000001010000000000000 0
-# Value length (33) does not equal array index length (32).
-# ** UI-Msg: (vsim-4011) Invalid force value: 010110000000000001010000000000000 0.
+run
+run
+run
+run
+run
+# WARNING: No extended dataflow license exists
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+force -freeze sim:/processor/InstructMem/ram(2) 0010000000000000 0
+run
+run
+run
+# ** Fatal: (vsim-3734) Index value 1048575 is out of range 0 to 32.
+#    Time: 4400 ps  Iteration: 6  Process: /processor/memory/line__42 File: D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd
+# Fatal error in Architecture Behavioral at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd line 42
+# 
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+force -freeze sim:/processor/rst 0 0
+force -freeze sim:/processor/InstructMem/ram(2) 1011100000000000 0
+force -freeze sim:/processor/jumpFlags 111 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
 # 
 run
 run
-force -freeze sim:/processor/Instruction 00000000000000001010000000000000 0
+run
+run
+run
+run
+force -freeze sim:/processor/jumpFlags 000 0
+run
+run
+# ** Fatal: (vsim-3734) Index value 1048575 is out of range 0 to 32.
+#    Time: 1 ns  Iteration: 8  Process: /processor/memory/line__42 File: D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd
+# Fatal error in Architecture Behavioral at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd line 42
+# 
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+force -freeze sim:/processor/rst 0 0
+force -freeze sim:/processor/jumpFlags 111 0
+force -freeze sim:/processor/InstructMem/ram(4) 1100000000000000 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+# ** Fatal: (vsim-3734) Index value 1048575 is out of range 0 to 32.
+#    Time: 300 ps  Iteration: 6  Process: /processor/memory/line__42 File: D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd
+# Fatal error in Architecture Behavioral at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd line 42
+# 
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+force -freeze sim:/processor/rst 0 0
+noforce sim:/processor/InstructMem/ram(1)
+force -freeze sim:/processor/InstructMem/ram(1) 1100000000000000 0
+force -freeze sim:/processor/jumpFlags 111 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+noforce sim:/processor/jumpFlags
+force -freeze sim:/processor/jumpFlags 000 0
+run
+run
+# ** Fatal: (vsim-3734) Index value 1048575 is out of range 0 to 32.
+#    Time: 900 ps  Iteration: 6  Process: /processor/memory/line__42 File: D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd
+# Fatal error in Architecture Behavioral at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd line 42
+# 
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+noforce sim:/processor/rst
+force -freeze sim:/processor/rst 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+force -freeze sim:/processor/rst 0 0
+force -freeze sim:/processor/InstructMem/ram(1) 1100100000000000 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+force -freeze sim:/processor/InstructMem/ram(1) 0010000000000000 0
+run
+run
+# ** Fatal: (vsim-3734) Index value 1048575 is out of range 0 to 32.
+#    Time: 800 ps  Iteration: 6  Process: /processor/memory/line__42 File: D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd
+# Fatal error in Architecture Behavioral at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd line 42
+# 
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+restart
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+force -freeze sim:/processor/rst 0 0
+force -freeze sim:/processor/InstructMem/ram(1) 0000000000000000 0
+force -freeze sim:/processor/InstructMem/ram(2) 0000000000000000 0
+force -freeze sim:/processor/InstructMem/ram(3) 000000000000000 0
+# Value length (15) does not equal array index length (16).
+# ** UI-Msg: (vsim-4011) Invalid force value: 000000000000000 0.
+# 
+force -freeze sim:/processor/InstructMem/ram(3) 0000000000000000 0
 run
 run
 run
 run
 run
 run
-force -freeze sim:/processor/Instruction 00000000000000001010000000000000 0
-force -freeze sim:/processor/Instruction 00001000000000001010000000000000 0
+# ** Fatal: (vsim-3734) Index value 1048574 is out of range 0 to 32.
+#    Time: 700 ps  Iteration: 8  Process: /processor/memory/line__42 File: D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd
+# Fatal error in Architecture Behavioral at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd line 42
+# 
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+force -freeze sim:/processor/rst 10 0
+# ** UI-Msg: (vsim-4026) Value "10" does not represent a literal of the enumeration type.
+# ** UI-Msg: (vsim-4011) Invalid force value: 10 0.
+# 
+force -freeze sim:/processor/rst {} 0
+# ** UI-Msg: (vsim-4026) Value "" does not represent a literal of the enumeration type.
+# ** UI-Msg: (vsim-4011) Invalid force value: {} 0.
+# 
+force -freeze sim:/processor/rst 0 0
+force -freeze sim:/processor/InstructMem/ram(1) 1100000000000000 0
+force -freeze sim:/processor/jumpFlags 111 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
 run
 run
 run
 run
-# End time: 12:20:46 on Jun 09,2021, Elapsed time: 0:43:03
-# Errors: 0, Warnings: 18
+force -freeze sim:/processor/InstructMem/ram(1) 0001000000000000 0
+run
+run
+run
+# ** Fatal: (vsim-3734) Index value 1048575 is out of range 0 to 32.
+#    Time: 900 ps  Iteration: 6  Process: /processor/memory/line__42 File: D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd
+# Fatal error in Architecture Behavioral at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd line 42
+# 
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+noforce sim:/processor/rst
+force -freeze sim:/processor/rst 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+force -freeze sim:/processor/rst 0 0
+force -freeze sim:/processor/InstructMem/ram(2) 1000000000000000 0
+force -freeze sim:/processor/InstructMem/ram(3) 1000000000000000 0
+force -freeze sim:/processor/InstructMem/ram(4) 0001100000000000 0
+force -freeze sim:/processor/InstructMem/ram(5) 0001100000000000 0
+force -freeze sim:/processor/InstructMem/ram(3) 0001000000000000 0
+force -freeze sim:/processor/InstructMem/ram(2) 0001000000000000 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+# ** Fatal: (vsim-3734) Index value 1048574 is out of range 0 to 32.
+#    Time: 700 ps  Iteration: 8  Process: /processor/memory/line__42 File: D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd
+# Fatal error in Architecture Behavioral at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd line 42
+# 
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# WARNING: No extended dataflow license exists
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+force -freeze sim:/processor/Reg1 16#12345678 0
+force -freeze sim:/processor/InstructMem/ram(2) 0111100000000000 0
+force -freeze sim:/processor/InstructMem/ram(3) 1000000000000000 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+force -freeze sim:/processor/rst 0 0
+run
+run
+# ** Fatal: (vsim-3734) Index value 284280 is out of range 0 to 32.
+#    Time: 500 ps  Iteration: 6  Process: /processor/memory/line__42 File: D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd
+# Fatal error in Architecture Behavioral at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd line 42
+# 
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+# Compile of processor.vhd was successful.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.processor(behav)
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/Reg1 16#12345678 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+force -freeze sim:/processor/rst 0 0
+force -freeze sim:/processor/InstructMem/ram(2) 0111100000000000 0
+force -freeze sim:/processor/InstructMem/ram(3) 1000000000000000 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+# ** Fatal: (vsim-3734) Index value 284280 is out of range 0 to 32.
+#    Time: 300 ps  Iteration: 6  Process: /processor/memory/line__42 File: D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd
+# Fatal error in Architecture Behavioral at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd line 42
+# 
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/Reg1 16#00003210 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+force -freeze sim:/processor/InstructMem/ram(1) 16#4400 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+force -freeze sim:/processor/rst 0 0
+run
+run
+# ** Fatal: (vsim-3734) Index value 1048575 is out of range 0 to 32.
+#    Time: 700 ps  Iteration: 6  Process: /processor/memory/line__42 File: D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd
+# Fatal error in Architecture Behavioral at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd line 42
+# 
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+force -freeze sim:/processor/rst 0 0
+force -freeze sim:/processor/InstructMem/ram(2) 0000000000000000 0
+force -freeze sim:/processor/InstructMem/ram(3) 0100010000000000 0
+force -freeze sim:/processor/InstructMem/ram(4) 0000000000000000 0
+force -freeze sim:/processor/Reg1 16#12345678 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+# ** Fatal: (vsim-3734) Index value 284280 is out of range 0 to 32.
+#    Time: 600 ps  Iteration: 6  Process: /processor/memory/line__42 File: D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd
+# Fatal error in Architecture Behavioral at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd line 42
+# 
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+force -freeze sim:/processor/rst 0 0
+force -freeze sim:/processor/Reg1 16#12345678 0
+force -freeze sim:/processor/InstructMem/ram(0) 0100010000000000 0
+force -freeze sim:/processor/InstructMem/ram(1) 0000000000000000 0
+force -freeze sim:/processor/InstructMem/ram(0) 0100100000000000 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+# ** Fatal: (vsim-3734) Index value 764295 is out of range 0 to 32.
+#    Time: 300 ps  Iteration: 6  Process: /processor/memory/line__42 File: D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd
+# Fatal error in Architecture Behavioral at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd line 42
+# 
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+noforce sim:/processor/rst
+force -freeze sim:/processor/rst 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+noforce sim:/processor/rst
+force -freeze sim:/processor/rst 0 0
+force -freeze sim:/processor/Reg1 0000000000000000000000000000000012345678 0
+# Value length (40) does not equal array index length (32).
+# ** UI-Msg: (vsim-4011) Invalid force value: 0000000000000000000000000000000012345678 0.
+# 
+noforce sim:/processor/Reg1
+force -freeze sim:/processor/Reg1 16#12345678 0
+force -freeze sim:/processor/InstructMem/ram(2) 0100100000000000 0
+force -freeze sim:/processor/InstructMem/ram(3) 0000000000000000 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+# ** Fatal: (vsim-3734) Index value 284280 is out of range 0 to 32.
+#    Time: 300 ps  Iteration: 6  Process: /processor/memory/line__42 File: D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd
+# Fatal error in Architecture Behavioral at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd line 42
+# 
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+force -freeze sim:/processor/rst 0 0
+force -freeze sim:/processor/InstructMem/ram(0) 0100100000000000 0
+force -freeze sim:/processor/InstructMem/ram(1) 0000000000000000 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+# ** Fatal: (vsim-3734) Index value 1048575 is out of range 0 to 32.
+#    Time: 300 ps  Iteration: 6  Process: /processor/memory/line__42 File: D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd
+# Fatal error in Architecture Behavioral at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd line 42
+# 
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/InstructMem/ram(1) 0100100000000000 0
+force -freeze sim:/processor/InstructMem/ram(2) 0000000000000000 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+force -freeze sim:/processor/rst 0 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+# ** Fatal: (vsim-3734) Index value 1048575 is out of range 0 to 32.
+#    Time: 400 ps  Iteration: 8  Process: /processor/memory/line__42 File: D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd
+# Fatal error in Architecture Behavioral at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd line 42
+# 
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /processor/memory
+force -freeze sim:/processor/rst 0 0
+force -freeze sim:/processor/InstructMem/ram(0) 0100010000000000 0
+force -freeze sim:/processor/InstructMem/ram(1) 0000000000000000 0
+force -freeze sim:/processor/InstructMem/ram(2) 0100010000000000 0
+force -freeze sim:/processor/InstructMem/ram(3) 0000000000000000 0
+run
+run
+run
+run
+run
+run
+# ** Fatal: (vsim-3734) Index value 1048574 is out of range 0 to 32.
+#    Time: 700 ps  Iteration: 8  Process: /processor/memory/line__42 File: D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd
+# Fatal error in Architecture Behavioral at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd line 42
+# 
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd 42 Architecture Behavioral
+# 
+# End time: 18:46:28 on Jun 09,2021, Elapsed time: 2:27:36
+# Errors: 1, Warnings: 7

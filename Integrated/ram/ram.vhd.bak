@@ -8,7 +8,7 @@ USE ieee.numeric_std.ALL;
 entity RAM is
 port(
 
- RAM_ADDR: in std_logic_vector(4 downto 0); -- Address to write/read RAM-------edit address  19 downto 0
+ RAM_ADDR: in std_logic_vector(19 downto 0); -- Address to write/read RAM-------edit address  19 downto 0
  RAM_DATA_IN: in std_logic_vector(31 downto 0); -- Data to write into RAM
  RAM_WR: in std_logic; -- Write enable 
  RAM_CLOCK: in std_logic; -- clock input for RAM
@@ -19,7 +19,7 @@ end RAM;
 
 architecture Behavioral of RAM is
 
-type RAM_ARRAY is array (0 to 1048576 ) of std_logic_vector (15 downto 0);----(0 to 1048576 )
+type RAM_ARRAY is array (0 to 32) of std_logic_vector (15 downto 0);----(0 to 1048576 )
 -- initial values in the RAM
 signal RAM: RAM_ARRAY :=(others => x"1111"); 
 begin
