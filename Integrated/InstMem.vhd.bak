@@ -21,14 +21,14 @@ end entity;
 architecture inst of InstructionMem is
 
     type ramType is array(0 to 15) of std_logic_vector(15 downto 0) ;
-    signal ram : ramType := (others => x"4000");
+    signal ram : ramType := (others => x"B000");
     begin
-       -- process(clk) is
-       --     begin
-          --      if(rising_edge(clk)) then
+        process(clk) is
+           begin
+               if(rising_edge(clk)) then
 		dataOUT(31 downto 16) <=  ram(to_integer(unsigned(add)));
                 dataOUT(15 downto 0) <=  ram(1+to_integer(unsigned(add)));
-           --     end if;
-         --   end process;
+             end if;
+          end process;
        
     end architecture;

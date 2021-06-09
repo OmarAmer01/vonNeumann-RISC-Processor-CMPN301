@@ -13,7 +13,8 @@ entity processor is
         rst:  IN  std_logic := '0';
         outP: OUT std_logic_vector (31 downto 0) := x"0000_0000"
         -- n4of hndeef interrupt wla eh el donya
-    );
+         
+);
 end entity;
 
 architecture behav of processor is
@@ -95,6 +96,14 @@ component dReg is -- General Purpose Register
                  q: OUT std_logic_vector (n - 1 downto 0));
     
 end component;
+
+component my_nDFF IS
+GENERIC ( n : integer := 32);
+PORT( Clk,Rst, ENBL : IN std_logic;
+d : IN std_logic_vector(n-1 DOWNTO 0);
+q : OUT std_logic_vector(n-1 DOWNTO 0));
+END component;
+
 
 component RAM is
 port(
@@ -187,7 +196,8 @@ signal reset : std_logic_vector (7 downto 0 );
 signal WriteDataReg: std_logic_vector(31 downto 0);
     -- COMPONENTS
 -- PC signals
-signal PcStart : std_logic_vector(31 downto 0) := x"00000000";
+signal PcStart : std_logic_vector(31 downto 0) ;
+signal PcStartTemp : std_logic_vector(31 downto 0) ;
 signal PcOut :std_logic_vector(31 downto 0) := (OTHERS=>'0');
 signal PcCall: std_logic_vector (31 downto 0) := (OTHERS=>'0');
 signal newPC: std_logic_vector(31 downto 0);
@@ -209,8 +219,8 @@ signal controls : std_logic_vector(21 downto 0);
  signal branchAdd: std_logic_vector(31 downto 0);
 
 -- SP 
-signal SPstart : std_logic_vector(31 downto 0) := x"000FFFFE";
-signal SPout : std_logic_vector(31 downto 0) := x"000FFFFE";
+signal SPstart : std_logic_vector(31 downto 0);-- := x"000FFFFE";
+signal SPout : std_logic_vector(31 downto 0);-- := x"000FFFFE";
 signal Add2 : std_logic_vector(31 downto 0);
 signal Sub2 : std_logic_vector(31 downto 0);
 
@@ -218,10 +228,14 @@ signal Sub2 : std_logic_vector(31 downto 0);
 signal MemAdd : std_logic_vector(31 downto 0);
 signal MemDataOut : std_logic_vector(31 downto 0);
 signal WriteBack : std_logic_vector(31 downto 0);
+
 begin
 
+ --PcStart <= "00000000000000000000000000000000" when (rst ='1');
+ --SPstart <= "00000000000011111111111111111110" when (rst ='1');
+
     -- INSTANTIATIONS
-    Pc: dReg generic map(32) port map( PcStart ,'1', rst, clk, PcOut);
+    Pc: my_nDFF generic map(32) port map( clk , rst , '1',PcStart,PcOut);
     Add1: Adder2 port map (PcOut,"01",pcCall);
     InstructMem: InstructionMem port map (clk, '1' , rst , PcOut,Instruction);
     CU:  ControlUnit  port map (Instruction(31 downto 27), controls);
@@ -231,20 +245,23 @@ begin
     MuxAluOp2 : Mux2 port map (Reg2 ,extended, controls(15 ),aluOp2);
     MuxWriteData: Mux2 port map (Reg1,pcCall,controls(7 ),DataMem);
     alUnit: alu port map(aluOp1, aluOp2,aluOpCodeIn, Instruction(20 downto 16), aluRes, aluCout, aluNout, aluZout, clk, rst);
-    ccr: dReg generic map (3) port map(status, '1', rst, clk, ccrOut);
+    ccr: my_nDFF generic map (3) port map(clk, rst , '1',status, ccrOut);
     aluOpDCD: ctrl port map (controls(21 downto 18), aluOpCodeIn); -- alu operation code decoder
     JumpDecode: decoder24 port map (controls(13 downto 12),DecodedJump);
     BranchRes: Mux2 port map (newPC,aluOp1,branch ,branchAdd);
-    Ret: Mux2 port map (branchAdd,WriteBack , controls(6),PcStart);--------------
+    Ret: Mux2 port map (branchAdd,WriteBack , controls(6),PcStartTemp);--------------
+
+
+    test: my_nDFF generic map (32) port map(clk, rst , '1',PcStartTemp, pcStart);
 
     Block1: B1 port map (Instruction(31 downto 27),B1Res);
-    MuxPcAdd: Mux2_3bits port map ("001" , "011" , B1Res ,AddPC);
+    MuxPcAdd: Mux2_3bits port map ("001" , "010" , B1Res ,AddPC);
     Add2PC : Adder2 port map (PcOut, AddPC( 1 downto 0),newPC);
     
-    SP: dReg generic map(32) port map (SPstart,'1' , rst, clk, SPout); 
+    SP: my_nDFF generic map(32) port map (clk,rst,'1',SPstart, SPout); 
     SPadd: Adder2 port map (SPout , "10" , Add2);
     SPsub: Sub port map (SPout, "10" , Sub2);
-    StackMux: Mux4 port map (SPout,SPout,Add2,Sub2,controls(4 downto 3),PcStart);
+    StackMux: Mux4 port map (SPout,SPout,Add2,Sub2,controls(4 downto 3),SPstart);
 
     MemAddress: Mux4 port map (aluRes,aluRes,PcStart,Add2, controls(11 downto 10),MemAdd);
     memory: RAM port map(MemAdd(19 downto 0),DataMem, controls(8 ), clk,rst,MemDataOut);

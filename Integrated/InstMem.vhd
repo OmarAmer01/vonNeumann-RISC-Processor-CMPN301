@@ -21,7 +21,7 @@ end entity;
 architecture inst of InstructionMem is
 
     type ramType is array(0 to 15) of std_logic_vector(15 downto 0) ;
-    signal ram : ramType := (others => x"4000");
+    signal ram : ramType := (others => x"A000");
     begin
         process(clk) is
            begin

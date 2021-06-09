@@ -13,21 +13,21 @@ Eadder
 Z0 w1622834635
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 353
-Z3 dC:/Users/Ahmed/Desktop/ProjectArch
-Z4 8C:/Users/Ahmed/Desktop/ProjectArch/ALU/adder.vhd
-Z5 FC:/Users/Ahmed/Desktop/ProjectArch/ALU/adder.vhd
+!i122 406
+Z3 dC:/Users/Ahmed/Desktop/Integrated
+Z4 8C:/Users/Ahmed/Desktop/Integrated/ALU/adder.vhd
+Z5 FC:/Users/Ahmed/Desktop/Integrated/ALU/adder.vhd
 l0
 L4 1
 VU>jiBfcbaZYnkZ3^_ea4m3
 !s100 gb5W8Bh4Ga9[8elTmj2Uo2
 Z6 OV;C;2020.3;71
 32
-Z7 !s110 1623184808
+Z7 !s110 1623227709
 !i10b 1
-Z8 !s108 1623184808.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/ALU/adder.vhd|
-Z10 !s107 C:/Users/Ahmed/Desktop/ProjectArch/ALU/adder.vhd|
+Z8 !s108 1623227708.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated/ALU/adder.vhd|
+Z10 !s107 C:/Users/Ahmed/Desktop/Integrated/ALU/adder.vhd|
 !i113 1
 Z11 o-work work -2002 -explicit
 Z12 tExplicit 1 CvgOpt 0
@@ -35,7 +35,7 @@ Abehav
 R1
 R2
 DEx4 work 5 adder 0 22 U>jiBfcbaZYnkZ3^_ea4m3
-!i122 353
+!i122 406
 l10
 L9 7
 VioWR?E_BCMkFj[7K9D3i00
@@ -65,34 +65,35 @@ R6
 !s110 1623182704
 !i10b 1
 !s108 1623182703.000000
-Z15 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/components/Adder.vhd|
-Z16 !s107 C:/Users/Ahmed/Desktop/ProjectArch/components/Adder.vhd|
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/components/Adder.vhd|
+!s107 C:/Users/Ahmed/Desktop/ProjectArch/components/Adder.vhd|
 !i113 1
 R11
 R12
-Z17 FC:/Users/Ahmed/Desktop/ProjectArch/components/Adder.vhd
+FC:/Users/Ahmed/Desktop/ProjectArch/components/Adder.vhd
 w1623182348
-Z18 8C:/Users/Ahmed/Desktop/ProjectArch/components/Adder.vhd
+8C:/Users/Ahmed/Desktop/ProjectArch/components/Adder.vhd
+Z15 dC:/Users/Ahmed/Desktop/ProjectArch
 Eadder2
-Z19 w1623183001
+Z16 w1623183001
 R13
 R1
 R2
-!i122 364
+!i122 401
 R3
-R18
-R17
+Z17 8C:/Users/Ahmed/Desktop/Integrated/components/Adder.vhd
+Z18 FC:/Users/Ahmed/Desktop/Integrated/components/Adder.vhd
 l0
 L5 1
 VLX9ZDg`bJONn650Dlz3?:0
 !s100 2a0XzzBcYjiJamK2?ema83
 R6
 32
-Z20 !s110 1623184810
+Z19 !s110 1623227708
 !i10b 1
-Z21 !s108 1623184810.000000
-R15
-R16
+Z20 !s108 1623227707.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated/components/Adder.vhd|
+Z22 !s107 C:/Users/Ahmed/Desktop/Integrated/components/Adder.vhd|
 !i113 1
 R11
 R12
@@ -101,30 +102,30 @@ R13
 R1
 R2
 DEx4 work 6 adder2 0 22 LX9ZDg`bJONn650Dlz3?:0
-!i122 364
+!i122 401
 l16
 R14
 V:1K2HS2QEI0VPnj_[H[FZ2
 !s100 ^2Z=dQbjz^A795g7DzcFn3
 R6
 32
-R20
+R19
 !i10b 1
+R20
 R21
-R15
-R16
+R22
 !i113 1
 R11
 R12
 Ealu
-Z22 w1623171011
+Z23 w1623171011
 R13
 R1
 R2
-!i122 354
+!i122 407
 R3
-Z23 8C:/Users/Ahmed/Desktop/ProjectArch/ALU/alu.vhd
-Z24 FC:/Users/Ahmed/Desktop/ProjectArch/ALU/alu.vhd
+Z24 8C:/Users/Ahmed/Desktop/Integrated/ALU/alu.vhd
+Z25 FC:/Users/Ahmed/Desktop/Integrated/ALU/alu.vhd
 l0
 L10 1
 V``0h:F0XL?Am[`XQXfW<g2
@@ -133,9 +134,9 @@ R6
 32
 R7
 !i10b 1
-R8
-Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/ALU/alu.vhd|
-Z26 !s107 C:/Users/Ahmed/Desktop/ProjectArch/ALU/alu.vhd|
+Z26 !s108 1623227709.000000
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated/ALU/alu.vhd|
+Z28 !s107 C:/Users/Ahmed/Desktop/Integrated/ALU/alu.vhd|
 !i113 1
 R11
 R12
@@ -144,7 +145,7 @@ R13
 R1
 R2
 DEx4 work 3 alu 0 22 ``0h:F0XL?Am[`XQXfW<g2
-!i122 354
+!i122 407
 l75
 L25 121
 VWJaXOh2n:6d]cJg2W9KTa3
@@ -153,31 +154,31 @@ R6
 32
 R7
 !i10b 1
-R8
-R25
 R26
+R27
+R28
 !i113 1
 R11
 R12
 Eb1
-Z27 w1623155975
+Z29 w1623155975
 R1
 R2
-!i122 365
+!i122 402
 R3
-Z28 8C:/Users/Ahmed/Desktop/ProjectArch/components/B1.vhd
-Z29 FC:/Users/Ahmed/Desktop/ProjectArch/components/B1.vhd
+Z30 8C:/Users/Ahmed/Desktop/Integrated/components/B1.vhd
+Z31 FC:/Users/Ahmed/Desktop/Integrated/components/B1.vhd
 l0
 L4 1
 V7dnCX`=eX4[e9iJYcSQPB3
 !s100 M2z=S4R8lJ:XJc;T]5JY=0
 R6
 32
-R20
+R19
 !i10b 1
-R21
-Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/components/B1.vhd|
-Z31 !s107 C:/Users/Ahmed/Desktop/ProjectArch/components/B1.vhd|
+R8
+Z32 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated/components/B1.vhd|
+Z33 !s107 C:/Users/Ahmed/Desktop/Integrated/components/B1.vhd|
 !i113 1
 R11
 R12
@@ -185,41 +186,41 @@ Amyb1
 R1
 R2
 DEx4 work 2 b1 0 22 7dnCX`=eX4[e9iJYcSQPB3
-!i122 365
+!i122 402
 l17
 L11 15
 VJcJODl6EL?<ioPNz:oWcb0
 !s100 GIX]IQ7S=F4LQ1:4M`hn41
 R6
 32
-R20
+R19
 !i10b 1
-R21
-R30
-R31
+R8
+R32
+R33
 !i113 1
 R11
 R12
 Econtrolunit
-Z32 w1623148084
+Z34 w1623148084
 R13
 R1
 R2
-!i122 352
+!i122 411
 R3
-Z33 8C:/Users/Ahmed/Desktop/ProjectArch/ControlUnit.vhd
-Z34 FC:/Users/Ahmed/Desktop/ProjectArch/ControlUnit.vhd
+Z35 8C:/Users/Ahmed/Desktop/Integrated/ControlUnit/ControlUnit.vhd
+Z36 FC:/Users/Ahmed/Desktop/Integrated/ControlUnit/ControlUnit.vhd
 l0
 L5 1
 VCm?Ln]7>k=3:hR4cbzLn03
 !s100 Vz^<h<O1J?OGjC;aOz]B50
 R6
 32
-R7
+Z37 !s110 1623228120
 !i10b 1
-R8
-Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/ControlUnit.vhd|
-Z36 !s107 C:/Users/Ahmed/Desktop/ProjectArch/ControlUnit.vhd|
+Z38 !s108 1623228120.000000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated/ControlUnit/ControlUnit.vhd|
+Z40 !s107 C:/Users/Ahmed/Desktop/Integrated/ControlUnit/ControlUnit.vhd|
 !i113 1
 R11
 R12
@@ -228,30 +229,30 @@ R13
 R1
 R2
 DEx4 work 11 controlunit 0 22 Cm?Ln]7>k=3:hR4cbzLn03
-!i122 352
+!i122 411
 l12
 L11 30
 Vo9FQ>UW3];4I_7gmh0LZJ1
 !s100 VX_0D^OkK_FA45eme<MN53
 R6
 32
-R7
+R37
 !i10b 1
-R8
-R35
-R36
+R38
+R39
+R40
 !i113 1
 R11
 R12
 Ectrl
-Z37 w1623139110
+Z41 w1623139110
 R13
 R1
 R2
-!i122 355
+!i122 408
 R3
-Z38 8C:/Users/Ahmed/Desktop/ProjectArch/ALU/ctrl.vhd
-Z39 FC:/Users/Ahmed/Desktop/ProjectArch/ALU/ctrl.vhd
+Z42 8C:/Users/Ahmed/Desktop/Integrated/ALU/ctrl.vhd
+Z43 FC:/Users/Ahmed/Desktop/Integrated/ALU/ctrl.vhd
 l0
 L9 1
 VbzFaj^mcHMYj]Y]EgTG5T3
@@ -260,9 +261,9 @@ R6
 32
 R7
 !i10b 1
-R8
-Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/ALU/ctrl.vhd|
-Z41 !s107 C:/Users/Ahmed/Desktop/ProjectArch/ALU/ctrl.vhd|
+R26
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated/ALU/ctrl.vhd|
+Z45 !s107 C:/Users/Ahmed/Desktop/Integrated/ALU/ctrl.vhd|
 !i113 1
 R11
 R12
@@ -271,7 +272,7 @@ R13
 R1
 R2
 DEx4 work 4 ctrl 0 22 bzFaj^mcHMYj]Y]EgTG5T3
-!i122 355
+!i122 408
 l32
 L16 35
 V]XkOZAmH`=0=zC9^9H>CC3
@@ -280,9 +281,9 @@ R6
 32
 R7
 !i10b 1
-R8
-R40
-R41
+R26
+R44
+R45
 !i113 1
 R11
 R12
@@ -290,21 +291,21 @@ Edecoder
 R0
 R1
 R2
-!i122 360
+!i122 397
 R3
-Z42 8C:/Users/Ahmed/Desktop/ProjectArch/Register File/decoder.vhd
-Z43 FC:/Users/Ahmed/Desktop/ProjectArch/Register File/decoder.vhd
+Z46 8C:/Users/Ahmed/Desktop/Integrated/Register File/decoder.vhd
+Z47 FC:/Users/Ahmed/Desktop/Integrated/Register File/decoder.vhd
 l0
 L4 1
 VM5][BV6TibLKLo=W3:TiG3
 !s100 ZdeG4kO;>XCI^aGnX0Pkf2
 R6
 32
-R20
+Z48 !s110 1623227707
 !i10b 1
-Z44 !s108 1623184809.000000
-Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/Register File/decoder.vhd|
-Z46 !s107 C:/Users/Ahmed/Desktop/ProjectArch/Register File/decoder.vhd|
+R20
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated/Register File/decoder.vhd|
+Z50 !s107 C:/Users/Ahmed/Desktop/Integrated/Register File/decoder.vhd|
 !i113 1
 R11
 R12
@@ -312,40 +313,40 @@ Amydecoder
 R1
 R2
 DEx4 work 7 decoder 0 22 M5][BV6TibLKLo=W3:TiG3
-!i122 360
+!i122 397
 l13
 L12 12
 Vc>Fch`EGPFQM_4T2MZ_Ak1
 !s100 <nUOWcH6@TiFHeJRBiL]B0
 R6
 32
-R20
+R48
 !i10b 1
-R44
-R45
-R46
+R20
+R49
+R50
 !i113 1
 R11
 R12
 Edecoder24
-R27
+R29
 R1
 R2
-!i122 366
+!i122 403
 R3
-Z47 8C:/Users/Ahmed/Desktop/ProjectArch/components/decoder24.vhd
-Z48 FC:/Users/Ahmed/Desktop/ProjectArch/components/decoder24.vhd
+Z51 8C:/Users/Ahmed/Desktop/Integrated/components/decoder24.vhd
+Z52 FC:/Users/Ahmed/Desktop/Integrated/components/decoder24.vhd
 l0
 L4 1
 VXI0F1S0zo2bbgRez7;T4c1
 !s100 3PkZRG:7oAm`;<TSKEfZW1
 R6
 32
-R20
+R19
 !i10b 1
-R21
-Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/components/decoder24.vhd|
-Z50 !s107 C:/Users/Ahmed/Desktop/ProjectArch/components/decoder24.vhd|
+R8
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated/components/decoder24.vhd|
+Z54 !s107 C:/Users/Ahmed/Desktop/Integrated/components/decoder24.vhd|
 !i113 1
 R11
 R12
@@ -353,40 +354,40 @@ Amydecoder24
 R1
 R2
 DEx4 work 9 decoder24 0 22 XI0F1S0zo2bbgRez7;T4c1
-!i122 366
+!i122 403
 l12
 L11 7
 VW;h6N<:lT?>5khb0VlWmY1
 !s100 QNKRkGanSZz^HIocK9C:20
 R6
 32
-R20
+R19
 !i10b 1
-R21
-R49
-R50
+R8
+R53
+R54
 !i113 1
 R11
 R12
 Edff
-Z51 w1623064839
+Z55 w1623228269
 R1
 R2
-!i122 373
+!i122 413
 R3
-Z52 8C:/Users/Ahmed/Desktop/ProjectArch/DFF.vhd
-Z53 FC:/Users/Ahmed/Desktop/ProjectArch/DFF.vhd
+Z56 8C:/Users/Ahmed/Desktop/Integrated/DFF.vhd
+Z57 FC:/Users/Ahmed/Desktop/Integrated/DFF.vhd
 l0
 L4 1
 V5eZl8W@3TYGA[1o384zn23
 !s100 20JNHeDW05RWbFZ]hWdSo2
 R6
 32
-Z54 !s110 1623184812
+Z58 !s110 1623228368
 !i10b 1
-Z55 !s108 1623184812.000000
-Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/DFF.vhd|
-Z57 !s107 C:/Users/Ahmed/Desktop/ProjectArch/DFF.vhd|
+Z59 !s108 1623228368.000000
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated/DFF.vhd|
+Z61 !s107 C:/Users/Ahmed/Desktop/Integrated/DFF.vhd|
 !i113 1
 R11
 R12
@@ -394,18 +395,18 @@ Aarch_dff
 R1
 R2
 DEx4 work 3 dff 0 22 5eZl8W@3TYGA[1o384zn23
-!i122 373
+!i122 413
 l12
 L11 13
-Vz<]O_RZeJ`MM:D:G_YWf[0
-!s100 Xho^b>?c_C5^elHQ8XPe`0
+V<S4;VS7LVKY?W22RY=NnI3
+!s100 zPB576Ib1V>2gMB3_2JQ_2
 R6
 32
-R54
+R58
 !i10b 1
-R55
-R56
-R57
+R59
+R60
+R61
 !i113 1
 R11
 R12
@@ -413,21 +414,21 @@ Efa
 R0
 R1
 R2
-!i122 356
+!i122 409
 R3
-Z58 8C:/Users/Ahmed/Desktop/ProjectArch/ALU/FA.vhd
-Z59 FC:/Users/Ahmed/Desktop/ProjectArch/ALU/FA.vhd
+Z62 8C:/Users/Ahmed/Desktop/Integrated/ALU/FA.vhd
+Z63 FC:/Users/Ahmed/Desktop/Integrated/ALU/FA.vhd
 l0
 L4 1
 VM7hB?9KB@OO8:=6AO:KkU1
 !s100 jzB=A]7a@_?[=@11O?Dk]2
 R6
 32
-Z60 !s110 1623184809
+R7
 !i10b 1
-R8
-Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/ALU/FA.vhd|
-Z62 !s107 C:/Users/Ahmed/Desktop/ProjectArch/ALU/FA.vhd|
+R26
+Z64 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated/ALU/FA.vhd|
+Z65 !s107 C:/Users/Ahmed/Desktop/Integrated/ALU/FA.vhd|
 !i113 1
 R11
 R12
@@ -435,41 +436,41 @@ Abehav
 R1
 R2
 DEx4 work 2 fa 0 22 M7hB?9KB@OO8:=6AO:KkU1
-!i122 356
+!i122 409
 l18
 L12 14
 V]7GdEHA`eWb9MP7O2Yh4Y0
 !s100 aDEjm@BU71`k^c_JSRQ>C2
 R6
 32
-R60
+R7
 !i10b 1
-R8
-R61
-R62
+R26
+R64
+R65
 !i113 1
 R11
 R12
 Einstructionmem
-Z63 w1623187681
+Z66 w1623229447
 R13
 R1
 R2
-!i122 385
+!i122 419
 R3
-Z64 8C:/Users/Ahmed/Desktop/ProjectArch/InstMem.vhd
-Z65 FC:/Users/Ahmed/Desktop/ProjectArch/InstMem.vhd
+Z67 8C:/Users/Ahmed/Desktop/Integrated/InstMem.vhd
+Z68 FC:/Users/Ahmed/Desktop/Integrated/InstMem.vhd
 l0
 L11 1
 VA5ToP77:nHL>=f=:X>^z<2
 !s100 69kkUOj3`;[I<`7D9>VI32
 R6
 32
-Z66 !s110 1623187682
+Z69 !s110 1623229597
 !i10b 1
-Z67 !s108 1623187682.000000
-Z68 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/InstMem.vhd|
-Z69 !s107 C:/Users/Ahmed/Desktop/ProjectArch/InstMem.vhd|
+Z70 !s108 1623229597.000000
+Z71 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated/InstMem.vhd|
+Z72 !s107 C:/Users/Ahmed/Desktop/Integrated/InstMem.vhd|
 !i113 1
 R11
 R12
@@ -478,40 +479,40 @@ R13
 R1
 R2
 DEx4 work 14 instructionmem 0 22 A5ToP77:nHL>=f=:X>^z<2
-!i122 385
+!i122 419
 l25
 L21 14
-VAT:BCd3^?EPg:99YXeZ5R1
-!s100 40`iPN<M=XaPR@3WF:R@F2
+VTc9CCEe<9gG4RnbRJXHfA1
+!s100 54Q]]1Cj2QY>Xj>=jR8hd1
 R6
 32
-R66
-!i10b 1
-R67
-R68
 R69
+!i10b 1
+R70
+R71
+R72
 !i113 1
 R11
 R12
 Emux2
-Z70 w1623181892
+Z73 w1623181892
 R1
 R2
-!i122 367
+!i122 404
 R3
-Z71 8C:/Users/Ahmed/Desktop/ProjectArch/components/Mux2.vhd
-Z72 FC:/Users/Ahmed/Desktop/ProjectArch/components/Mux2.vhd
+Z74 8C:/Users/Ahmed/Desktop/Integrated/components/Mux2.vhd
+Z75 FC:/Users/Ahmed/Desktop/Integrated/components/Mux2.vhd
 l0
 L4 1
 V>E4bKQ2GFMe9o82o3Sb6E1
 !s100 >QW]1NF0K:Nk4ohV=jART1
 R6
 32
-R20
+R19
 !i10b 1
-R21
-Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/components/Mux2.vhd|
-Z74 !s107 C:/Users/Ahmed/Desktop/ProjectArch/components/Mux2.vhd|
+R8
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated/components/Mux2.vhd|
+Z77 !s107 C:/Users/Ahmed/Desktop/Integrated/components/Mux2.vhd|
 !i113 1
 R11
 R12
@@ -519,40 +520,40 @@ Amymux2
 R1
 R2
 DEx4 work 4 mux2 0 22 >E4bKQ2GFMe9o82o3Sb6E1
-!i122 367
+!i122 404
 l14
 L13 5
 V3LcTA2<LY>Ge9n6o9]TPo1
 !s100 o@jBTN[h75DiOZX<g^EeK2
 R6
 32
-R20
+R19
 !i10b 1
-R21
-R73
-R74
+R8
+R76
+R77
 !i113 1
 R11
 R12
 Emux2_3bits
-Z75 w1623181866
+Z78 w1623181866
 R1
 R2
-!i122 370
+!i122 391
 R3
-Z76 8C:/Users/Ahmed/Desktop/ProjectArch/Mux2_3bits.vhd
-Z77 FC:/Users/Ahmed/Desktop/ProjectArch/Mux2_3bits.vhd
+Z79 8C:/Users/Ahmed/Desktop/Integrated/Mux2_3bits.vhd
+Z80 FC:/Users/Ahmed/Desktop/Integrated/Mux2_3bits.vhd
 l0
 L5 1
 VfNeb7ibQcD?^0<kzm3UQ=1
 !s100 do56l7RZ]IR7JDMU9WlLm3
 R6
 32
-Z78 !s110 1623184811
+Z81 !s110 1623227705
 !i10b 1
-Z79 !s108 1623184811.000000
-Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/Mux2_3bits.vhd|
-Z81 !s107 C:/Users/Ahmed/Desktop/ProjectArch/Mux2_3bits.vhd|
+Z82 !s108 1623227705.000000
+Z83 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated/Mux2_3bits.vhd|
+Z84 !s107 C:/Users/Ahmed/Desktop/Integrated/Mux2_3bits.vhd|
 !i113 1
 R11
 R12
@@ -560,40 +561,40 @@ Amymux2
 R1
 R2
 DEx4 work 10 mux2_3bits 0 22 fNeb7ibQcD?^0<kzm3UQ=1
-!i122 370
+!i122 391
 l15
 L14 5
 VYT]Dl5PBj=bBzN8WX0KCz3
 !s100 VSC43UQWVkjcK3InOTCoa1
 R6
 32
-R78
-!i10b 1
-R79
-R80
 R81
+!i10b 1
+R82
+R83
+R84
 !i113 1
 R11
 R12
 Emux4
-R27
+R29
 R1
 R2
-!i122 368
+!i122 405
 R3
-Z82 8C:/Users/Ahmed/Desktop/ProjectArch/components/Mux4.vhd
-Z83 FC:/Users/Ahmed/Desktop/ProjectArch/components/Mux4.vhd
+Z85 8C:/Users/Ahmed/Desktop/Integrated/components/Mux4.vhd
+Z86 FC:/Users/Ahmed/Desktop/Integrated/components/Mux4.vhd
 l0
 L4 1
 V?MOIcc`_SY7hG@[fF1adD3
 !s100 cDSNc>JQER[4Ae]2zWAk^3
 R6
 32
-R78
+R19
 !i10b 1
-R21
-Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/components/Mux4.vhd|
-Z85 !s107 C:/Users/Ahmed/Desktop/ProjectArch/components/Mux4.vhd|
+R8
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated/components/Mux4.vhd|
+Z88 !s107 C:/Users/Ahmed/Desktop/Integrated/components/Mux4.vhd|
 !i113 1
 R11
 R12
@@ -601,18 +602,18 @@ Amymux4
 R1
 R2
 DEx4 work 4 mux4 0 22 ?MOIcc`_SY7hG@[fF1adD3
-!i122 368
+!i122 405
 l16
-Z86 L15 7
+Z89 L15 7
 VPdkE3g>2jDGJ?k]i5DK@T3
 !s100 >5P^G6[;kPa;i5SZh3NBN0
 R6
 32
-R78
+R19
 !i10b 1
-R21
-R84
-R85
+R8
+R87
+R88
 !i113 1
 R11
 R12
@@ -620,21 +621,21 @@ Emy_ndff
 R0
 R1
 R2
-!i122 361
+!i122 398
 R3
-Z87 8C:/Users/Ahmed/Desktop/ProjectArch/Register File/Reg.vhd
-Z88 FC:/Users/Ahmed/Desktop/ProjectArch/Register File/Reg.vhd
+Z90 8C:/Users/Ahmed/Desktop/Integrated/Register File/Reg.vhd
+Z91 FC:/Users/Ahmed/Desktop/Integrated/Register File/Reg.vhd
 l0
 L4 1
 V^HQgM3zTdcz^[fV?ZYcId3
 !s100 mBD@[]^OFNj_Ef]M79TIA3
 R6
 32
-R20
+R48
 !i10b 1
-R21
-Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/Register File/Reg.vhd|
-Z90 !s107 C:/Users/Ahmed/Desktop/ProjectArch/Register File/Reg.vhd|
+R20
+Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated/Register File/Reg.vhd|
+Z93 !s107 C:/Users/Ahmed/Desktop/Integrated/Register File/Reg.vhd|
 !i113 1
 R11
 R12
@@ -642,41 +643,41 @@ Aa_my_ndff
 R1
 R2
 DEx4 work 7 my_ndff 0 22 ^HQgM3zTdcz^[fV?ZYcId3
-!i122 361
+!i122 398
 l13
 L11 14
 VI]VXkaghazf9O8zZ0WaK70
 !s100 CHBjlz:^;1ma@4n^YY9Q>3
 R6
 32
-R20
+R48
 !i10b 1
-R21
-R89
-R90
+R20
+R92
+R93
 !i113 1
 R11
 R12
 Eprocessor
-Z91 w1623190678
+Z94 w1623231430
 R13
 R1
 R2
-!i122 387
+!i122 432
 R3
-Z92 8C:/Users/Ahmed/Desktop/ProjectArch/VHDL - PROJECT/processor.vhd
-Z93 FC:/Users/Ahmed/Desktop/ProjectArch/VHDL - PROJECT/processor.vhd
+Z95 8C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/processor.vhd
+Z96 FC:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/processor.vhd
 l0
 L9 1
-VANKlMJK03ijSlm755`62Y0
-!s100 <Y`l;lnjO;j7XfjENmcla3
+V6BE_KN4k5fh=5SBJMdhIC0
+!s100 hzhnMdG`EjORGAVXZRJ`_1
 R6
 32
-Z94 !s110 1623190692
+Z97 !s110 1623231445
 !i10b 1
-Z95 !s108 1623190692.000000
-Z96 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/VHDL - PROJECT/processor.vhd|
-Z97 !s107 C:/Users/Ahmed/Desktop/ProjectArch/VHDL - PROJECT/processor.vhd|
+Z98 !s108 1623231445.000000
+Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/processor.vhd|
+Z100 !s107 C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/processor.vhd|
 !i113 1
 R11
 R12
@@ -684,42 +685,42 @@ Abehav
 R13
 R1
 R2
-Z98 DEx4 work 9 processor 0 22 ANKlMJK03ijSlm755`62Y0
-!i122 387
-l221
-Z99 L19 247
-VgzPFl<IA?>AZE8J7WzHKh1
-!s100 >=MIX`::dD5SBJZ1cVM=P2
+Z101 DEx4 work 9 processor 0 22 6BE_KN4k5fh=5SBJMdhIC0
+!i122 432
+l232
+Z102 L20 263
+Ve[@0>fYcU<18`9YR:gcH32
+!s100 ]e9YMcNa4QS;1dTcX<[_W0
 R6
 32
-R94
-!i10b 1
-R95
-R96
 R97
+!i10b 1
+R98
+R99
+R100
 !i113 1
 R11
 R12
 Eram
-Z100 w1623187720
+Z103 w1623187720
 R13
 R1
 R2
-!i122 386
+!i122 395
 R3
-Z101 8C:/Users/Ahmed/Desktop/ProjectArch/ram/ram.vhd
-Z102 FC:/Users/Ahmed/Desktop/ProjectArch/ram/ram.vhd
+Z104 8C:/Users/Ahmed/Desktop/Integrated/ram/ram.vhd
+Z105 FC:/Users/Ahmed/Desktop/Integrated/ram/ram.vhd
 l0
 L8 1
 V[7RfmVW<U8eg<>jBfT_Vm3
 !s100 GYgY]C_^UznCSb7I51JKB0
 R6
 32
-Z103 !s110 1623187726
+Z106 !s110 1623227706
 !i10b 1
-Z104 !s108 1623187726.000000
-Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/ram/ram.vhd|
-Z106 !s107 C:/Users/Ahmed/Desktop/ProjectArch/ram/ram.vhd|
+Z107 !s108 1623227706.000000
+Z108 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated/ram/ram.vhd|
+Z109 !s107 C:/Users/Ahmed/Desktop/Integrated/ram/ram.vhd|
 !i113 1
 R11
 R12
@@ -728,18 +729,18 @@ R13
 R1
 R2
 DEx4 work 3 ram 0 22 [7RfmVW<U8eg<>jBfT_Vm3
-!i122 386
+!i122 395
 l25
-Z107 L20 25
+Z110 L20 25
 V1kgSWm@752l?X2[ZWaij81
 !s100 :AoOXeUIA8R2@ZTL>WGI[0
 R6
 32
-R103
-!i10b 1
-R104
-R105
 R106
+!i10b 1
+R107
+R108
+R109
 !i113 1
 R11
 R12
@@ -758,31 +759,34 @@ R6
 !s110 1623171098
 !i10b 1
 !s108 1623171098.000000
-R105
-R106
+Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/ram/ram.vhd|
+Z112 !s107 C:/Users/Ahmed/Desktop/ProjectArch/ram/ram.vhd|
 !i113 1
 R11
 R12
 w1623179563
+R15
+Z113 FC:/Users/Ahmed/Desktop/ProjectArch/ram/ram.vhd
+Z114 8C:/Users/Ahmed/Desktop/ProjectArch/ram/ram.vhd
 Eregs_file
-Z108 w1623166098
+Z115 w1623166098
 R1
 R2
-!i122 362
+!i122 399
 R3
-Z109 8C:/Users/Ahmed/Desktop/ProjectArch/Register File/regfile.vhd
-Z110 FC:/Users/Ahmed/Desktop/ProjectArch/Register File/regfile.vhd
+Z116 8C:/Users/Ahmed/Desktop/Integrated/Register File/regfile.vhd
+Z117 FC:/Users/Ahmed/Desktop/Integrated/Register File/regfile.vhd
 l0
 L4 1
 VE3GDi:RYVWEJZDP?TziW=2
 !s100 9Gm=n;ogN>oMGQQ56OmAA2
 R6
 32
-R20
+R48
 !i10b 1
-R21
-Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/Register File/regfile.vhd|
-Z112 !s107 C:/Users/Ahmed/Desktop/ProjectArch/Register File/regfile.vhd|
+R20
+Z118 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated/Register File/regfile.vhd|
+Z119 !s107 C:/Users/Ahmed/Desktop/Integrated/Register File/regfile.vhd|
 !i113 1
 R11
 R12
@@ -790,40 +794,40 @@ Aregs_struct
 R1
 R2
 DEx4 work 9 regs_file 0 22 E3GDi:RYVWEJZDP?TziW=2
-!i122 362
+!i122 399
 l61
 L21 77
 V=8Y0=MSM?Sz;Y]QkjJ>:A2
 !s100 =>?S5PC8:SdUi@XmBP[KT1
 R6
 32
-R20
+R48
 !i10b 1
-R21
-R111
-R112
+R20
+R118
+R119
 !i113 1
 R11
 R12
 Eselector
-Z113 w1623181405
+Z120 w1623181405
 R1
 R2
-!i122 372
+!i122 392
 R3
-Z114 8C:/Users/Ahmed/Desktop/ProjectArch/Selector.vhd
-Z115 FC:/Users/Ahmed/Desktop/ProjectArch/Selector.vhd
+Z121 8C:/Users/Ahmed/Desktop/Integrated/Selector.vhd
+Z122 FC:/Users/Ahmed/Desktop/Integrated/Selector.vhd
 l0
 L4 1
 VG2bPfIS]^`GKaIa_QY:FE3
 !s100 OP:_c2`K?g0oNbX`zLhL53
 R6
 32
-R78
+R81
 !i10b 1
-R79
-Z116 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/Selector.vhd|
-Z117 !s107 C:/Users/Ahmed/Desktop/ProjectArch/Selector.vhd|
+R82
+Z123 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated/Selector.vhd|
+Z124 !s107 C:/Users/Ahmed/Desktop/Integrated/Selector.vhd|
 !i113 1
 R11
 R12
@@ -831,18 +835,18 @@ Amyselector
 R1
 R2
 DEx4 work 8 selector 0 22 G2bPfIS]^`GKaIa_QY:FE3
-!i122 372
+!i122 392
 l22
 L11 16
 VVEDQlKVU]NNB2H[LFf?EI3
 !s100 V6k[?LJR?HSU^JY>N[eEn1
 R6
 32
-R78
+R81
 !i10b 1
-R79
-R116
-R117
+R82
+R123
+R124
 !i113 1
 R11
 R12
@@ -851,21 +855,21 @@ R0
 R13
 R1
 R2
-!i122 357
+!i122 410
 R3
-Z118 8C:/Users/Ahmed/Desktop/ProjectArch/ALU/shReg.vhd
-Z119 FC:/Users/Ahmed/Desktop/ProjectArch/ALU/shReg.vhd
+Z125 8C:/Users/Ahmed/Desktop/Integrated/ALU/shReg.vhd
+Z126 FC:/Users/Ahmed/Desktop/Integrated/ALU/shReg.vhd
 l0
 L9 1
 V>V4_Q`ci0fYoLjCQQiGP<2
 !s100 he_g7PY^1BDje<=0^WKDM3
 R6
 32
-R60
+Z127 !s110 1623227710
 !i10b 1
-R44
-Z120 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/ALU/shReg.vhd|
-Z121 !s107 C:/Users/Ahmed/Desktop/ProjectArch/ALU/shReg.vhd|
+R26
+Z128 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated/ALU/shReg.vhd|
+Z129 !s107 C:/Users/Ahmed/Desktop/Integrated/ALU/shReg.vhd|
 !i113 1
 R11
 R12
@@ -874,41 +878,41 @@ R13
 R1
 R2
 DEx4 work 5 shreg 0 22 >V4_Q`ci0fYoLjCQQiGP<2
-!i122 357
+!i122 410
 l24
 L22 23
 V6_zWRPD?Q3>4;`W:VgMAG1
 !s100 g9egAk7[GPa<=X<nMI7Sb2
 R6
 32
-R60
+R127
 !i10b 1
-R44
-R120
-R121
+R26
+R128
+R129
 !i113 1
 R11
 R12
 Esingle_port_ram_vhdl
-Z122 w1623180302
+Z130 w1623180302
 R13
 R1
 R2
 !i122 197
-R3
-R101
-R102
+R15
+R114
+R113
 l0
 L8 1
 V4D[WfHjdE`GJSmQH<ALzh0
 !s100 [[OK>980JheNgK`]39@5n1
 R6
 32
-Z123 !s110 1623180303
+Z131 !s110 1623180303
 !i10b 1
-Z124 !s108 1623180303.000000
-R105
-R106
+Z132 !s108 1623180303.000000
+R111
+R112
 !i113 1
 R11
 R12
@@ -919,39 +923,39 @@ R2
 DEx4 work 20 single_port_ram_vhdl 0 22 4D[WfHjdE`GJSmQH<ALzh0
 !i122 197
 l25
-R107
+R110
 V0KFGi6L:5gjaen[L8`oe23
 !s100 k9mIebQGS?MKM=P`An]=>1
 R6
 32
-R123
+R131
 !i10b 1
-R124
-R105
-R106
+R132
+R111
+R112
 !i113 1
 R11
 R12
 Esub
-Z125 w1623178430
+Z133 w1623178430
 R13
 R1
 R2
-!i122 371
+!i122 393
 R3
-Z126 8C:/Users/Ahmed/Desktop/ProjectArch/Sub.vhd
-Z127 FC:/Users/Ahmed/Desktop/ProjectArch/Sub.vhd
+Z134 8C:/Users/Ahmed/Desktop/Integrated/Sub.vhd
+Z135 FC:/Users/Ahmed/Desktop/Integrated/Sub.vhd
 l0
 L6 1
 V_TbV]QFIFn<=NkS7h`Flh0
 !s100 VkC<beKcdi`<1nZa_C<K[0
 R6
 32
-R78
+R106
 !i10b 1
-R79
-Z128 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/Sub.vhd|
-Z129 !s107 C:/Users/Ahmed/Desktop/ProjectArch/Sub.vhd|
+R107
+Z136 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated/Sub.vhd|
+Z137 !s107 C:/Users/Ahmed/Desktop/Integrated/Sub.vhd|
 !i113 1
 R11
 R12
@@ -960,18 +964,18 @@ R13
 R1
 R2
 DEx4 work 3 sub 0 22 _TbV]QFIFn<=NkS7h`Flh0
-!i122 371
+!i122 393
 l17
-R86
+R89
 VF]mEbU^IB4`YQAzjSPOIn1
 !s100 k9:P]WKgMBaW]ABCF=6kj0
 R6
 32
-R78
+R106
 !i10b 1
-R79
-R128
-R129
+R107
+R136
+R137
 !i113 1
 R11
 R12
@@ -979,21 +983,21 @@ Etri_state_buffer
 R0
 R1
 R2
-!i122 359
+!i122 396
 R3
-Z130 8C:/Users/Ahmed/Desktop/ProjectArch/Register File/buffer.vhd
-Z131 FC:/Users/Ahmed/Desktop/ProjectArch/Register File/buffer.vhd
+Z138 8C:/Users/Ahmed/Desktop/Integrated/Register File/buffer.vhd
+Z139 FC:/Users/Ahmed/Desktop/Integrated/Register File/buffer.vhd
 l0
 L4 1
 VKghL0M_OYfCoMQz=nB1h;2
 !s100 IgVO69=RGWKBC?V92fBmT0
 R6
 32
-R60
+R106
 !i10b 1
-R44
-Z132 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/Register File/buffer.vhd|
-Z133 !s107 C:/Users/Ahmed/Desktop/ProjectArch/Register File/buffer.vhd|
+R107
+Z140 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated/Register File/buffer.vhd|
+Z141 !s107 C:/Users/Ahmed/Desktop/Integrated/Register File/buffer.vhd|
 !i113 1
 R11
 R12
@@ -1001,18 +1005,18 @@ Astruct
 R1
 R2
 DEx4 work 16 tri_state_buffer 0 22 KghL0M_OYfCoMQz=nB1h;2
-!i122 359
+!i122 396
 l14
 L13 4
 VSHA^nQDaVEACoo]=j2EdD1
 !s100 Kd0gG[cDd;mVcBnkVAeY^1
 R6
 32
-R60
+R106
 !i10b 1
-R44
-R132
-R133
+R107
+R140
+R141
 !i113 1
 R11
 R12
