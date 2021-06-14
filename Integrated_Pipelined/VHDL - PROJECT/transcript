@@ -1,0 +1,1873 @@
+# Compile of adder  .vhd was successful.
+# Compile of Adder.vhd was successful.
+# Compile of alu.vhd was successful.
+# Compile of B1.vhd was successful.
+# Compile of buffer.vhd was successful.
+# Compile of ControlUnit.vhd was successful.
+# Compile of ctrl.vhd was successful.
+# Compile of decoder.vhd was successful.
+# Compile of decoder24.vhd was successful.
+# Compile of DFF.vhd was successful.
+# Compile of FA.vhd was successful.
+# Compile of InstMem.vhd was successful.
+# Compile of Mux2.vhd was successful.
+# Compile of Mux2_3bits.vhd was successful.
+# Compile of Mux4.vhd was successful.
+# Compile of processor.vhd was successful.
+# Compile of ram.vhd was successful.
+# Compile of Reg.vhd was successful.
+# Compile of regfile.vhd was successful.
+# Compile of Selector.vhd was successful.
+# Compile of shReg.vhd was successful.
+# Compile of Sub.vhd was successful.
+# 22 compiles, 0 failed with no errors.
+# Compile of processor.vhd was successful.
+# Compile of processor.vhd was successful.
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 13:54:23 on Jun 14,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/inP
+add wave -position insertpoint  \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/PcStart \
+sim:/processor/PcOut \
+sim:/processor/PcCall \
+sim:/processor/newPC
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/WriteBack
+add wave -position insertpoint  \
+sim:/processor/InstructMem/ram
+add wave -position insertpoint  \
+sim:/processor/memory/RAM
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/inP 16#00000005 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run 
+run
+run 
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ps  Iteration: 1  Instance: /processor/memory
+run 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ps  Iteration: 1  Instance: /processor/memory
+run
+quit -sim
+# End time: 13:55:25 on Jun 14,2021, Elapsed time: 0:01:02
+# Errors: 0, Warnings: 16
+# Compile of processor.vhd was successful.
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 13:56:46 on Jun 14,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/inP
+add wave -position insertpoint  \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/PcStart \
+sim:/processor/PcOut \
+sim:/processor/PcCall \
+sim:/processor/newPC
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/WriteBack
+add wave -position insertpoint  \
+sim:/processor/InstructMem/ram
+add wave -position insertpoint  \
+sim:/processor/memory/RAM
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/inP 16#00000005 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+force -freeze sim:/processor/rst 0 0
+run 
+run
+run 
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ps  Iteration: 1  Instance: /processor/memory
+run 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ps  Iteration: 1  Instance: /processor/memory
+run
+run
+run
+run
+run
+run
+run
+# Compile of processor.vhd was successful.
+quit -sim
+# End time: 13:59:45 on Jun 14,2021, Elapsed time: 0:02:59
+# Errors: 0, Warnings: 10
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 13:59:47 on Jun 14,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/inP
+add wave -position insertpoint  \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/PcStart \
+sim:/processor/PcOut \
+sim:/processor/PcCall \
+sim:/processor/newPC
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/WriteBack
+add wave -position insertpoint  \
+sim:/processor/InstructMem/ram
+add wave -position insertpoint  \
+sim:/processor/memory/RAM
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/inP 16#00000005 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+force -freeze sim:/processor/rst 0 0
+run 
+run
+run 
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ps  Iteration: 1  Instance: /processor/memory
+run 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ps  Iteration: 1  Instance: /processor/memory
+run
+quit -sim
+# End time: 14:12:04 on Jun 14,2021, Elapsed time: 0:12:17
+# Errors: 0, Warnings: 8
+# Compile of processor.vhd was successful.
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 14:12:14 on Jun 14,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/inP
+add wave -position insertpoint  \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/PcStart \
+sim:/processor/PcOut \
+sim:/processor/PcCall \
+sim:/processor/newPC
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/WriteBack
+add wave -position insertpoint  \
+sim:/processor/InstructMem/ram
+add wave -position insertpoint  \
+sim:/processor/memory/RAM
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/inP 16#00000005 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run 
+run
+run 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 ps  Iteration: 1  Instance: /processor/memory
+run
+run 
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 14:14:14 on Jun 14,2021, Elapsed time: 0:02:00
+# Errors: 0, Warnings: 9
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 14:14:17 on Jun 14,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/memory/RAM
+add wave -position insertpoint  \
+sim:/processor/InstructMem/ram
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/SPstart \
+sim:/processor/SPout \
+sim:/processor/Add2 \
+sim:/processor/Sub2 \
+sim:/processor/Stack_TOP \
+sim:/processor/MemAdd
+restart
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 350 ps  Iteration: 1  Instance: /processor/memory
+run
+# ** Fatal: (vsim-3734) Index value -1 is out of range 0 to 31.
+#    Time: 450 ps  Iteration: 0  Process: /processor/memory/line__54 File: C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/ram.vhd
+# Fatal error in Process line__54 at C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/ram.vhd line 60
+# 
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/ram.vhd 60 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/ram.vhd 60 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/ram.vhd 60 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/ram.vhd 60 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/ram.vhd 60 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/ram.vhd 60 Process line__54
+# 
+restart
+quit -sim
+# End time: 14:14:43 on Jun 14,2021, Elapsed time: 0:00:26
+# Errors: 1, Warnings: 8
+# Compile of InstMem.vhd was successful.
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 14:15:18 on Jun 14,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/memory/RAM
+add wave -position insertpoint  \
+sim:/processor/InstructMem/ram
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/SPstart \
+sim:/processor/SPout \
+sim:/processor/Add2 \
+sim:/processor/Sub2 \
+sim:/processor/Stack_TOP \
+sim:/processor/MemAdd
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ps  Iteration: 1  Instance: /processor/memory
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ps  Iteration: 1  Instance: /processor/memory
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1050 ps  Iteration: 1  Instance: /processor/memory
+quit -sim
+# End time: 14:16:10 on Jun 14,2021, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 12
+# Compile of processor.vhd failed with 2 errors.
+# Compile of processor.vhd failed with 2 errors.
+# Compile of processor.vhd was successful.
+# Compile of processor.vhd was successful.
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 16:24:11 on Jun 14,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/memory/RAM
+add wave -position insertpoint  \
+sim:/processor/InstructMem/ram
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/SPstart \
+sim:/processor/SPout \
+sim:/processor/Add2 \
+sim:/processor/Sub2 \
+sim:/processor/Stack_TOP \
+sim:/processor/MemAdd
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ps  Iteration: 1  Instance: /processor/memory
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ps  Iteration: 1  Instance: /processor/memory
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1150 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1150 ps  Iteration: 1  Instance: /processor/memory
+run
+run
+restart
+quit -sim
+# End time: 16:29:03 on Jun 14,2021, Elapsed time: 0:04:52
+# Errors: 0, Warnings: 12
+# Compile of processor.vhd was successful.
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 16:29:26 on Jun 14,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/memory/RAM
+add wave -position insertpoint  \
+sim:/processor/InstructMem/ram
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/SPstart \
+sim:/processor/SPout \
+sim:/processor/Add2 \
+sim:/processor/Sub2 \
+sim:/processor/Stack_TOP \
+sim:/processor/MemAdd
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ps  Iteration: 1  Instance: /processor/memory
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ps  Iteration: 1  Instance: /processor/memory
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1150 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1150 ps  Iteration: 1  Instance: /processor/memory
+run
+quit -sim
+# End time: 16:35:47 on Jun 14,2021, Elapsed time: 0:06:21
+# Errors: 0, Warnings: 12
+# Compile of InstMem.vhd was successful.
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 16:36:15 on Jun 14,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/inP
+add wave -position insertpoint  \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/PcStart \
+sim:/processor/PcOut \
+sim:/processor/PcCall \
+sim:/processor/newPC
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/WriteBack
+add wave -position insertpoint  \
+sim:/processor/InstructMem/ram
+add wave -position insertpoint  \
+sim:/processor/memory/RAM
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/inP 16#00000005 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run 
+run
+run 
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 450 ps  Iteration: 1  Instance: /processor/memory
+run 
+run
+run
+run
+run
+run
+quit -sim
+# End time: 16:41:08 on Jun 14,2021, Elapsed time: 0:04:53
+# Errors: 0, Warnings: 9
+# Compile of processor.vhd failed with 1 errors.
+# Compile of processor.vhd failed with 1 errors.
+# Compile of processor.vhd was successful.
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 16:42:55 on Jun 14,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/inP
+add wave -position insertpoint  \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/PcStart \
+sim:/processor/PcOut \
+sim:/processor/PcCall \
+sim:/processor/newPC
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/WriteBack
+add wave -position insertpoint  \
+sim:/processor/InstructMem/ram
+add wave -position insertpoint  \
+sim:/processor/memory/RAM
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/inP 16#00000005 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run 
+run
+run 
+run
+run 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 550 ps  Iteration: 1  Instance: /processor/memory
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 650 ps  Iteration: 1  Instance: /processor/memory
+run
+run
+run
+# WARNING: No extended dataflow license exists
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+run
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+# Error: invalid command name "::.main_pane.dataflow.interior.cs.body.pw.df.c"
+quit -sim
+# End time: 16:44:57 on Jun 14,2021, Elapsed time: 0:02:02
+# Errors: 0, Warnings: 13
+# Compile of InstMem.vhd was successful.
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 16:45:43 on Jun 14,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/memory/RAM
+add wave -position insertpoint  \
+sim:/processor/InstructMem/ram
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/SPstart \
+sim:/processor/SPout \
+sim:/processor/Add2 \
+sim:/processor/Sub2 \
+sim:/processor/Stack_TOP \
+sim:/processor/MemAdd
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ps  Iteration: 1  Instance: /processor/memory
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 850 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 850 ps  Iteration: 1  Instance: /processor/memory
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1150 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1150 ps  Iteration: 1  Instance: /processor/memory
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1250 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1250 ps  Iteration: 1  Instance: /processor/memory
+# ** Fatal: (vsim-3734) Index value 1048575 is out of range 0 to 31.
+#    Time: 1300 ps  Iteration: 0  Process: /processor/memory/line__54 File: C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/ram.vhd
+# Fatal error in Process line__54 at C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/ram.vhd line 59
+# 
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+quit -sim
+# End time: 16:47:20 on Jun 14,2021, Elapsed time: 0:01:37
+# Errors: 1, Warnings: 14
+# Compile of processor.vhd was successful.
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 16:51:11 on Jun 14,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/memory/RAM
+add wave -position insertpoint  \
+sim:/processor/InstructMem/ram
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/SPstart \
+sim:/processor/SPout \
+sim:/processor/Add2 \
+sim:/processor/Sub2 \
+sim:/processor/Stack_TOP \
+sim:/processor/MemAdd
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 750 ps  Iteration: 1  Instance: /processor/memory
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 850 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 850 ps  Iteration: 1  Instance: /processor/memory
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1150 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1150 ps  Iteration: 1  Instance: /processor/memory
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1250 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1250 ps  Iteration: 1  Instance: /processor/memory
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1950 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1950 ps  Iteration: 1  Instance: /processor/memory
+restart
+quit -sim
+# End time: 16:52:27 on Jun 14,2021, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 16
+# Compile of processor.vhd was successful.
+# Compile of ram.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 16:52:53 on Jun 14,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/memory/RAM
+add wave -position insertpoint  \
+sim:/processor/InstructMem/ram
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/SPstart \
+sim:/processor/SPout \
+sim:/processor/Add2 \
+sim:/processor/Sub2 \
+sim:/processor/Stack_TOP \
+sim:/processor/MemAdd
+restart
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 800 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 800 ps  Iteration: 1  Instance: /processor/memory
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 900 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 900 ps  Iteration: 1  Instance: /processor/memory
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1200 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1200 ps  Iteration: 1  Instance: /processor/memory
+run
+# ** Fatal: (vsim-3734) Index value 1048575 is out of range 0 to 31.
+#    Time: 1300 ps  Iteration: 0  Process: /processor/memory/line__39 File: C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/ram.vhd
+# Fatal error in Process line__39 at C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/ram.vhd line 44
+# 
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/ram.vhd 44 Process line__39
+# 
+quit -sim
+# End time: 16:53:56 on Jun 14,2021, Elapsed time: 0:01:03
+# Errors: 1, Warnings: 12
+# Compile of processor.vhd was successful.
+# Compile of ram.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 17:03:01 on Jun 14,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/memory/RAM
+add wave -position insertpoint  \
+sim:/processor/InstructMem/ram
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/SPstart \
+sim:/processor/SPout \
+sim:/processor/Add2 \
+sim:/processor/Sub2 \
+sim:/processor/Stack_TOP \
+sim:/processor/MemAdd
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 600 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 600 ps  Iteration: 1  Instance: /processor/memory
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 700 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 700 ps  Iteration: 1  Instance: /processor/memory
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1 ns  Iteration: 1  Instance: /processor/memory
+# Compile of processor.vhd was successful.
+# Compile of ram.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+quit -sim
+# End time: 17:04:16 on Jun 14,2021, Elapsed time: 0:01:15
+# Errors: 0, Warnings: 13
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 17:04:18 on Jun 14,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/memory/RAM
+add wave -position insertpoint  \
+sim:/processor/InstructMem/ram
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/SPstart \
+sim:/processor/SPout \
+sim:/processor/Add2 \
+sim:/processor/Sub2 \
+sim:/processor/Stack_TOP \
+sim:/processor/MemAdd
+restart
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 500 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 500 ps  Iteration: 1  Instance: /processor/memory
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 700 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 700 ps  Iteration: 1  Instance: /processor/memory
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1100 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1100 ps  Iteration: 1  Instance: /processor/memory
+run
+quit -sim
+# End time: 17:10:56 on Jun 14,2021, Elapsed time: 0:06:38
+# Errors: 0, Warnings: 12
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 17:10:58 on Jun 14,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/memory/RAM
+add wave -position insertpoint  \
+sim:/processor/InstructMem/ram
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/SPstart \
+sim:/processor/SPout \
+sim:/processor/Add2 \
+sim:/processor/Sub2 \
+sim:/processor/Stack_TOP \
+sim:/processor/MemAdd
+restart
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+force -freeze sim:/processor/rst 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 17:11:16 on Jun 14,2021, Elapsed time: 0:00:18
+# Errors: 0, Warnings: 4
+# Compile of processor.vhd was successful.
+# Compile of ram.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 17:11:24 on Jun 14,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/memory/RAM
+add wave -position insertpoint  \
+sim:/processor/InstructMem/ram
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/SPstart \
+sim:/processor/SPout \
+sim:/processor/Add2 \
+sim:/processor/Sub2 \
+sim:/processor/Stack_TOP \
+sim:/processor/MemAdd
+restart
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 500 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 500 ps  Iteration: 1  Instance: /processor/memory
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 700 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 700 ps  Iteration: 1  Instance: /processor/memory
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1100 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 1100 ps  Iteration: 1  Instance: /processor/memory
+run
+quit -sim
+# End time: 17:14:40 on Jun 14,2021, Elapsed time: 0:03:16
+# Errors: 0, Warnings: 12
+# Compile of processor.vhd was successful.
+# Compile of ram.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 17:15:24 on Jun 14,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/memory/RAM
+add wave -position insertpoint  \
+sim:/processor/InstructMem/ram
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/SPstart \
+sim:/processor/SPout \
+sim:/processor/Add2 \
+sim:/processor/Sub2 \
+sim:/processor/Stack_TOP \
+sim:/processor/MemAdd
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 800 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 800 ps  Iteration: 1  Instance: /processor/memory
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 900 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 900 ps  Iteration: 1  Instance: /processor/memory
+run
+quit -sim
+# End time: 17:18:08 on Jun 14,2021, Elapsed time: 0:02:44
+# Errors: 0, Warnings: 10
+# Compile of processor.vhd was successful.
+# Compile of ram.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 17:18:18 on Jun 14,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/memory/RAM
+add wave -position insertpoint  \
+sim:/processor/InstructMem/ram
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/SPstart \
+sim:/processor/SPout \
+sim:/processor/Add2 \
+sim:/processor/Sub2 \
+sim:/processor/Stack_TOP \
+sim:/processor/MemAdd
+restart
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 800 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 800 ps  Iteration: 1  Instance: /processor/memory
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 900 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 900 ps  Iteration: 1  Instance: /processor/memory
+run
+quit -sim
+# End time: 17:19:18 on Jun 14,2021, Elapsed time: 0:01:00
+# Errors: 0, Warnings: 10
+# Compile of processor.vhd was successful.
+# Compile of ram.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of processor.vhd was successful.
+# Compile of ram.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of InstMem.vhd failed with 1 errors.
+# Compile of InstMem.vhd was successful.
+# Compile of InstMem.vhd was successful.
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 17:20:58 on Jun 14,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/inP
+add wave -position insertpoint  \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/PcStart \
+sim:/processor/PcOut \
+sim:/processor/PcCall \
+sim:/processor/newPC
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/WriteBack
+add wave -position insertpoint  \
+sim:/processor/InstructMem/ram
+add wave -position insertpoint  \
+sim:/processor/memory/RAM
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/inP 16#00000005 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run 
+run
+run 
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 400 ps  Iteration: 1  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 400 ps  Iteration: 1  Instance: /processor/memory
+run
+run 
+run
+run
+run
+run
+run
+quit -sim
+# End time: 22:16:29 on Jun 14,2021, Elapsed time: 4:55:31
+# Errors: 0, Warnings: 13
+# Compile of processor.vhd was successful.
