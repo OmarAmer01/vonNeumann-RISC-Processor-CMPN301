@@ -1,4 +1,624 @@
-# Error opening G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/processor.vhd
-# Path name 'G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/processor.vhd' doesn't exist.
-# Error opening G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/processor.vhd
-# Path name 'G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/processor.vhd' doesn't exist.
+# Compile of InstMem.vhd was successful.
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 15:02:32 on Jun 15,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/inP \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/outP
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/inP 00000000000000000000000000000011 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run
+run
+run
+run
+run
+run
+run
+# ** Fatal: (vsim-3734) Index value 1048574 is out of range 0 to 31.
+#    Time: 750 ps  Iteration: 0  Process: /processor/memory/line__54 File: C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd
+# Fatal error in Process line__54 at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd line 59
+# 
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+quit -sim
+# End time: 15:05:01 on Jun 15,2021, Elapsed time: 0:02:29
+# Errors: 1, Warnings: 7
+# Compile of ram.vhd was successful.
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 15:05:29 on Jun 15,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/inP \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/outP
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/inP 00000000000000000000000000000011 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run
+run
+run
+run
+run
+run
+run
+# ** Fatal: (vsim-3734) Index value 1048574 is out of range 0 to 31.
+#    Time: 750 ps  Iteration: 0  Process: /processor/memory/line__54 File: C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd
+# Fatal error in Process line__54 at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd line 59
+# 
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+quit -sim
+# End time: 15:07:23 on Jun 15,2021, Elapsed time: 0:01:54
+# Errors: 1, Warnings: 7
+# Compile of InstMem.vhd was successful.
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 15:07:30 on Jun 15,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/inP \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/outP
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/inP 00000000000000000000000000000011 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Fatal: (vsim-3734) Index value 1048563 is out of range 0 to 31.
+#    Time: 1250 ps  Iteration: 0  Process: /processor/memory/line__54 File: C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd
+# Fatal error in Process line__54 at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd line 59
+# 
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/ram.vhd 59 Process line__54
+# 
+# Compile of processor.vhd was successful.
+# Compile of ram.vhd failed with 2 errors.
+# Compile of ram.vhd was successful.
+quit -sim
+# End time: 15:11:15 on Jun 15,2021, Elapsed time: 0:03:45
+# Errors: 1, Warnings: 10
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 15:11:19 on Jun 15,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/inP \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/outP
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/inP 00000000000000000000000000000011 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Fatal: (vsim-3734) Index value 16 is out of range 0 to 15.
+#    Time: 1500 ps  Iteration: 0  Process: /processor/InstructMem/line__53 File: C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/InstMem.vhd
+# Fatal error in Process line__53 at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/InstMem.vhd line 57
+# 
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/InstMem.vhd 57 Process line__53
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/InstMem.vhd 57 Process line__53
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/InstMem.vhd 57 Process line__53
+# 
+run
+# Cannot continue because of fatal error.
+# HDL call sequence:
+# Stopped at C:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT/InstMem.vhd 57 Process line__53
+# 
+quit -sim
+# End time: 15:13:43 on Jun 15,2021, Elapsed time: 0:02:24
+# Errors: 1, Warnings: 6
+# Compile of InstMem.vhd was successful.
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 15:13:58 on Jun 15,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/inP \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/outP
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/inP 00000000000000000000000000000011 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 15:15:35 on Jun 15,2021, Elapsed time: 0:01:37
+# Errors: 0, Warnings: 7
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 15:15:40 on Jun 15,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/inP \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/outP
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/inP 00000000000000000000000000000011 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+# End time: 15:23:30 on Jun 15,2021, Elapsed time: 0:07:50
+# Errors: 0, Warnings: 6
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 15:25:21 on Jun 15,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+mem load -i C:/Users/Ahmed/Desktop/Test.txt -format hex /processor/InstructMem/ram
+# (vsim-3632) Illegal character 't' for radix 'hexadecimal' on line 1 of file "C:/Users/Ahmed/Desktop/Test.txt".
+# (vsim-3632) Illegal character 'y' for radix 'hexadecimal' on line 1 of file "C:/Users/Ahmed/Desktop/Test.txt".
+# (vsim-3632) Illegal character 'p' for radix 'hexadecimal' on line 1 of file "C:/Users/Ahmed/Desktop/Test.txt".
+mem load -i C:/Users/Ahmed/Desktop/Test.txt -format hex /processor/InstructMem/ram
+# (vsim-3632) Illegal character 't' for radix 'hexadecimal' on line 1 of file "C:/Users/Ahmed/Desktop/Test.txt".
+# (vsim-3632) Illegal character 'y' for radix 'hexadecimal' on line 1 of file "C:/Users/Ahmed/Desktop/Test.txt".
+# (vsim-3632) Illegal character 'p' for radix 'hexadecimal' on line 1 of file "C:/Users/Ahmed/Desktop/Test.txt".
+mem load -i C:/Users/Ahmed/Desktop/Test.txt -format hex /processor/InstructMem/ram
+# (vsim-3632) Illegal character 'r' for radix 'hexadecimal' on line 1 of file "C:/Users/Ahmed/Desktop/Test.txt".
+# (vsim-3632) Illegal character 'm' for radix 'hexadecimal' on line 1 of file "C:/Users/Ahmed/Desktop/Test.txt".
+# (vsim-3632) Illegal character 'T' for radix 'hexadecimal' on line 1 of file "C:/Users/Ahmed/Desktop/Test.txt".
+# (vsim-3632) Illegal character 'y' for radix 'hexadecimal' on line 1 of file "C:/Users/Ahmed/Desktop/Test.txt".
+# (vsim-3632) Illegal character 'p' for radix 'hexadecimal' on line 1 of file "C:/Users/Ahmed/Desktop/Test.txt".
+# (vsim-3632) Illegal character '(' for radix 'hexadecimal' on line 1 of file "C:/Users/Ahmed/Desktop/Test.txt".
+# (vsim-3632) Illegal character ':' for radix 'hexadecimal' on line 1 of file "C:/Users/Ahmed/Desktop/Test.txt".
+# (vsim-3632) Illegal character '=' for radix 'hexadecimal' on line 1 of file "C:/Users/Ahmed/Desktop/Test.txt".
+mem save -o C:/Users/Ahmed/Desktop/exported.mem -f {} /processor/InstructMem/ram
+# Compile of InstMem.vhd was successful.
+# Compile of ram.vhd was successful.
+quit -sim
+# End time: 16:38:50 on Jun 15,2021, Elapsed time: 1:13:29
+# Errors: 0, Warnings: 3
