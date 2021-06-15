@@ -494,11 +494,11 @@ R68
 R11
 R12
 Einstructionmem
-Z70 w1623684053
+Z70 w1623723287
 R14
 R1
 R2
-!i122 828
+!i122 861
 R3
 Z71 8C:\Users\Ahmed\Desktop\Integrated_Pipelined\VHDL - PROJECT\InstMem.vhd
 Z72 FC:\Users\Ahmed\Desktop\Integrated_Pipelined\VHDL - PROJECT\InstMem.vhd
@@ -508,9 +508,9 @@ VA5ToP77:nHL>=f=:X>^z<2
 !s100 69kkUOj3`;[I<`7D9>VI32
 R6
 32
-Z74 !s110 1623684055
+Z74 !s110 1623748789
 !i10b 1
-Z75 !s108 1623684054.000000
+Z75 !s108 1623748788.000000
 Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Ahmed\Desktop\Integrated_Pipelined\VHDL - PROJECT\InstMem.vhd|
 Z77 !s107 C:\Users\Ahmed\Desktop\Integrated_Pipelined\VHDL - PROJECT\InstMem.vhd|
 !i113 1
@@ -521,11 +521,11 @@ R14
 R1
 R2
 DEx4 work 14 instructionmem 0 22 A5ToP77:nHL>=f=:X>^z<2
-!i122 828
+!i122 861
 l52
 L21 41
-V^IC[;gZlXUIdLM5^3ja;Z0
-!s100 JM[>jn=V0AcB0VEo_kHnR0
+V8BkQdaMH:G>Ui1zigNJS13
+!s100 I8M?4T>iT[_GCQ^ef6cKn1
 R6
 32
 R74
@@ -742,11 +742,11 @@ R106
 R11
 R12
 Eprocessor
-Z107 w1623701779
+Z107 w1623748963
 R14
 R1
 R2
-!i122 829
+!i122 864
 R3
 Z108 8C:\Users\Ahmed\Desktop\Integrated_Pipelined\VHDL - PROJECT\processor.vhd
 Z109 FC:\Users\Ahmed\Desktop\Integrated_Pipelined\VHDL - PROJECT\processor.vhd
@@ -756,9 +756,9 @@ VKZ7N[23:Dna0ABIAR<E6F2
 !s100 DDd@GM;_A`TWB__1X?U;<0
 R6
 32
-Z110 !s110 1623701826
+Z110 !s110 1623749026
 !i10b 1
-Z111 !s108 1623701825.000000
+Z111 !s108 1623749026.000000
 Z112 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Ahmed\Desktop\Integrated_Pipelined\VHDL - PROJECT\processor.vhd|
 Z113 !s107 C:\Users\Ahmed\Desktop\Integrated_Pipelined\VHDL - PROJECT\processor.vhd|
 !i113 1
@@ -769,11 +769,11 @@ R14
 R1
 R2
 Z114 DEx4 work 9 processor 0 22 KZ7N[23:Dna0ABIAR<E6F2
-!i122 829
-l257
-L22 297
-VYSgj3mPMMB0Tgii4=o?<N1
-!s100 TQZ9Kzb4]eIJC1<UNn4^X2
+!i122 864
+l261
+Z115 L22 310
+Z116 VT>TJN=6bJeRgoka@EE5R11
+Z117 !s100 9Bzi8e4iXV@6oFdZSL_AY1
 R6
 32
 R110
@@ -785,25 +785,25 @@ R113
 R11
 R12
 Eram
-Z115 w1623682362
+Z118 w1623682362
 R14
 R1
 R2
-!i122 825
+!i122 846
 R3
-Z116 8C:\Users\Ahmed\Desktop\Integrated_Pipelined\VHDL - PROJECT\ram.vhd
-Z117 FC:\Users\Ahmed\Desktop\Integrated_Pipelined\VHDL - PROJECT\ram.vhd
+Z119 8C:\Users\Ahmed\Desktop\Integrated_Pipelined\VHDL - PROJECT\ram.vhd
+Z120 FC:\Users\Ahmed\Desktop\Integrated_Pipelined\VHDL - PROJECT\ram.vhd
 l0
 L8 1
 VDgGX@BniDSz]<kSO]m`4J2
 !s100 P<MnOJU@OaGXH1LZD^?;i3
 R6
 32
-Z118 !s110 1623683985
+Z121 !s110 1623718423
 !i10b 1
-Z119 !s108 1623683985.000000
-Z120 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Ahmed\Desktop\Integrated_Pipelined\VHDL - PROJECT\ram.vhd|
-Z121 !s107 C:\Users\Ahmed\Desktop\Integrated_Pipelined\VHDL - PROJECT\ram.vhd|
+Z122 !s108 1623718423.000000
+Z123 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Ahmed\Desktop\Integrated_Pipelined\VHDL - PROJECT\ram.vhd|
+Z124 !s107 C:\Users\Ahmed\Desktop\Integrated_Pipelined\VHDL - PROJECT\ram.vhd|
 !i113 1
 R11
 R12
@@ -812,29 +812,29 @@ R14
 R1
 R2
 DEx4 work 3 ram 0 22 DgGX@BniDSz]<kSO]m`4J2
-!i122 825
+!i122 846
 l37
 L23 49
 VSmc4cP<9Xg6dF87e8f3k41
 !s100 T3Pa0NZfP4GL49>9AohaI2
 R6
 32
-R118
-!i10b 1
-R119
-R120
 R121
+!i10b 1
+R122
+R123
+R124
 !i113 1
 R11
 R12
 Eregs_file
-Z122 w1623527067
+Z125 w1623527067
 R1
 R2
 !i122 789
 R3
-Z123 8C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/regfile.vhd
-Z124 FC:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/regfile.vhd
+Z126 8C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/regfile.vhd
+Z127 FC:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/regfile.vhd
 l0
 L4 1
 VE3GDi:RYVWEJZDP?TziW=2
@@ -843,9 +843,9 @@ R6
 32
 R104
 !i10b 1
-Z125 !s108 1623671526.000000
-Z126 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/regfile.vhd|
-Z127 !s107 C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/regfile.vhd|
+Z128 !s108 1623671526.000000
+Z129 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/regfile.vhd|
+Z130 !s107 C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/regfile.vhd|
 !i113 1
 R11
 R12
@@ -862,20 +862,20 @@ R6
 32
 R104
 !i10b 1
-R125
-R126
-R127
+R128
+R129
+R130
 !i113 1
 R11
 R12
 Eselector
-Z128 w1623181405
+Z131 w1623181405
 R1
 R2
 !i122 790
 R3
-Z129 8C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/Selector.vhd
-Z130 FC:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/Selector.vhd
+Z132 8C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/Selector.vhd
+Z133 FC:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/Selector.vhd
 l0
 L4 1
 VG2bPfIS]^`GKaIa_QY:FE3
@@ -884,9 +884,9 @@ R6
 32
 R104
 !i10b 1
-R125
-Z131 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/Selector.vhd|
-Z132 !s107 C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/Selector.vhd|
+R128
+Z134 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/Selector.vhd|
+Z135 !s107 C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/Selector.vhd|
 !i113 1
 R11
 R12
@@ -903,21 +903,21 @@ R6
 32
 R104
 !i10b 1
-R125
-R131
-R132
+R128
+R134
+R135
 !i113 1
 R11
 R12
 Eshreg
-Z133 w1623623579
+Z136 w1623623579
 R14
 R1
 R2
 !i122 791
 R3
-Z134 8C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/shReg.vhd
-Z135 FC:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/shReg.vhd
+Z137 8C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/shReg.vhd
+Z138 FC:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/shReg.vhd
 l0
 L9 1
 VP9?UFiQnF]keDB`iRYeJ73
@@ -926,9 +926,9 @@ R6
 32
 R104
 !i10b 1
-R125
-Z136 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/shReg.vhd|
-Z137 !s107 C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/shReg.vhd|
+R128
+Z139 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/shReg.vhd|
+Z140 !s107 C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/shReg.vhd|
 !i113 1
 R11
 R12
@@ -946,32 +946,32 @@ R6
 32
 R104
 !i10b 1
-R125
-R136
-R137
+R128
+R139
+R140
 !i113 1
 R11
 R12
 Eshregtb
-Z138 w1622156711
+Z141 w1622156711
 R14
 R1
 R2
 !i122 184
 R28
-Z139 8G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd
-Z140 FG:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd
+Z142 8G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd
+Z143 FG:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd
 l0
 L8 1
 VCMBnIlTZEOj<>OV?MR<8^3
 !s100 ECbK8?@J<ZdJoQ:O7_;Wn0
 R31
 32
-Z141 !s110 1622653005
+Z144 !s110 1622653005
 !i10b 1
-Z142 !s108 1622653004.000000
-Z143 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd|
-Z144 !s107 G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd|
+Z145 !s108 1622653004.000000
+Z146 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd|
+Z147 !s107 G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd|
 !i113 1
 R11
 R12
@@ -987,23 +987,23 @@ VD<8B[8Di;Pd>7do_Bne[=2
 !s100 kbfD:NiQP8]SfcK2Oi8LZ3
 R31
 32
-R141
-!i10b 1
-R142
-R143
 R144
+!i10b 1
+R145
+R146
+R147
 !i113 1
 R11
 R12
 Esub
-Z145 w1623178430
+Z148 w1623178430
 R14
 R1
 R2
 !i122 792
 R3
-Z146 8C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/Sub.vhd
-Z147 FC:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/Sub.vhd
+Z149 8C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/Sub.vhd
+Z150 FC:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/Sub.vhd
 l0
 L6 1
 V_TbV]QFIFn<=NkS7h`Flh0
@@ -1012,9 +1012,9 @@ R6
 32
 R104
 !i10b 1
-R125
-Z148 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/Sub.vhd|
-Z149 !s107 C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/Sub.vhd|
+R128
+Z151 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/Sub.vhd|
+Z152 !s107 C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/Sub.vhd|
 !i113 1
 R11
 R12
@@ -1032,9 +1032,9 @@ R6
 32
 R104
 !i10b 1
-R125
-R148
-R149
+R128
+R151
+R152
 !i113 1
 R11
 R12
@@ -1044,8 +1044,8 @@ R1
 R2
 !i122 775
 R3
-Z150 8C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/buffer.vhd
-Z151 FC:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/buffer.vhd
+Z153 8C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/buffer.vhd
+Z154 FC:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/buffer.vhd
 l0
 L4 1
 VKghL0M_OYfCoMQz=nB1h;2
@@ -1055,8 +1055,8 @@ R6
 R17
 !i10b 1
 R18
-Z152 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/buffer.vhd|
-Z153 !s107 C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/buffer.vhd|
+Z155 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/buffer.vhd|
+Z156 !s107 C:/Users/Ahmed/Desktop/Integrated_Pipelined/VHDL - PROJECT/buffer.vhd|
 !i113 1
 R11
 R12
@@ -1074,8 +1074,8 @@ R6
 R17
 !i10b 1
 R18
-R152
-R153
+R155
+R156
 !i113 1
 R11
 R12
