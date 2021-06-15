@@ -1,0 +1,41 @@
+
+-- push and pop functions
+
+
+vsim -gui work.processor
+add wave -position insertpoint  \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/memory/RAM
+add wave -position insertpoint  \
+sim:/processor/InstructMem/ram
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/SPstart \
+sim:/processor/SPout \
+sim:/processor/Add2 \
+sim:/processor/Sub2 \
+sim:/processor/Stack_TOP \
+sim:/processor/MemAdd
+restart
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+run
+force -freeze sim:/processor/rst 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
