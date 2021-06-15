@@ -53,7 +53,7 @@ with open('D:\some code\Arch proj\case1.txt' , 'r') as file: # original code
                 elif Instruction[0].upper() in Branch:  # branch operation
                     
                     if len(Instruction) > 1 and Instruction[1].upper() in Registers.keys(): # add register opcode and fill rest with zeroes
-                        print (Instruction , len(Instruction))
+                        #print (Instruction , len(Instruction))
                         Opcode.write(Registers[Instruction[1].upper()] + "00000000")
                     else: # just for RET pretty much
                         Opcode.write("00000000000")
@@ -79,24 +79,47 @@ with open('D:\some code\Arch proj\case1.txt' , 'r') as file: # original code
 with open('D:\some code\Arch proj\Opcode.txt' , 'r') as oc: #file to write in binary
     with open('D:\some code\Arch proj\Test.txt' , 'w') as test: #final toput in VHDL
         test.truncate(0)
-        test.write("type ramType is array(0 to 1024) of std_logic_vector(15 downto 0) ;\nsignal ram : ramType;\n")
+        #test.write("type ramType is array(0 to 1024) of std_logic_vector(15 downto 0) ;\nsignal ram : ramType;\n")
         iteration = 0
         Location = 0
         for line in oc:
             a = line.split()
             if(a and a[0].upper() == ".ORG"):
-                Location = int(a[1])
+                #print(a[1])
+                if iteration != 0:
+                    for i in range (4 - Location % 4):
+                        test.write("0000000000000000 ")
+                        if i == 3 - Location % 4:
+                            test.write("\n")
+                if iteration != 0: 
+                    tempLoc = Location
+                else:
+                    tempLoc=-10
+                Location = int(a[1] , 16)
+                z = Location - (Location % 4)
+                print(z)
+                if Location - tempLoc > 4:
+                    test.write("@" + str(hex(z).split('x')[1]) +" ")
+                    for i in range (Location % 4):
+                        test.write("0000000000000000 ")    
+
             elif len(line) > 20:
                 chunks = [line[i:i+16] for i in range(0, len(line), 16)]
-                h1= hex(int(chunks[0],2)).split('x')[1]
-                h2= hex(int(chunks[1],2)).split('x')[1]                   
-                test.write("ram("+ str(Location) + "):= (x\"" + FillHex(h1) + "\");\n")
+                test.write(chunks[0] + " ")
                 Location +=1
-                test.write("ram("+ str(Location) + "):= (x\"" + FillHex(h2) + "\");\n")
+                if Location % 4 == 0:
+                    test.write("\n@" + str(hex(Location).split('x')[1]) +" ")
+                
+                test.write(chunks[1] + " ")
                 Location +=1
+                if Location % 4 == 0:
+                    test.write("\n@" + str(hex(Location).split('x')[1]) +" ")
             else:
-                h = hex(int(line , 2)).split('x')[1]
-                test.write("ram("+ str(Location) + "):= (x\"" + FillHex(h) + "\");\n")
-                Location+=1
+                test.write(line[:-1] + " ")
+                Location +=1
+                if Location % 4 == 0:
+                    test.write("\n@" + str(hex(Location).split('x')[1]) +" ")
             iteration +=1
+        for i in range (Location % 4):
+            test.write("0000000000000000 ")
         #test.close()
