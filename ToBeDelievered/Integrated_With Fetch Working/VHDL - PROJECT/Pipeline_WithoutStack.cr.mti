@@ -1,0 +1,186 @@
+{H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/processor.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:\Eng\CCE\CMPN courses-20190910T162726Z-001\CMPN courses\Computer Arch\project\Integrated_Pipelined_Without Stack\VHDL - PROJECT\processor.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity processor
+-- Compiling architecture behav of processor
+
+} {} {}} {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/ram.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:\Eng\CCE\CMPN courses-20190910T162726Z-001\CMPN courses\Computer Arch\project\Integrated_Pipelined_Without Stack\VHDL - PROJECT\ram.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity RAM
+-- Compiling architecture Behavioral of RAM
+
+} {} {}} {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/adder  .vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/adder  .vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity adder
+-- Compiling architecture behav of adder
+
+} {} {}} {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Adder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Adder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Adder2
+-- Compiling architecture myAdder of Adder2
+
+} {} {}} {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Selector.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Selector.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Selector
+-- Compiling architecture MySelector of Selector
+
+} {} {}} {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/ctrl.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/ctrl.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ctrl
+-- Compiling architecture behav of ctrl
+
+} {} {}} {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/decoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/decoder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decoder
+-- Compiling architecture mydecoder of decoder
+
+} {} {}} {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Mux2_3bits.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Mux2_3bits.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mux2_3bits
+-- Compiling architecture mymux2 of Mux2_3bits
+
+} {} {}} {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/DFF.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/DFF.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity DFF
+-- Compiling architecture DFF of DFF
+
+} {} {}} {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/shReg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/shReg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity shReg
+-- Compiling architecture behav of shReg
+
+} {} {}} {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/ControlUnit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/ControlUnit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ControlUnit
+-- Compiling architecture My_ControlUnit of ControlUnit
+
+} {} {}} {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/buffer.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/buffer.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tri_state_buffer
+-- Compiling architecture struct of tri_state_buffer
+
+} {} {}} {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/alu.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/alu.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu
+-- Compiling architecture behav of alu
+
+} {} {}} {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Sub.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Sub.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Sub
+-- Compiling architecture mySub of Sub
+
+} {} {}} {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/B1.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/B1.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity B1
+-- Compiling architecture myB1 of B1
+
+} {} {}} {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/decoder24.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/decoder24.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decoder24
+-- Compiling architecture mydecoder24 of decoder24
+
+} {} {}} {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Mux2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Mux2.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mux2
+-- Compiling architecture mymux2 of Mux2
+
+} {} {}} {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/InstMem.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:\Eng\CCE\CMPN courses-20190910T162726Z-001\CMPN courses\Computer Arch\project\Integrated_Pipelined_Without Stack\VHDL - PROJECT\InstMem.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity InstructionMem
+-- Compiling architecture inst of InstructionMem
+
+} {} {}} {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Mux4.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Mux4.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mux4
+-- Compiling architecture mymux4 of Mux4
+
+} {} {}} {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Reg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Reg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_nDFF
+-- Compiling architecture a_my_nDFF of my_nDFF
+
+} {} {}} {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/regfile.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/regfile.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Regs_file
+-- Compiling architecture Regs_struct of Regs_file
+
+} {} {}} {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/FA.vhd} {1 {vcom -work work -2002 -explicit -stats=none {H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/FA.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 2020.3 Compiler 2020.07 Jul 22 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FA
+-- Compiling architecture behav of FA
+
+} {} {}}

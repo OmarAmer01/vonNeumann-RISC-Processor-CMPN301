@@ -1,5 +1,5 @@
 -- One Operand operations
--- Note we add 5 to both registers here
+-- Note that we add 5 to both registers here
 vsim -gui work.processor
 mem load -i C:/Users/Ahmed/Desktop/ToBeDelievered/TestFiles/TestOneOperand.mem /processor/InstructMem/ram
 add wave -position insertpoint  \
@@ -7,9 +7,13 @@ sim:/processor/inP \
 sim:/processor/clk \
 sim:/processor/rst
 add wave -position insertpoint  \
-sim:/processor/RegisterFile/regester0 \
 sim:/processor/RegisterFile/regester1 \
-sim:/processor/RegisterFile/regester2
+sim:/processor/RegisterFile/regester2 \
+sim:/processor/RegisterFile/regester3 \
+sim:/processor/RegisterFile/regester4 \
+sim:/processor/RegisterFile/regester5 \
+sim:/processor/RegisterFile/regester6 \
+sim:/processor/RegisterFile/regester7
 add wave -position insertpoint  \
 sim:/processor/Instruction
 add wave -position insertpoint  \
@@ -18,27 +22,16 @@ add wave -position insertpoint  \
 sim:/processor/ccrOut
 force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
 force -freeze sim:/processor/rst 1 0
-force -freeze sim:/processor/inP 00000000000000000000000000000101 0
 run
 force -freeze sim:/processor/rst 0 0
 run
+force -freeze sim:/processor/inP 00000000000000000000000000000101 0
 run
+force -freeze sim:/processor/inP 00000000000000000000000000011001 0
 run
+force -freeze sim:/processor/inP 00001111111111111111111111111111 0
 run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
+force -freeze sim:/processor/inP 11111111111111111111001100100000 0
 run
 run
 run

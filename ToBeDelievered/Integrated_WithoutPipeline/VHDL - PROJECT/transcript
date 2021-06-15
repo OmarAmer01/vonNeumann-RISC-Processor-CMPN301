@@ -1,0 +1,72 @@
+vsim -gui work.processor
+# vsim -gui work.processor 
+# Start time: 19:36:44 on Jun 15,2021
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.processor(behav)
+# Loading work.adder2(myadder)
+# Loading work.mux2_3bits(mymux2)
+# Loading work.b1(myb1)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.instructionmem(inst)
+# Loading work.controlunit(my_controlunit)
+# Loading work.regs_file(regs_struct)
+# Loading work.decoder(mydecoder)
+# Loading work.tri_state_buffer(struct)
+# Loading work.mux4(mymux4)
+# Loading work.mux2(mymux2)
+# Loading work.alu(behav)
+# Loading work.fa(behav)
+# Loading work.adder(behav)
+# Loading work.shreg(behav)
+# Loading work.decoder24(mydecoder24)
+# Loading work.sub(mysub)
+# Loading work.ram(behavioral)
+# Loading work.selector(myselector)
+add wave -position insertpoint  \
+sim:/processor/inP \
+sim:/processor/clk \
+sim:/processor/rst
+add wave -position insertpoint  \
+sim:/processor/RegisterFile/regester0 \
+sim:/processor/RegisterFile/regester1 \
+sim:/processor/RegisterFile/regester2
+add wave -position insertpoint  \
+sim:/processor/Instruction
+add wave -position insertpoint  \
+sim:/processor/outP
+force -freeze sim:/processor/clk 1 0, 0 {50 ps} -r 100
+force -freeze sim:/processor/rst 1 0
+force -freeze sim:/processor/inP 00000000000000000000000000000011 0
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/memory
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /processor/InstructMem
+force -freeze sim:/processor/rst 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 19:37:10 on Jun 15,2021, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 6

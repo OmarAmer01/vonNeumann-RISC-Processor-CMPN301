@@ -1,0 +1,1081 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dG:/2021 Spring/Architecture/Labs/LAB 4/Sol/Solution/modelSimProj
+Eadder
+Z0 w1622834635
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 940
+Z3 dH:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT
+Z4 8H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/adder  .vhd
+Z5 FH:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/adder  .vhd
+l0
+L4 1
+VU>jiBfcbaZYnkZ3^_ea4m3
+!s100 gb5W8Bh4Ga9[8elTmj2Uo2
+Z6 OV;C;2020.3;71
+32
+Z7 !s110 1623779281
+!i10b 1
+Z8 !s108 1623779281.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/adder  .vhd|
+Z10 !s107 H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/adder  .vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehav
+R1
+R2
+DEx4 work 5 adder 0 22 U>jiBfcbaZYnkZ3^_ea4m3
+!i122 940
+l10
+L9 7
+VioWR?E_BCMkFj[7K9D3i00
+!s100 848eSIaYeZ=^[GEDK]6N51
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eadder2
+Z13 w1623183001
+Z14 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+!i122 941
+R3
+Z15 8H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Adder.vhd
+Z16 FH:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Adder.vhd
+l0
+L5 1
+VLX9ZDg`bJONn650Dlz3?:0
+!s100 2a0XzzBcYjiJamK2?ema83
+R6
+32
+R7
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Adder.vhd|
+Z18 !s107 H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Adder.vhd|
+!i113 1
+R11
+R12
+Amyadder
+R14
+R1
+R2
+DEx4 work 6 adder2 0 22 LX9ZDg`bJONn650Dlz3?:0
+!i122 941
+l16
+L14 7
+V:1K2HS2QEI0VPnj_[H[FZ2
+!s100 ^2Z=dQbjz^A795g7DzcFn3
+R6
+32
+R7
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Ealu
+Z19 w1623365499
+R14
+R1
+R2
+!i122 942
+R3
+Z20 8H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/alu.vhd
+Z21 FH:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/alu.vhd
+l0
+Z22 L10 1
+V``0h:F0XL?Am[`XQXfW<g2
+!s100 [6hb^DT116z9UZ7iP7be<1
+R6
+32
+Z23 !s110 1623779282
+!i10b 1
+R8
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/alu.vhd|
+Z25 !s107 H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/alu.vhd|
+!i113 1
+R11
+R12
+Abehav
+R14
+R1
+R2
+DEx4 work 3 alu 0 22 ``0h:F0XL?Am[`XQXfW<g2
+!i122 942
+l75
+L25 121
+V_T_a]5O=z14C9iPKXnnb?3
+!s100 OeMD5?L_Mj2:3;OWH]L=M2
+R6
+32
+R23
+!i10b 1
+R8
+R24
+R25
+!i113 1
+R11
+R12
+Eau
+Z26 w1622666062
+R14
+R1
+R2
+!i122 274
+Z27 dG:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT
+Z28 8G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/au.vhd
+Z29 FG:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/au.vhd
+l0
+R22
+VkLWH_6lIoU3ObSz7V`^[P1
+!s100 8>MCAmPin:RbQneE;bXLb3
+Z30 OV;C;2020.1;71
+32
+Z31 !s110 1622666065
+!i10b 1
+Z32 !s108 1622666065.000000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/au.vhd|
+Z34 !s107 G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/au.vhd|
+!i113 1
+R11
+R12
+Abehav
+R14
+R1
+R2
+DEx4 work 2 au 0 22 kLWH_6lIoU3ObSz7V`^[P1
+!i122 274
+l49
+L22 78
+VJ42;0oD4=<JjC6g3F@_413
+!s100 z417c=J@gROMeN=:]jP:H3
+R30
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R11
+R12
+Eb1
+Z35 w1623155975
+R1
+R2
+!i122 943
+R3
+Z36 8H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/B1.vhd
+Z37 FH:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/B1.vhd
+l0
+L4 1
+V7dnCX`=eX4[e9iJYcSQPB3
+!s100 M2z=S4R8lJ:XJc;T]5JY=0
+R6
+32
+R23
+!i10b 1
+Z38 !s108 1623779282.000000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/B1.vhd|
+Z40 !s107 H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/B1.vhd|
+!i113 1
+R11
+R12
+Amyb1
+R1
+R2
+DEx4 work 2 b1 0 22 7dnCX`=eX4[e9iJYcSQPB3
+!i122 943
+l17
+L11 15
+VJcJODl6EL?<ioPNz:oWcb0
+!s100 GIX]IQ7S=F4LQ1:4M`hn41
+R6
+32
+R23
+!i10b 1
+R38
+R39
+R40
+!i113 1
+R11
+R12
+Econtrolunit
+Z41 w1623535037
+R14
+R1
+R2
+!i122 945
+R3
+Z42 8H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/ControlUnit.vhd
+Z43 FH:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/ControlUnit.vhd
+l0
+L5 1
+VCm?Ln]7>k=3:hR4cbzLn03
+!s100 Vz^<h<O1J?OGjC;aOz]B50
+R6
+32
+R23
+!i10b 1
+R38
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/ControlUnit.vhd|
+Z45 !s107 H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/ControlUnit.vhd|
+!i113 1
+R11
+R12
+Amy_controlunit
+R14
+R1
+R2
+DEx4 work 11 controlunit 0 22 Cm?Ln]7>k=3:hR4cbzLn03
+!i122 945
+l12
+L11 31
+V_h5_ZMn_W1FObZW1H5hh51
+!s100 naYkPkE8SKG8eT3XEUCU80
+R6
+32
+R23
+!i10b 1
+R38
+R44
+R45
+!i113 1
+R11
+R12
+Ectrl
+Z46 w1623139110
+R14
+R1
+R2
+!i122 946
+R3
+Z47 8H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/ctrl.vhd
+Z48 FH:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/ctrl.vhd
+l0
+L9 1
+VbzFaj^mcHMYj]Y]EgTG5T3
+!s100 H=2mE:^o:2jSUjGbf=>]03
+R6
+32
+R23
+!i10b 1
+R38
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/ctrl.vhd|
+Z50 !s107 H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/ctrl.vhd|
+!i113 1
+R11
+R12
+Abehav
+R14
+R1
+R2
+DEx4 work 4 ctrl 0 22 bzFaj^mcHMYj]Y]EgTG5T3
+!i122 946
+l32
+L16 35
+V]XkOZAmH`=0=zC9^9H>CC3
+!s100 cJZf]TP=UQT<B]gz@GzG40
+R6
+32
+R23
+!i10b 1
+R38
+R49
+R50
+!i113 1
+R11
+R12
+Edecoder
+R0
+R1
+R2
+!i122 947
+R3
+Z51 8H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/decoder.vhd
+Z52 FH:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/decoder.vhd
+l0
+L4 1
+VM5][BV6TibLKLo=W3:TiG3
+!s100 ZdeG4kO;>XCI^aGnX0Pkf2
+R6
+32
+R23
+!i10b 1
+R38
+Z53 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/decoder.vhd|
+Z54 !s107 H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/decoder.vhd|
+!i113 1
+R11
+R12
+Amydecoder
+R1
+R2
+DEx4 work 7 decoder 0 22 M5][BV6TibLKLo=W3:TiG3
+!i122 947
+l13
+L12 12
+Vc>Fch`EGPFQM_4T2MZ_Ak1
+!s100 <nUOWcH6@TiFHeJRBiL]B0
+R6
+32
+R23
+!i10b 1
+R38
+R53
+R54
+!i113 1
+R11
+R12
+Edecoder24
+R35
+R1
+R2
+!i122 948
+R3
+Z55 8H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/decoder24.vhd
+Z56 FH:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/decoder24.vhd
+l0
+L4 1
+VXI0F1S0zo2bbgRez7;T4c1
+!s100 3PkZRG:7oAm`;<TSKEfZW1
+R6
+32
+R23
+!i10b 1
+R38
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/decoder24.vhd|
+Z58 !s107 H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/decoder24.vhd|
+!i113 1
+R11
+R12
+Amydecoder24
+R1
+R2
+DEx4 work 9 decoder24 0 22 XI0F1S0zo2bbgRez7;T4c1
+!i122 948
+l12
+L11 7
+VW;h6N<:lT?>5khb0VlWmY1
+!s100 QNKRkGanSZz^HIocK9C:20
+R6
+32
+R23
+!i10b 1
+R38
+R57
+R58
+!i113 1
+R11
+R12
+Edff
+Z59 w1623583924
+R1
+R2
+!i122 949
+R3
+Z60 8H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/DFF.vhd
+Z61 FH:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/DFF.vhd
+l0
+L4 1
+V0^>D07Ed=gEW=;:`[@MIl1
+!s100 zXb:8JY8JXCXV<cmXeOG]3
+R6
+32
+R23
+!i10b 1
+R38
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/DFF.vhd|
+Z63 !s107 H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/DFF.vhd|
+!i113 1
+R11
+R12
+Adff
+R1
+R2
+DEx4 work 3 dff 0 22 0^>D07Ed=gEW=;:`[@MIl1
+!i122 949
+l14
+L12 13
+VY0LUBG5B99jN5QY8Y9aF?2
+!s100 ^eRS7UiEe<WbZ]@e1W@6e0
+R6
+32
+R23
+!i10b 1
+R38
+R62
+R63
+!i113 1
+R11
+R12
+Aarch_dff
+R1
+R2
+DEx4 work 3 dff 0 22 5eZl8W@3TYGA[1o384zn23
+!i122 597
+l12
+L11 13
+VHo5makQYjo^0U[=OEdl=g1
+!s100 C`?XP1_Zj>0Zm1Xj?<67B0
+R6
+32
+!s110 1623526603
+!i10b 1
+!s108 1623526603.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\Ahmed\Desktop\Integrated\VHDL - PROJECT\DFF.vhd|
+!s107 C:\Users\Ahmed\Desktop\Integrated\VHDL - PROJECT\DFF.vhd|
+!i113 1
+R11
+R12
+w1623515724
+dC:/Users/Ahmed/Desktop/Integrated/VHDL - PROJECT
+FC:\Users\Ahmed\Desktop\Integrated\VHDL - PROJECT\DFF.vhd
+8C:\Users\Ahmed\Desktop\Integrated\VHDL - PROJECT\DFF.vhd
+Efa
+R0
+R1
+R2
+!i122 950
+R3
+Z64 8H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/FA.vhd
+Z65 FH:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/FA.vhd
+l0
+L4 1
+VM7hB?9KB@OO8:=6AO:KkU1
+!s100 jzB=A]7a@_?[=@11O?Dk]2
+R6
+32
+R23
+!i10b 1
+R38
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/FA.vhd|
+Z67 !s107 H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/FA.vhd|
+!i113 1
+R11
+R12
+Abehav
+R1
+R2
+DEx4 work 2 fa 0 22 M7hB?9KB@OO8:=6AO:KkU1
+!i122 950
+l18
+Z68 L12 14
+V]7GdEHA`eWb9MP7O2Yh4Y0
+!s100 aDEjm@BU71`k^c_JSRQ>C2
+R6
+32
+R23
+!i10b 1
+R38
+R66
+R67
+!i113 1
+R11
+R12
+Einstructionmem
+Z69 w1623786335
+R14
+R1
+R2
+!i122 962
+R3
+Z70 8H:\Eng\CCE\CMPN courses-20190910T162726Z-001\CMPN courses\Computer Arch\project\Integrated_Pipelined_Without Stack\VHDL - PROJECT\InstMem.vhd
+Z71 FH:\Eng\CCE\CMPN courses-20190910T162726Z-001\CMPN courses\Computer Arch\project\Integrated_Pipelined_Without Stack\VHDL - PROJECT\InstMem.vhd
+l0
+Z72 L11 1
+VA5ToP77:nHL>=f=:X>^z<2
+!s100 69kkUOj3`;[I<`7D9>VI32
+R6
+32
+Z73 !s110 1623786348
+!i10b 1
+Z74 !s108 1623786348.000000
+Z75 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:\Eng\CCE\CMPN courses-20190910T162726Z-001\CMPN courses\Computer Arch\project\Integrated_Pipelined_Without Stack\VHDL - PROJECT\InstMem.vhd|
+Z76 !s107 H:\Eng\CCE\CMPN courses-20190910T162726Z-001\CMPN courses\Computer Arch\project\Integrated_Pipelined_Without Stack\VHDL - PROJECT\InstMem.vhd|
+!i113 1
+R11
+R12
+Ainst
+R14
+R1
+R2
+DEx4 work 14 instructionmem 0 22 A5ToP77:nHL>=f=:X>^z<2
+!i122 962
+l53
+L21 42
+Vjo?iYH1o]<P2J3jdF?CgI1
+!s100 E8R`N4YAoYZ0h]G;26lUe0
+R6
+32
+R73
+!i10b 1
+R74
+R75
+R76
+!i113 1
+R11
+R12
+Emux2
+Z77 w1623181892
+R1
+R2
+!i122 952
+R3
+Z78 8H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Mux2.vhd
+Z79 FH:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Mux2.vhd
+l0
+L4 1
+V>E4bKQ2GFMe9o82o3Sb6E1
+!s100 >QW]1NF0K:Nk4ohV=jART1
+R6
+32
+Z80 !s110 1623779283
+!i10b 1
+Z81 !s108 1623779283.000000
+Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Mux2.vhd|
+Z83 !s107 H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Mux2.vhd|
+!i113 1
+R11
+R12
+Amymux2
+R1
+R2
+DEx4 work 4 mux2 0 22 >E4bKQ2GFMe9o82o3Sb6E1
+!i122 952
+l14
+L13 5
+V3LcTA2<LY>Ge9n6o9]TPo1
+!s100 o@jBTN[h75DiOZX<g^EeK2
+R6
+32
+R80
+!i10b 1
+R81
+R82
+R83
+!i113 1
+R11
+R12
+Emux2_3bits
+Z84 w1623181866
+R1
+R2
+!i122 953
+R3
+Z85 8H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Mux2_3bits.vhd
+Z86 FH:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Mux2_3bits.vhd
+l0
+L5 1
+VfNeb7ibQcD?^0<kzm3UQ=1
+!s100 do56l7RZ]IR7JDMU9WlLm3
+R6
+32
+R80
+!i10b 1
+R81
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Mux2_3bits.vhd|
+Z88 !s107 H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Mux2_3bits.vhd|
+!i113 1
+R11
+R12
+Amymux2
+R1
+R2
+DEx4 work 10 mux2_3bits 0 22 fNeb7ibQcD?^0<kzm3UQ=1
+!i122 953
+l15
+L14 5
+VYT]Dl5PBj=bBzN8WX0KCz3
+!s100 VSC43UQWVkjcK3InOTCoa1
+R6
+32
+R80
+!i10b 1
+R81
+R87
+R88
+!i113 1
+R11
+R12
+Emux4
+R35
+R1
+R2
+!i122 954
+R3
+Z89 8H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Mux4.vhd
+Z90 FH:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Mux4.vhd
+l0
+L4 1
+V?MOIcc`_SY7hG@[fF1adD3
+!s100 cDSNc>JQER[4Ae]2zWAk^3
+R6
+32
+R80
+!i10b 1
+R81
+Z91 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Mux4.vhd|
+Z92 !s107 H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Mux4.vhd|
+!i113 1
+R11
+R12
+Amymux4
+R1
+R2
+DEx4 work 4 mux4 0 22 ?MOIcc`_SY7hG@[fF1adD3
+!i122 954
+l16
+Z93 L15 7
+VPdkE3g>2jDGJ?k]i5DK@T3
+!s100 >5P^G6[;kPa;i5SZh3NBN0
+R6
+32
+R80
+!i10b 1
+R81
+R91
+R92
+!i113 1
+R11
+R12
+Emy_nadder
+Z94 w1617218639
+R1
+R2
+!i122 239
+R27
+Z95 8G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/FA.vhd
+Z96 FG:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/FA.vhd
+l0
+L4 1
+VBU7i6Z:i@FM1<n><m4RaF0
+!s100 1:lM=NV]UN4n6>Z_Y?04d2
+R30
+32
+Z97 !s110 1622660697
+!i10b 1
+Z98 !s108 1622660697.000000
+Z99 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/FA.vhd|
+Z100 !s107 G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/FA.vhd|
+!i113 1
+R11
+R12
+Aprimary
+R1
+R2
+DEx4 work 9 my_nadder 0 22 BU7i6Z:i@FM1<n><m4RaF0
+!i122 239
+l18
+R68
+VQHUMK^b3]a;N<cgLTE?am2
+!s100 AkF]U7^:faOi_BTUFQIYF0
+R30
+32
+R97
+!i10b 1
+R98
+R99
+R100
+!i113 1
+R11
+R12
+Emy_ndff
+Z101 w1623526244
+R1
+R2
+!i122 957
+R3
+Z102 8H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Reg.vhd
+Z103 FH:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Reg.vhd
+l0
+L4 1
+V6fhgAcb;]ZM86LhmnaW<E3
+!s100 a0ikd721_P<h?hf70ahjI0
+R6
+32
+R80
+!i10b 1
+R81
+Z104 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Reg.vhd|
+Z105 !s107 H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Reg.vhd|
+!i113 1
+R11
+R12
+Aa_my_ndff
+R1
+R2
+DEx4 work 7 my_ndff 0 22 6fhgAcb;]ZM86LhmnaW<E3
+!i122 957
+l14
+R68
+VoK0jBSCW0<Z?k?G]7j_583
+!s100 FNKf^>[=^2PLJEVPhXScD2
+R6
+32
+R80
+!i10b 1
+R81
+R104
+R105
+!i113 1
+R11
+R12
+Eprocessor
+Z106 w1623788037
+R14
+R1
+R2
+!i122 965
+R3
+Z107 8H:\Eng\CCE\CMPN courses-20190910T162726Z-001\CMPN courses\Computer Arch\project\Integrated_Pipelined_Without Stack\VHDL - PROJECT\processor.vhd
+Z108 FH:\Eng\CCE\CMPN courses-20190910T162726Z-001\CMPN courses\Computer Arch\project\Integrated_Pipelined_Without Stack\VHDL - PROJECT\processor.vhd
+l0
+R72
+VKZ7N[23:Dna0ABIAR<E6F2
+!s100 DDd@GM;_A`TWB__1X?U;<0
+R6
+32
+Z109 !s110 1623788063
+!i10b 1
+Z110 !s108 1623788063.000000
+Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:\Eng\CCE\CMPN courses-20190910T162726Z-001\CMPN courses\Computer Arch\project\Integrated_Pipelined_Without Stack\VHDL - PROJECT\processor.vhd|
+Z112 !s107 H:\Eng\CCE\CMPN courses-20190910T162726Z-001\CMPN courses\Computer Arch\project\Integrated_Pipelined_Without Stack\VHDL - PROJECT\processor.vhd|
+!i113 1
+R11
+R12
+Abehav
+R14
+R1
+R2
+Z113 DEx4 work 9 processor 0 22 KZ7N[23:Dna0ABIAR<E6F2
+!i122 965
+l255
+L22 290
+V3<:jkkIIVlkg=3I2l`5Fb3
+!s100 ba[Xl>NRVBS;FWIU;J3[[1
+R6
+32
+R109
+!i10b 1
+R110
+R111
+R112
+!i113 1
+R11
+R12
+Eram
+Z114 w1623786868
+R14
+R1
+R2
+!i122 964
+R3
+Z115 8H:\Eng\CCE\CMPN courses-20190910T162726Z-001\CMPN courses\Computer Arch\project\Integrated_Pipelined_Without Stack\VHDL - PROJECT\ram.vhd
+Z116 FH:\Eng\CCE\CMPN courses-20190910T162726Z-001\CMPN courses\Computer Arch\project\Integrated_Pipelined_Without Stack\VHDL - PROJECT\ram.vhd
+l0
+L8 1
+VDgGX@BniDSz]<kSO]m`4J2
+!s100 P<MnOJU@OaGXH1LZD^?;i3
+R6
+32
+Z117 !s110 1623786888
+!i10b 1
+Z118 !s108 1623786888.000000
+Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:\Eng\CCE\CMPN courses-20190910T162726Z-001\CMPN courses\Computer Arch\project\Integrated_Pipelined_Without Stack\VHDL - PROJECT\ram.vhd|
+Z120 !s107 H:\Eng\CCE\CMPN courses-20190910T162726Z-001\CMPN courses\Computer Arch\project\Integrated_Pipelined_Without Stack\VHDL - PROJECT\ram.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R14
+R1
+R2
+DEx4 work 3 ram 0 22 DgGX@BniDSz]<kSO]m`4J2
+!i122 964
+l30
+L23 39
+VFoiZf]2?GcgR@G11R4@1k2
+!s100 hHzWnaam>O<LG]PJ]`dKL3
+R6
+32
+R117
+!i10b 1
+R118
+R119
+R120
+!i113 1
+R11
+R12
+Eregs_file
+Z121 w1623527067
+R1
+R2
+!i122 958
+R3
+Z122 8H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/regfile.vhd
+Z123 FH:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/regfile.vhd
+l0
+L4 1
+VE3GDi:RYVWEJZDP?TziW=2
+!s100 9Gm=n;ogN>oMGQQ56OmAA2
+R6
+32
+R80
+!i10b 1
+R81
+Z124 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/regfile.vhd|
+Z125 !s107 H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/regfile.vhd|
+!i113 1
+R11
+R12
+Aregs_struct
+R1
+R2
+DEx4 work 9 regs_file 0 22 E3GDi:RYVWEJZDP?TziW=2
+!i122 958
+l62
+L21 78
+V5mI3V>[XllS9g`U^I2`gX1
+!s100 HoVP=5eCW:24b`9MX=YnM3
+R6
+32
+R80
+!i10b 1
+R81
+R124
+R125
+!i113 1
+R11
+R12
+Eselector
+Z126 w1623181405
+R1
+R2
+!i122 959
+R3
+Z127 8H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Selector.vhd
+Z128 FH:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Selector.vhd
+l0
+L4 1
+VG2bPfIS]^`GKaIa_QY:FE3
+!s100 OP:_c2`K?g0oNbX`zLhL53
+R6
+32
+Z129 !s110 1623779284
+!i10b 1
+R81
+Z130 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Selector.vhd|
+Z131 !s107 H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Selector.vhd|
+!i113 1
+R11
+R12
+Amyselector
+R1
+R2
+DEx4 work 8 selector 0 22 G2bPfIS]^`GKaIa_QY:FE3
+!i122 959
+l22
+L11 16
+VVEDQlKVU]NNB2H[LFf?EI3
+!s100 V6k[?LJR?HSU^JY>N[eEn1
+R6
+32
+R129
+!i10b 1
+R81
+R130
+R131
+!i113 1
+R11
+R12
+Eshreg
+Z132 w1623623579
+R14
+R1
+R2
+!i122 960
+R3
+Z133 8H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/shReg.vhd
+Z134 FH:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/shReg.vhd
+l0
+L9 1
+VP9?UFiQnF]keDB`iRYeJ73
+!s100 ^OA?CW7eXlNof7b;NCPjN1
+R6
+32
+R129
+!i10b 1
+Z135 !s108 1623779284.000000
+Z136 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/shReg.vhd|
+Z137 !s107 H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/shReg.vhd|
+!i113 1
+R11
+R12
+Abehav
+R14
+R1
+R2
+DEx4 work 5 shreg 0 22 P9?UFiQnF]keDB`iRYeJ73
+!i122 960
+l24
+L22 35
+VA;Oina>R8z]GF]=PdoB=>0
+!s100 [IlW;7b0TcZ>UD]W1kjTU3
+R6
+32
+R129
+!i10b 1
+R135
+R136
+R137
+!i113 1
+R11
+R12
+Eshregtb
+Z138 w1622156711
+R14
+R1
+R2
+!i122 184
+R27
+Z139 8G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd
+Z140 FG:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd
+l0
+L8 1
+VCMBnIlTZEOj<>OV?MR<8^3
+!s100 ECbK8?@J<ZdJoQ:O7_;Wn0
+R30
+32
+Z141 !s110 1622653005
+!i10b 1
+Z142 !s108 1622653004.000000
+Z143 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd|
+Z144 !s107 G:/2021 Spring/Architecture/Project/vonNeumann-RISC-Processor-CMPN301/VHDL - PROJECT/ALU/tb/shRegTb.vhd|
+!i113 1
+R11
+R12
+Atb
+R14
+R1
+R2
+DEx4 work 7 shregtb 0 22 CMBnIlTZEOj<>OV?MR<8^3
+!i122 184
+l37
+L11 56
+VD<8B[8Di;Pd>7do_Bne[=2
+!s100 kbfD:NiQP8]SfcK2Oi8LZ3
+R30
+32
+R141
+!i10b 1
+R142
+R143
+R144
+!i113 1
+R11
+R12
+Esub
+Z145 w1623178430
+R14
+R1
+R2
+!i122 961
+R3
+Z146 8H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Sub.vhd
+Z147 FH:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Sub.vhd
+l0
+L6 1
+V_TbV]QFIFn<=NkS7h`Flh0
+!s100 VkC<beKcdi`<1nZa_C<K[0
+R6
+32
+R129
+!i10b 1
+R135
+Z148 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Sub.vhd|
+Z149 !s107 H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/Sub.vhd|
+!i113 1
+R11
+R12
+Amysub
+R14
+R1
+R2
+DEx4 work 3 sub 0 22 _TbV]QFIFn<=NkS7h`Flh0
+!i122 961
+l17
+R93
+VF]mEbU^IB4`YQAzjSPOIn1
+!s100 k9:P]WKgMBaW]ABCF=6kj0
+R6
+32
+R129
+!i10b 1
+R135
+R148
+R149
+!i113 1
+R11
+R12
+Etri_state_buffer
+R0
+R1
+R2
+!i122 944
+R3
+Z150 8H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/buffer.vhd
+Z151 FH:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/buffer.vhd
+l0
+L4 1
+VKghL0M_OYfCoMQz=nB1h;2
+!s100 IgVO69=RGWKBC?V92fBmT0
+R6
+32
+R23
+!i10b 1
+R38
+Z152 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/buffer.vhd|
+Z153 !s107 H:/Eng/CCE/CMPN courses-20190910T162726Z-001/CMPN courses/Computer Arch/project/Integrated_Pipelined_Without Stack/VHDL - PROJECT/buffer.vhd|
+!i113 1
+R11
+R12
+Astruct
+R1
+R2
+DEx4 work 16 tri_state_buffer 0 22 KghL0M_OYfCoMQz=nB1h;2
+!i122 944
+l14
+L13 4
+VSHA^nQDaVEACoo]=j2EdD1
+!s100 Kd0gG[cDd;mVcBnkVAeY^1
+R6
+32
+R23
+!i10b 1
+R38
+R152
+R153
+!i113 1
+R11
+R12

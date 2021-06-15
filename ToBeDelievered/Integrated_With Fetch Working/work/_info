@@ -1,0 +1,1022 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_pro/20.4
+Eadder
+Z0 w1623230370
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 462
+Z3 dD:/Eng materials/6th semester/archtecture/Project/Integrated
+Z4 8D:/Eng materials/6th semester/archtecture/Project/Integrated/ALU/adder.vhd
+Z5 FD:/Eng materials/6th semester/archtecture/Project/Integrated/ALU/adder.vhd
+l0
+L4 1
+VU>jiBfcbaZYnkZ3^_ea4m3
+!s100 gb5W8Bh4Ga9[8elTmj2Uo2
+Z6 OV;C;2020.3;71
+32
+Z7 !s110 1623235783
+!i10b 1
+Z8 !s108 1623235783.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Eng materials/6th semester/archtecture/Project/Integrated/ALU/adder.vhd|
+Z10 !s107 D:/Eng materials/6th semester/archtecture/Project/Integrated/ALU/adder.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehav
+R1
+R2
+DEx4 work 5 adder 0 22 U>jiBfcbaZYnkZ3^_ea4m3
+!i122 462
+l10
+L9 7
+VioWR?E_BCMkFj[7K9D3i00
+!s100 848eSIaYeZ=^[GEDK]6N51
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Amyadder
+Z13 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R1
+R2
+DEx4 work 5 adder 0 22 1R^;8fBMARk=J:@=kFKm30
+!i122 291
+l16
+Z14 L14 7
+V9Y>4gmd;dUXG4WQ8U`z7O2
+!s100 1dHeeBdEYoA3kgZVnBMhk2
+R6
+32
+!s110 1623182704
+!i10b 1
+!s108 1623182703.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/components/Adder.vhd|
+!s107 C:/Users/Ahmed/Desktop/ProjectArch/components/Adder.vhd|
+!i113 1
+R11
+R12
+FC:/Users/Ahmed/Desktop/ProjectArch/components/Adder.vhd
+w1623182348
+8C:/Users/Ahmed/Desktop/ProjectArch/components/Adder.vhd
+Z15 dC:/Users/Ahmed/Desktop/ProjectArch
+Eadder2
+Z16 w1623230430
+R13
+R1
+R2
+!i122 467
+R3
+Z17 8D:/Eng materials/6th semester/archtecture/Project/Integrated/components/Adder.vhd
+Z18 FD:/Eng materials/6th semester/archtecture/Project/Integrated/components/Adder.vhd
+l0
+L5 1
+VLX9ZDg`bJONn650Dlz3?:0
+!s100 2a0XzzBcYjiJamK2?ema83
+R6
+32
+Z19 !s110 1623235784
+!i10b 1
+Z20 !s108 1623235784.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Eng materials/6th semester/archtecture/Project/Integrated/components/Adder.vhd|
+Z22 !s107 D:/Eng materials/6th semester/archtecture/Project/Integrated/components/Adder.vhd|
+!i113 1
+R11
+R12
+Amyadder
+R13
+R1
+R2
+DEx4 work 6 adder2 0 22 LX9ZDg`bJONn650Dlz3?:0
+!i122 467
+l16
+R14
+V:1K2HS2QEI0VPnj_[H[FZ2
+!s100 ^2Z=dQbjz^A795g7DzcFn3
+R6
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R11
+R12
+Ealu
+R0
+R13
+R1
+R2
+!i122 463
+R3
+Z23 8D:/Eng materials/6th semester/archtecture/Project/Integrated/ALU/alu.vhd
+Z24 FD:/Eng materials/6th semester/archtecture/Project/Integrated/ALU/alu.vhd
+l0
+L10 1
+V``0h:F0XL?Am[`XQXfW<g2
+!s100 [6hb^DT116z9UZ7iP7be<1
+R6
+32
+R7
+!i10b 1
+R8
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Eng materials/6th semester/archtecture/Project/Integrated/ALU/alu.vhd|
+Z26 !s107 D:/Eng materials/6th semester/archtecture/Project/Integrated/ALU/alu.vhd|
+!i113 1
+R11
+R12
+Abehav
+R13
+R1
+R2
+DEx4 work 3 alu 0 22 ``0h:F0XL?Am[`XQXfW<g2
+!i122 463
+l75
+L25 121
+VWJaXOh2n:6d]cJg2W9KTa3
+!s100 9:8zMYD3Q]YKG1BCK09D=0
+R6
+32
+R7
+!i10b 1
+R8
+R25
+R26
+!i113 1
+R11
+R12
+Eb1
+R16
+R1
+R2
+!i122 468
+R3
+Z27 8D:/Eng materials/6th semester/archtecture/Project/Integrated/components/B1.vhd
+Z28 FD:/Eng materials/6th semester/archtecture/Project/Integrated/components/B1.vhd
+l0
+L4 1
+V7dnCX`=eX4[e9iJYcSQPB3
+!s100 M2z=S4R8lJ:XJc;T]5JY=0
+R6
+32
+R19
+!i10b 1
+R20
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Eng materials/6th semester/archtecture/Project/Integrated/components/B1.vhd|
+Z30 !s107 D:/Eng materials/6th semester/archtecture/Project/Integrated/components/B1.vhd|
+!i113 1
+R11
+R12
+Amyb1
+R1
+R2
+DEx4 work 2 b1 0 22 7dnCX`=eX4[e9iJYcSQPB3
+!i122 468
+l17
+L11 15
+VJcJODl6EL?<ioPNz:oWcb0
+!s100 GIX]IQ7S=F4LQ1:4M`hn41
+R6
+32
+R19
+!i10b 1
+R20
+R29
+R30
+!i113 1
+R11
+R12
+Econtrolunit
+R0
+R13
+R1
+R2
+!i122 456
+R3
+Z31 8D:/Eng materials/6th semester/archtecture/Project/Integrated/ControlUnit.vhd
+Z32 FD:/Eng materials/6th semester/archtecture/Project/Integrated/ControlUnit.vhd
+l0
+L5 1
+VCm?Ln]7>k=3:hR4cbzLn03
+!s100 Vz^<h<O1J?OGjC;aOz]B50
+R6
+32
+Z33 !s110 1623235781
+!i10b 1
+Z34 !s108 1623235781.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Eng materials/6th semester/archtecture/Project/Integrated/ControlUnit.vhd|
+Z36 !s107 D:/Eng materials/6th semester/archtecture/Project/Integrated/ControlUnit.vhd|
+!i113 1
+R11
+R12
+Amy_controlunit
+R13
+R1
+R2
+DEx4 work 11 controlunit 0 22 Cm?Ln]7>k=3:hR4cbzLn03
+!i122 456
+l12
+L11 30
+Vo9FQ>UW3];4I_7gmh0LZJ1
+!s100 VX_0D^OkK_FA45eme<MN53
+R6
+32
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R11
+R12
+Ectrl
+R0
+R13
+R1
+R2
+!i122 464
+R3
+Z37 8D:/Eng materials/6th semester/archtecture/Project/Integrated/ALU/ctrl.vhd
+Z38 FD:/Eng materials/6th semester/archtecture/Project/Integrated/ALU/ctrl.vhd
+l0
+L9 1
+VbzFaj^mcHMYj]Y]EgTG5T3
+!s100 H=2mE:^o:2jSUjGbf=>]03
+R6
+32
+R7
+!i10b 1
+R8
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Eng materials/6th semester/archtecture/Project/Integrated/ALU/ctrl.vhd|
+Z40 !s107 D:/Eng materials/6th semester/archtecture/Project/Integrated/ALU/ctrl.vhd|
+!i113 1
+R11
+R12
+Abehav
+R13
+R1
+R2
+DEx4 work 4 ctrl 0 22 bzFaj^mcHMYj]Y]EgTG5T3
+!i122 464
+l32
+L16 35
+V]XkOZAmH`=0=zC9^9H>CC3
+!s100 cJZf]TP=UQT<B]gz@GzG40
+R6
+32
+R7
+!i10b 1
+R8
+R39
+R40
+!i113 1
+R11
+R12
+Edecoder
+R0
+R1
+R2
+!i122 474
+R3
+Z41 8D:/Eng materials/6th semester/archtecture/Project/Integrated/Register File/decoder.vhd
+Z42 FD:/Eng materials/6th semester/archtecture/Project/Integrated/Register File/decoder.vhd
+l0
+L4 1
+VM5][BV6TibLKLo=W3:TiG3
+!s100 ZdeG4kO;>XCI^aGnX0Pkf2
+R6
+32
+Z43 !s110 1623235786
+!i10b 1
+Z44 !s108 1623235785.000000
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Eng materials/6th semester/archtecture/Project/Integrated/Register File/decoder.vhd|
+Z46 !s107 D:/Eng materials/6th semester/archtecture/Project/Integrated/Register File/decoder.vhd|
+!i113 1
+R11
+R12
+Amydecoder
+R1
+R2
+DEx4 work 7 decoder 0 22 M5][BV6TibLKLo=W3:TiG3
+!i122 474
+l13
+L12 12
+Vc>Fch`EGPFQM_4T2MZ_Ak1
+!s100 <nUOWcH6@TiFHeJRBiL]B0
+R6
+32
+R43
+!i10b 1
+R44
+R45
+R46
+!i113 1
+R11
+R12
+Edecoder24
+R16
+R1
+R2
+!i122 469
+R3
+Z47 8D:/Eng materials/6th semester/archtecture/Project/Integrated/components/decoder24.vhd
+Z48 FD:/Eng materials/6th semester/archtecture/Project/Integrated/components/decoder24.vhd
+l0
+L4 1
+VXI0F1S0zo2bbgRez7;T4c1
+!s100 3PkZRG:7oAm`;<TSKEfZW1
+R6
+32
+R19
+!i10b 1
+R20
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Eng materials/6th semester/archtecture/Project/Integrated/components/decoder24.vhd|
+Z50 !s107 D:/Eng materials/6th semester/archtecture/Project/Integrated/components/decoder24.vhd|
+!i113 1
+R11
+R12
+Amydecoder24
+R1
+R2
+DEx4 work 9 decoder24 0 22 XI0F1S0zo2bbgRez7;T4c1
+!i122 469
+l12
+L11 7
+VW;h6N<:lT?>5khb0VlWmY1
+!s100 QNKRkGanSZz^HIocK9C:20
+R6
+32
+R19
+!i10b 1
+R20
+R49
+R50
+!i113 1
+R11
+R12
+Edff
+Z51 w1623234128
+R1
+R2
+!i122 457
+R3
+Z52 8D:/Eng materials/6th semester/archtecture/Project/Integrated/DFF.vhd
+Z53 FD:/Eng materials/6th semester/archtecture/Project/Integrated/DFF.vhd
+l0
+L4 1
+V5eZl8W@3TYGA[1o384zn23
+!s100 20JNHeDW05RWbFZ]hWdSo2
+R6
+32
+R33
+!i10b 1
+R34
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Eng materials/6th semester/archtecture/Project/Integrated/DFF.vhd|
+Z55 !s107 D:/Eng materials/6th semester/archtecture/Project/Integrated/DFF.vhd|
+!i113 1
+R11
+R12
+Aarch_dff
+R1
+R2
+DEx4 work 3 dff 0 22 5eZl8W@3TYGA[1o384zn23
+!i122 457
+l12
+L11 13
+V<S4;VS7LVKY?W22RY=NnI3
+!s100 zPB576Ib1V>2gMB3_2JQ_2
+R6
+32
+R33
+!i10b 1
+R34
+R54
+R55
+!i113 1
+R11
+R12
+Efa
+R0
+R1
+R2
+!i122 465
+R3
+Z56 8D:/Eng materials/6th semester/archtecture/Project/Integrated/ALU/FA.vhd
+Z57 FD:/Eng materials/6th semester/archtecture/Project/Integrated/ALU/FA.vhd
+l0
+L4 1
+VM7hB?9KB@OO8:=6AO:KkU1
+!s100 jzB=A]7a@_?[=@11O?Dk]2
+R6
+32
+R7
+!i10b 1
+R8
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Eng materials/6th semester/archtecture/Project/Integrated/ALU/FA.vhd|
+Z59 !s107 D:/Eng materials/6th semester/archtecture/Project/Integrated/ALU/FA.vhd|
+!i113 1
+R11
+R12
+Abehav
+R1
+R2
+DEx4 work 2 fa 0 22 M7hB?9KB@OO8:=6AO:KkU1
+!i122 465
+l18
+L12 14
+V]7GdEHA`eWb9MP7O2Yh4Y0
+!s100 aDEjm@BU71`k^c_JSRQ>C2
+R6
+32
+R7
+!i10b 1
+R8
+R58
+R59
+!i113 1
+R11
+R12
+Einstructionmem
+Z60 w1623236798
+R13
+R1
+R2
+!i122 482
+R3
+Z61 8D:/Eng materials/6th semester/archtecture/Project/Integrated/InstMem.vhd
+Z62 FD:/Eng materials/6th semester/archtecture/Project/Integrated/InstMem.vhd
+l0
+L11 1
+VA5ToP77:nHL>=f=:X>^z<2
+!s100 69kkUOj3`;[I<`7D9>VI32
+R6
+32
+Z63 !s110 1623236801
+!i10b 1
+Z64 !s108 1623236801.000000
+Z65 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Eng materials/6th semester/archtecture/Project/Integrated/InstMem.vhd|
+Z66 !s107 D:/Eng materials/6th semester/archtecture/Project/Integrated/InstMem.vhd|
+!i113 1
+R11
+R12
+Ainst
+R13
+R1
+R2
+DEx4 work 14 instructionmem 0 22 A5ToP77:nHL>=f=:X>^z<2
+!i122 482
+l30
+L21 19
+V6jBZIo1UzY<:o926PBJPM2
+!s100 en6`j79E2lQnPHm1Ad?Gb3
+R6
+32
+R63
+!i10b 1
+R64
+R65
+R66
+!i113 1
+R11
+R12
+Emux2
+R16
+R1
+R2
+!i122 470
+R3
+Z67 8D:/Eng materials/6th semester/archtecture/Project/Integrated/components/Mux2.vhd
+Z68 FD:/Eng materials/6th semester/archtecture/Project/Integrated/components/Mux2.vhd
+l0
+L4 1
+V>E4bKQ2GFMe9o82o3Sb6E1
+!s100 >QW]1NF0K:Nk4ohV=jART1
+R6
+32
+Z69 !s110 1623235785
+!i10b 1
+R44
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Eng materials/6th semester/archtecture/Project/Integrated/components/Mux2.vhd|
+Z71 !s107 D:/Eng materials/6th semester/archtecture/Project/Integrated/components/Mux2.vhd|
+!i113 1
+R11
+R12
+Amymux2
+R1
+R2
+DEx4 work 4 mux2 0 22 >E4bKQ2GFMe9o82o3Sb6E1
+!i122 470
+l14
+L13 5
+V3LcTA2<LY>Ge9n6o9]TPo1
+!s100 o@jBTN[h75DiOZX<g^EeK2
+R6
+32
+R69
+!i10b 1
+R44
+R70
+R71
+!i113 1
+R11
+R12
+Emux2_3bits
+R0
+R1
+R2
+!i122 459
+R3
+Z72 8D:/Eng materials/6th semester/archtecture/Project/Integrated/Mux2_3bits.vhd
+Z73 FD:/Eng materials/6th semester/archtecture/Project/Integrated/Mux2_3bits.vhd
+l0
+L5 1
+VfNeb7ibQcD?^0<kzm3UQ=1
+!s100 do56l7RZ]IR7JDMU9WlLm3
+R6
+32
+Z74 !s110 1623235782
+!i10b 1
+Z75 !s108 1623235782.000000
+Z76 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Eng materials/6th semester/archtecture/Project/Integrated/Mux2_3bits.vhd|
+Z77 !s107 D:/Eng materials/6th semester/archtecture/Project/Integrated/Mux2_3bits.vhd|
+!i113 1
+R11
+R12
+Amymux2
+R1
+R2
+DEx4 work 10 mux2_3bits 0 22 fNeb7ibQcD?^0<kzm3UQ=1
+!i122 459
+l15
+L14 5
+VYT]Dl5PBj=bBzN8WX0KCz3
+!s100 VSC43UQWVkjcK3InOTCoa1
+R6
+32
+R74
+!i10b 1
+R75
+R76
+R77
+!i113 1
+R11
+R12
+Emux4
+R16
+R1
+R2
+!i122 471
+R3
+Z78 8D:/Eng materials/6th semester/archtecture/Project/Integrated/components/Mux4.vhd
+Z79 FD:/Eng materials/6th semester/archtecture/Project/Integrated/components/Mux4.vhd
+l0
+L4 1
+V?MOIcc`_SY7hG@[fF1adD3
+!s100 cDSNc>JQER[4Ae]2zWAk^3
+R6
+32
+R69
+!i10b 1
+R44
+Z80 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Eng materials/6th semester/archtecture/Project/Integrated/components/Mux4.vhd|
+Z81 !s107 D:/Eng materials/6th semester/archtecture/Project/Integrated/components/Mux4.vhd|
+!i113 1
+R11
+R12
+Amymux4
+R1
+R2
+DEx4 work 4 mux4 0 22 ?MOIcc`_SY7hG@[fF1adD3
+!i122 471
+l16
+Z82 L15 7
+VPdkE3g>2jDGJ?k]i5DK@T3
+!s100 >5P^G6[;kPa;i5SZh3NBN0
+R6
+32
+R69
+!i10b 1
+R44
+R80
+R81
+!i113 1
+R11
+R12
+Emy_ndff
+R0
+R1
+R2
+!i122 478
+R3
+Z83 8D:/Eng materials/6th semester/archtecture/Project/Integrated/Register File/Reg.vhd
+Z84 FD:/Eng materials/6th semester/archtecture/Project/Integrated/Register File/Reg.vhd
+l0
+L4 1
+V^HQgM3zTdcz^[fV?ZYcId3
+!s100 mBD@[]^OFNj_Ef]M79TIA3
+R6
+32
+Z85 !s110 1623236299
+!i10b 1
+Z86 !s108 1623236299.000000
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Eng materials/6th semester/archtecture/Project/Integrated/Register File/Reg.vhd|
+Z88 !s107 D:/Eng materials/6th semester/archtecture/Project/Integrated/Register File/Reg.vhd|
+!i113 1
+R11
+R12
+Aa_my_ndff
+R1
+R2
+DEx4 work 7 my_ndff 0 22 ^HQgM3zTdcz^[fV?ZYcId3
+!i122 478
+l13
+L11 14
+VI]VXkaghazf9O8zZ0WaK70
+!s100 CHBjlz:^;1ma@4n^YY9Q>3
+R6
+32
+R85
+!i10b 1
+R86
+R87
+R88
+!i113 1
+R11
+R12
+Eprocessor
+Z89 w1623238950
+R13
+R1
+R2
+!i122 489
+R3
+Z90 8D:/Eng materials/6th semester/archtecture/Project/Integrated/VHDL - PROJECT/processor.vhd
+Z91 FD:/Eng materials/6th semester/archtecture/Project/Integrated/VHDL - PROJECT/processor.vhd
+l0
+L9 1
+V6BE_KN4k5fh=5SBJMdhIC0
+!s100 hzhnMdG`EjORGAVXZRJ`_1
+R6
+32
+Z92 !s110 1623253693
+!i10b 1
+Z93 !s108 1623253693.000000
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Eng materials/6th semester/archtecture/Project/Integrated/VHDL - PROJECT/processor.vhd|
+Z95 !s107 D:/Eng materials/6th semester/archtecture/Project/Integrated/VHDL - PROJECT/processor.vhd|
+!i113 1
+R11
+R12
+Abehav
+R13
+R1
+R2
+Z96 DEx4 work 9 processor 0 22 6BE_KN4k5fh=5SBJMdhIC0
+!i122 489
+l231
+Z97 L20 261
+Z98 V38e=_AKmcPz?a7V`MK4>c0
+Z99 !s100 ZgCc7geS1LjoBObO[2Jn=3
+R6
+32
+R92
+!i10b 1
+R93
+R94
+R95
+!i113 1
+R11
+R12
+Eram
+Z100 w1623238051
+R13
+R1
+R2
+!i122 483
+R3
+Z101 8D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd
+Z102 FD:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd
+l0
+L8 1
+V[7RfmVW<U8eg<>jBfT_Vm3
+!s100 GYgY]C_^UznCSb7I51JKB0
+R6
+32
+Z103 !s110 1623238054
+!i10b 1
+Z104 !s108 1623238054.000000
+Z105 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd|
+Z106 !s107 D:/Eng materials/6th semester/archtecture/Project/Integrated/ram/ram.vhd|
+!i113 1
+R11
+R12
+Abehavioral
+R13
+R1
+R2
+DEx4 work 3 ram 0 22 [7RfmVW<U8eg<>jBfT_Vm3
+!i122 483
+l25
+Z107 L20 25
+V=VjEf;2dFi;Mn=hGzK5J[3
+!s100 [<PY^7DYFOW]=<D^zKOKl2
+R6
+32
+R103
+!i10b 1
+R104
+R105
+R106
+!i113 1
+R11
+R12
+Asyncram
+R13
+R1
+R2
+DEx4 work 3 ram 0 22 AE47YjOA?KLnHo8LX=[4:1
+!i122 162
+l28
+L22 26
+VPGV0U5TQd9JFPmbUSYd=E1
+!s100 B3XhF38iHiGLC0Q5dK=`b0
+R6
+32
+!s110 1623171098
+!i10b 1
+!s108 1623171098.000000
+Z108 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Ahmed/Desktop/ProjectArch/ram/ram.vhd|
+Z109 !s107 C:/Users/Ahmed/Desktop/ProjectArch/ram/ram.vhd|
+!i113 1
+R11
+R12
+w1623179563
+R15
+Z110 FC:/Users/Ahmed/Desktop/ProjectArch/ram/ram.vhd
+Z111 8C:/Users/Ahmed/Desktop/ProjectArch/ram/ram.vhd
+Eregs_file
+R0
+R1
+R2
+!i122 476
+R3
+Z112 8D:/Eng materials/6th semester/archtecture/Project/Integrated/Register File/regfile.vhd
+Z113 FD:/Eng materials/6th semester/archtecture/Project/Integrated/Register File/regfile.vhd
+l0
+L4 1
+VE3GDi:RYVWEJZDP?TziW=2
+!s100 9Gm=n;ogN>oMGQQ56OmAA2
+R6
+32
+R43
+!i10b 1
+Z114 !s108 1623235786.000000
+Z115 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Eng materials/6th semester/archtecture/Project/Integrated/Register File/regfile.vhd|
+Z116 !s107 D:/Eng materials/6th semester/archtecture/Project/Integrated/Register File/regfile.vhd|
+!i113 1
+R11
+R12
+Aregs_struct
+R1
+R2
+DEx4 work 9 regs_file 0 22 E3GDi:RYVWEJZDP?TziW=2
+!i122 476
+l61
+L21 77
+V=8Y0=MSM?Sz;Y]QkjJ>:A2
+!s100 =>?S5PC8:SdUi@XmBP[KT1
+R6
+32
+R43
+!i10b 1
+R114
+R115
+R116
+!i113 1
+R11
+R12
+Eselector
+R0
+R1
+R2
+!i122 460
+R3
+Z117 8D:/Eng materials/6th semester/archtecture/Project/Integrated/Selector.vhd
+Z118 FD:/Eng materials/6th semester/archtecture/Project/Integrated/Selector.vhd
+l0
+L4 1
+VG2bPfIS]^`GKaIa_QY:FE3
+!s100 OP:_c2`K?g0oNbX`zLhL53
+R6
+32
+R74
+!i10b 1
+R75
+Z119 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Eng materials/6th semester/archtecture/Project/Integrated/Selector.vhd|
+Z120 !s107 D:/Eng materials/6th semester/archtecture/Project/Integrated/Selector.vhd|
+!i113 1
+R11
+R12
+Amyselector
+R1
+R2
+DEx4 work 8 selector 0 22 G2bPfIS]^`GKaIa_QY:FE3
+!i122 460
+l22
+L11 16
+VVEDQlKVU]NNB2H[LFf?EI3
+!s100 V6k[?LJR?HSU^JY>N[eEn1
+R6
+32
+R74
+!i10b 1
+R75
+R119
+R120
+!i113 1
+R11
+R12
+Eshreg
+R0
+R13
+R1
+R2
+!i122 466
+R3
+Z121 8D:/Eng materials/6th semester/archtecture/Project/Integrated/ALU/shReg.vhd
+Z122 FD:/Eng materials/6th semester/archtecture/Project/Integrated/ALU/shReg.vhd
+l0
+L9 1
+V>V4_Q`ci0fYoLjCQQiGP<2
+!s100 he_g7PY^1BDje<=0^WKDM3
+R6
+32
+R19
+!i10b 1
+R20
+Z123 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Eng materials/6th semester/archtecture/Project/Integrated/ALU/shReg.vhd|
+Z124 !s107 D:/Eng materials/6th semester/archtecture/Project/Integrated/ALU/shReg.vhd|
+!i113 1
+R11
+R12
+Abehav
+R13
+R1
+R2
+DEx4 work 5 shreg 0 22 >V4_Q`ci0fYoLjCQQiGP<2
+!i122 466
+l24
+L22 23
+V6_zWRPD?Q3>4;`W:VgMAG1
+!s100 g9egAk7[GPa<=X<nMI7Sb2
+R6
+32
+R19
+!i10b 1
+R20
+R123
+R124
+!i113 1
+R11
+R12
+Esingle_port_ram_vhdl
+Z125 w1623180302
+R13
+R1
+R2
+!i122 197
+R15
+R111
+R110
+l0
+L8 1
+V4D[WfHjdE`GJSmQH<ALzh0
+!s100 [[OK>980JheNgK`]39@5n1
+R6
+32
+Z126 !s110 1623180303
+!i10b 1
+Z127 !s108 1623180303.000000
+R108
+R109
+!i113 1
+R11
+R12
+Abehavioral
+R13
+R1
+R2
+DEx4 work 20 single_port_ram_vhdl 0 22 4D[WfHjdE`GJSmQH<ALzh0
+!i122 197
+l25
+R107
+V0KFGi6L:5gjaen[L8`oe23
+!s100 k9mIebQGS?MKM=P`An]=>1
+R6
+32
+R126
+!i10b 1
+R127
+R108
+R109
+!i113 1
+R11
+R12
+Esub
+R0
+R13
+R1
+R2
+!i122 461
+R3
+Z128 8D:/Eng materials/6th semester/archtecture/Project/Integrated/Sub.vhd
+Z129 FD:/Eng materials/6th semester/archtecture/Project/Integrated/Sub.vhd
+l0
+L6 1
+V_TbV]QFIFn<=NkS7h`Flh0
+!s100 VkC<beKcdi`<1nZa_C<K[0
+R6
+32
+R74
+!i10b 1
+R75
+Z130 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Eng materials/6th semester/archtecture/Project/Integrated/Sub.vhd|
+Z131 !s107 D:/Eng materials/6th semester/archtecture/Project/Integrated/Sub.vhd|
+!i113 1
+R11
+R12
+Amysub
+R13
+R1
+R2
+DEx4 work 3 sub 0 22 _TbV]QFIFn<=NkS7h`Flh0
+!i122 461
+l17
+R82
+VF]mEbU^IB4`YQAzjSPOIn1
+!s100 k9:P]WKgMBaW]ABCF=6kj0
+R6
+32
+R74
+!i10b 1
+R75
+R130
+R131
+!i113 1
+R11
+R12
+Etri_state_buffer
+R0
+R1
+R2
+!i122 473
+R3
+Z132 8D:/Eng materials/6th semester/archtecture/Project/Integrated/Register File/buffer.vhd
+Z133 FD:/Eng materials/6th semester/archtecture/Project/Integrated/Register File/buffer.vhd
+l0
+L4 1
+VKghL0M_OYfCoMQz=nB1h;2
+!s100 IgVO69=RGWKBC?V92fBmT0
+R6
+32
+R69
+!i10b 1
+R44
+Z134 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/Eng materials/6th semester/archtecture/Project/Integrated/Register File/buffer.vhd|
+Z135 !s107 D:/Eng materials/6th semester/archtecture/Project/Integrated/Register File/buffer.vhd|
+!i113 1
+R11
+R12
+Astruct
+R1
+R2
+DEx4 work 16 tri_state_buffer 0 22 KghL0M_OYfCoMQz=nB1h;2
+!i122 473
+l14
+L13 4
+VSHA^nQDaVEACoo]=j2EdD1
+!s100 Kd0gG[cDd;mVcBnkVAeY^1
+R6
+32
+R69
+!i10b 1
+R44
+R134
+R135
+!i113 1
+R11
+R12
