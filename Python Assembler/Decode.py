@@ -79,6 +79,7 @@ with open('D:\some code\Arch proj\case1.txt' , 'r') as file: # original code
 with open('D:\some code\Arch proj\Opcode.txt' , 'r') as oc: #file to write in binary
     with open('D:\some code\Arch proj\Test.txt' , 'w') as test: #final toput in VHDL
         test.truncate(0)
+        test.write("// memory data file (do not edit the following line - required for mem load use)\n// instance=/processor/InstructMem/ram\n// format=bin addressradix=h dataradix=b version=1.0 wordsperline=4\n")
         #test.write("type ramType is array(0 to 1024) of std_logic_vector(15 downto 0) ;\nsignal ram : ramType;\n")
         iteration = 0
         Location = 0
