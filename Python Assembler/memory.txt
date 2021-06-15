@@ -5,8 +5,7 @@
 10
 #you should ignore empty lines
 
-.ORG 2  #this is the interrupt address
-100
+#.ORG 2  #this is the interrupt address 100
 
 .ORG 10
 in R2        #R2=19 add 19 in R2

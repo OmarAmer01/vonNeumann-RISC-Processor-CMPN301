@@ -22,8 +22,8 @@ def FillHex(num):
     for i in range(4 - len(num)):
         num = "0" + num #add zeroes to the left of the number
     return num
-
-with open('D:\some code\Arch proj'+ '\\' + input("Enter Input File Name: ") + '.txt' , 'r') as file: # original code
+FileName = input("Enter Input File Name: ")
+with open('D:\some code\Arch proj'+ '\\' + FileName + '.txt' , 'r') as file: # original code
     with open('D:\some code\Arch proj\Opcode.txt' , 'r+') as Opcode: # file to write in binary
         Opcode.truncate(0) # clear file if exists
         for Line in file:
@@ -77,7 +77,7 @@ with open('D:\some code\Arch proj'+ '\\' + input("Enter Input File Name: ") + '.
                 Opcode.write(Instruction[0] + " " + Instruction[1] + "\n")
 
 with open('D:\some code\Arch proj\Opcode.txt' , 'r') as oc: #file to write in binary
-    with open('D:\some code\Arch proj\Test.txt' , 'w') as test: #final toput in VHDL
+    with open('D:\some code\Arch proj\Test'+ FileName +'.txt' , 'w') as test: #final toput in VHDL
         test.truncate(0)
         #test.write("type ramType is array(0 to 1024) of std_logic_vector(15 downto 0) ;\nsignal ram : ramType;\n")
         iteration = 0
